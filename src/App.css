@@ -1,0 +1,99 @@
+
+
+/*Rules for header navigation in desktop devices*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+header{
+  background-color: #032537;
+  padding: 20px 0;
+}
+.navbar.navbar-expand-lg{
+  justify-content: center;
+  display: flex;
+}
+
+.nav-item.nav-link {
+  border-right: 1px solid #30b7e7;
+  color: #d8d8d8;
+}
+
+.nav-item.nav-link:last-of-type {
+  border-right: none;
+}
+
+.nav-item.nav-link:hover {
+  color: #30b7e7;
+}
+
+/*rules for labels*/
+.mr-sm-2 {
+  color: #d8d8d8;
+}
+/*Rules for login form*/
+.form-inline.form-control {
+  background-color: #d8d8d8;
+}
+
+.form-control {
+  font-size: 0.7rem;
+  background-color: #d8d8d8;
+}
+.form-control:focus-within {
+  background-color: #d8d8d8;
+}
+
+.form-control:hover {
+  border: 1px solid #30b7e7;
+  box-shadow: 1px 0px 7px 3px #30b7e7;
+}
+
+
+#exampleEmail, #examplePassword {
+  height: 22px;
+}
+
+/*serach bar*/
+[type="search"] {
+  padding: 2px 10px;
+  height: 30px;
+  font-size: 10px;
+}
+
+/*Button style*/
+
+.btn {
+  padding: 6px 12px;
+  font-size: 0.8rem;
+}
+
+.btn.btn-primary.my-2.my-sm-0 {
+  background-color: #032537;
+  color: #30b7e7;
+  border-style: 5px solid;
+  border-color: #d8d8d8;
+  border-radius: 4px;
+  box-shadow: 1px 0px 7px 3px #30b7e7;
+}
+
+.btn.btn-primary.my-2.my-sm-0:hover {
+  background-color: #032537;
+  color: #d8d8d8;
+  border-color: #d8d8d8;
+  box-shadow: 1px 0px 7px 3px #30b7e7;
+}
+
+.HeaderNav.mobile ul ul li {
+  border-right: none;
+}
+.btn.btn-primary.my-2.my-sm-0:active {
+  background-color: #032537;
+  color: #d8d8d8;
+  border-color: #d8d8d8;
+  border-radius: 4px;
+  box-shadow: 1px 0px 7px 3px #30b7e7;
+}
+
+

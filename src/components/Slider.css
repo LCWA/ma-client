@@ -1,0 +1,28 @@
+ .slider .carousel-item .carousel-img{
+  background-position: center;
+  background-size:cover;
+  background-repeat:no-repeat; 
+  height: 55vh; 
+  width: 100%;
+  }
+.slider .carousel-item .carousel-img .col-6{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+.slider .carousel-item .carousel-img button {
+    margin-top: 50px;
+}
+.slider .carousel-item .carousel-img .card-img-top{
+  border-radius: 0;
+  width: 550px;
+}
+.carousel-indicators  li{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.text-center.my-3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+}
