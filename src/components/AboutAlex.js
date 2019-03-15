@@ -8,7 +8,6 @@ class AboutAlex extends Component {
         return (
             <div>
             <h2 className="text-center"><Text about="Who is Alex" /></h2>
-
             <p className="text-center"><Text about="Hi, I’m Alex. I have been programming for over 20 years and I like teaching programming to others as well.
             I have a Master’s in computer science and I have worked with a wide variety of technologies on many different projects. Aside from my work in software development, I specialize in tutoring introductory and advanced topics in programming to students of all experience levels. If you have any questions, please do not hesitate to contact me at" /></p> 
 
