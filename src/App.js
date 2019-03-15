@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Slider from './components/Slider.js';
 import './App.css';
 import Header from './components/Header';
-import AboutAlex from './components/AboutAlex';
+import Newsletter from './components/Newsletter.js';
+
 // import alex from './alex.jpeg';
 
 class App extends Component {
@@ -11,7 +12,7 @@ class App extends Component {
             <div className="App">
             <Header />
             <Slider/>
-            <AboutAlex />
+            <Newsletter/>
             </div>
         );
     }

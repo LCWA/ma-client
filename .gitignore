@@ -4,6 +4,7 @@ npm-debug.log
 bower_component
 src/config/configSec.js
 
+node_modules
 .DS_STORE
 node_modules
 *~
