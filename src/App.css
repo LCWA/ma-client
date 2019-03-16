@@ -16,8 +16,11 @@ header{
 }
 
 .nav-item.nav-link {
-  border-right: 1px solid #30b7e7;
-  color: #d8d8d8;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  padding: 0px 3rem;
+  border-right: 1px solid #ffffff;
+  color: #ffffff;
 }
 
 .nav-item.nav-link:last-of-type {
@@ -25,24 +28,27 @@ header{
 }
 
 .nav-item.nav-link:hover {
-  color: #30b7e7;
+  box-shadow: #ffffff 0.5px 1px 0px 1px;
+  color: #032537;
+  background-color: #ffffff;
+  box-decoration-break: slice;
 }
 
 /*rules for labels*/
 .mr-sm-2 {
-  color: #d8d8d8;
+  color: #ffffff;
 }
 /*Rules for login form*/
 .form-inline.form-control {
-  background-color: #d8d8d8;
+  background-color: #ffffff;
 }
 
 .form-control {
   font-size: 0.7rem;
-  background-color: #d8d8d8;
+  background-color: #ffffff;
 }
 .form-control:focus-within {
-  background-color: #d8d8d8;
+  background-color: #ffffff;
 }
 
 .form-control:hover {
@@ -70,18 +76,24 @@ header{
 }
 
 .btn.btn-primary.my-2.my-sm-0 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
   background-color: #032537;
-  color: #30b7e7;
+  color: #ffffff;
   border-style: 5px solid;
-  border-color: #d8d8d8;
-  border-radius: 4px;
+  border-color: #ffffff;
+  border-radius: 1rem;
   box-shadow: 1px 0px 7px 3px #30b7e7;
 }
 
 .btn.btn-primary.my-2.my-sm-0:hover {
-  background-color: #032537;
-  color: #d8d8d8;
-  border-color: #d8d8d8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  background-color: #ffffff;
+  color: #032537;
+  border-color: #ffffff;
   box-shadow: 1px 0px 7px 3px #30b7e7;
 }
 
@@ -89,19 +101,32 @@ header{
   border-right: none;
 }
 .btn.btn-primary.my-2.my-sm-0:active {
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
   background-color: #032537;
-  color: #d8d8d8;
-  border-color: #d8d8d8;
+  color: #ffffff;
+  border-color: #ffffff;
   border-radius: 4px;
   box-shadow: 1px 0px 7px 3px #30b7e7;
 }
 
 .d-flex.justify-content-center > p{
-  color: #d8d8d8;
+  color: #ffffff;
   font-family: 'Abel', sans-serif;
   font-size: 40px;
   position: absolute;
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 15px;
+}
+
+hr {
+  display: block;
+  overflow: hidden;
+  border-style: inset;
+  background-color: #ffffff;
+  border-width: 1px;
+  box-shadow: #30b7e7 3px 1px 10px 2px;
+  border-radius: 2px;
 }
