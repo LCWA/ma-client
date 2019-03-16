@@ -25,3 +25,9 @@
   width: 20px;
   border-radius: 50%;
 }
+.text-center.my-3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  padding: 1px;
+
+}

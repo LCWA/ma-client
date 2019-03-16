@@ -16,10 +16,13 @@ class HeaderNav extends Component {
 					</nav>
 					<form className="form-inline my-2 my-lg-0">
 						<input className="form-control" type="search" placeholder="Search" aria-label="Search">
-						
 						</input>	
 					</form>
 			 	</div>
+				 
+				 <div class="d-flex justify-content-center">
+				 <p>LET'S CODE WITH ALEX</p>
+				 </div>
 			</div>
 				);
 			}
