@@ -3,6 +3,7 @@ import Slider from './components/Slider.js';
 import './App.css';
 import Header from './components/Header';
 import Newsletter from './components/Newsletter.js';
+import Social from './components/Social';
 
 // import alex from './alex.jpeg';
 
@@ -13,6 +14,7 @@ class App extends Component {
             <Header />
             <Slider/>
             <Newsletter/>
+            <Social/>
             </div>
         );
     }

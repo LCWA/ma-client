@@ -1,0 +1,42 @@
+.social-ul {
+    right: 0;
+    top: 400px;
+    margin-bottom: 0;
+}
+ul {
+    list-style: none;
+    z-index: 10;
+
+}
+.social-ul .social-li a {
+    padding: 8px;
+    background: #fff;
+    color: #000;
+    border-radius: 2px;;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.social-ul .social-li .fb:hover {
+    background: 	#3b5998;
+}
+.social-ul .social-li .fb:hover .fa-facebook {
+    color: 	#fff;
+}
+.social-ul .social-li .instagram:hover {
+    background: #dd2a7b;
+}
+.social-ul .social-li .instagram:hover .fa-instagram {
+    color: 	#fff;
+}
+.social-ul .social-li .pin:hover {
+    background: #c8232c ;
+}
+.social-ul .social-li .pin:hover .fa-pinterest {
+    color: 	#fff;
+}
+
+.social-ul .social-li a svg{
+    font-size: 22px;
+}

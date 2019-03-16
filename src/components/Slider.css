@@ -5,6 +5,9 @@
   height: 65vh; 
   width: 100%;
   }
+  .slider{
+    position: relative;
+  }
 .slider .carousel-item .carousel-img .col-6{
     padding-left: 0;
     padding-right: 0;
