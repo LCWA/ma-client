@@ -1,0 +1,11 @@
+.wrapper{
+    border: 1px solid black;
+    padding: 20px;
+}
+.wrapper .input-group-text{
+    margin-left: 20px;
+
+}
+.form-control {
+    width: 500px;
+}

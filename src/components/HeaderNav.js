@@ -19,7 +19,6 @@ class HeaderNav extends Component {
 						
 						</input>	
 					</form>
-					
 			 	</div>
 			</div>
 				);

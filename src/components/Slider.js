@@ -95,7 +95,7 @@ import {
   
       return (
         <div>
-          <h2 className="text-center my-3">Get ready for your first tech job now  – it’s easy, quick and guaranteed</h2>
+          <h1 className="text-center my-3">Lets code with ALex</h1>
           <Carousel
             className="slider"
             activeIndex={activeIndex}
