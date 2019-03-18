@@ -1,7 +1,7 @@
 import React from 'react';
 import { InputGroup, InputGroupText, InputGroupAddon, Input } from 'reactstrap';
 
-import './Newsletter.css';
+import '../styles/Newsletter.css';
 
 const Newsletter = (props) => {
   return (
