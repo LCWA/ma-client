@@ -1,11 +1,17 @@
 .wrapper{
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     padding: 20px;
 }
-.wrapper .input-group-text{
-    margin-left: 20px;
-
+.wrapper .paragrap{
+    padding: 0;
 }
+.wrapper .btn{
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
 .form-control {
     width: 500px;
 }

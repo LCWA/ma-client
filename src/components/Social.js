@@ -12,17 +12,17 @@ class Social extends Component {
 			<div>
 				<ul className="position-fixed social-ul">
             <NavItem className="social-li">
-                <NavLink className="fb" href="https://www.facebook.com/">
+                <NavLink className="fb"  target="_blank" href="https://www.facebook.com/LetsCodeWithAlex/">
                 <FontAwesomeIcon icon={faFacebook} />
                 </NavLink >
             </NavItem>
             <NavItem className="social-li">
-                <NavLink className="instagram" href="https://www.instagram.com/">
+                <NavLink className="instagram"  target="_blank"  href="https://www.instagram.com/letscodewithalex/">
                   <FontAwesomeIcon icon={faInstagram}/>
                 </NavLink >
             </NavItem>
             <NavItem className="social-li">
-                <NavLink  className="pin" href ="https://www.pinterest.com/">
+                <NavLink  className="pin"  target="_blank"  href ="https://www.pinterest.com/">
                   <FontAwesomeIcon icon={faPinterest} />
                 </NavLink >
             </NavItem>
