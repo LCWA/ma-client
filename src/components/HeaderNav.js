@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import LogoBlue from '../LogoTransparent.png';
+import '../styles/logo.css';
 
 class HeaderNav extends Component {
 	render() {
 		return (
 			<div>
 				<div className="d-flex justify-content-between  align-items-center px-3">
-					<p className="text-white">logo</p>
+				<img src={LogoBlue} alt="site logo" className = "Logo"></img>
 					<nav className="navbar navbar-expand-lg" role="navigation">	
 						
 							<a className="nav-item nav-link active" href="#">Home</a>

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from "@fortawesome/free-brands-svg-icons"
 import { faInstagram } from "@fortawesome/free-brands-svg-icons"
 import { faPinterest } from "@fortawesome/free-brands-svg-icons"
-import './Social.css';
+import '../styles/Social.css';
 
 class Social extends Component {
 	render() {

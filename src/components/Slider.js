@@ -7,7 +7,7 @@ import {
     CarouselCaption, CardImg,Button
   } from 'reactstrap';
 
-  import './Slider.css';
+  import '../styles/Slider.css';
   
   const items = [
     {
