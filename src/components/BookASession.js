@@ -13,15 +13,15 @@ class BookASession extends Component {
                 <Card>
                     <CardImg top width="100%" src={alex} alt="Alex's picture" className="Alex-image" />
                     <CardBody>
-                    <CardTitle>Software Developer Coach</CardTitle>
-                    <CardText className="">Book a session with me if you want to take your coding career to the next level</CardText>
+                    <h1><CardTitle>Software Developer Coach</CardTitle></h1>
+                    <CardText className="col-2">Book a session with me if you want to take your coding career to the next level</CardText>
                     <Button className="btn btn-primary my-2 my-sm-0">BOOK NOW</Button>
+                    <ReactTimeslotCalendar
+                    initialDate={moment().format()}
+                    />
                     </CardBody>
                 </Card>
                 
-                <ReactTimeslotCalendar
-      initialDate={moment().format()}
-    />
                 </div>
             </div>
         )
