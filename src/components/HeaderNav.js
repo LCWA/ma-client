@@ -13,7 +13,7 @@ class HeaderNav extends Component {
  							
 		 					<Link className="nav-item nav-link" to="/">Home</Link>
 							<Link className="nav-item nav-link" to="/OnlineWorkshop">Online workshop</Link>
-							<Link className="nav-item nav-link" to="bookasession.html">Book a Session</Link>
+							<Link className="nav-item nav-link" to="/BookASession">Book a session</Link>
 							<Link className="nav-item nav-link" to="/Offering">Offering</Link>
 							<Link className="nav-item nav-link" to="blog.html">Blog</Link>
 					</nav>
