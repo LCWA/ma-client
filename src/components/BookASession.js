@@ -11,7 +11,7 @@ class BookASession extends Component {
             <div>
                 <div className="session-wrapper text-left mt-5">
                 <Card>
-                    <CardImg top width="100%" src={alex} alt="Alex's picture" className="Alex-image" />
+                    <CardImg top width="100%" src={alex} alt="Alex's picture" className="alex-image" />
                     <CardBody>
                     <h1><CardTitle>Software Developer Coach</CardTitle></h1>
                     <CardText className="col-2">Book a session with me if you want to take your coding career to the next level</CardText>
