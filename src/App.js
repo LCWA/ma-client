@@ -1,25 +1,20 @@
 import React, { Component } from 'react';
-import Slider from './components/Slider.js';
+import { BrowserRouter, Route } from 'react-router-dom';
+import HomePage from './page/HomePage';
+import OnlineWorkshop from './page/OnlineWorkshop';
 import './App.css';
-import Header from './components/Header';
-import Newsletter from './components/Newsletter.js';
-import Social from './components/Social';
-import AboutAlex from './components/AboutAlex.js';
 
-// import alex from './alex.jpeg';
+
 
 class App extends Component {
     render() {
         return (
-            <div className="App">
-            <Header />
-            <Slider/>
-            <Newsletter/>
-            <AboutAlex />
-            <Social/>
-            </div>
+            <BrowserRouter> 
+              <Route exact path="/" component={HomePage} />
+              <Route path="/OnlineWorkshop" component={OnlineWorkshop} />
+            </BrowserRouter>
         );
     }
 }
 
-        export default App;
+export default App;

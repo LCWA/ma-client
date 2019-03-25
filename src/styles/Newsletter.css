@@ -1,12 +1,9 @@
 .wrapper{
     display: flex;
     flex-direction: column;
-    align-content: center;
-    padding: 20px;
+    justify-content: center;
 }
-.wrapper .paragrap{
-    padding: 0;
-}
+
 .wrapper .btn{
     margin-left: 20px;
     white-space: nowrap;

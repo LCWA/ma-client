@@ -11,19 +11,16 @@ import {
   
   const items = [
     {
-      src: 'https://www.opencollege.info/wp-content/uploads/2016/02/relaxation-skills.jpg',
-      altText: 'Slide 1',
-      caption: 'Slide 1'
+      src: 'https://marketingweek.imgix.net/content/uploads/2017/05/12103909/Coding-body-image-.jpg?auto=compress,format,&crop=faces,entropy,edges&fit=crop&q=60&w=750&h=460',
+
     },
     {
-      src: 'http://nzbirdsonline.org.nz/sites/all/files/1200417spurwing_spurs_%20PBattley_IMG_0976.jpg',
-      altText: 'Slide 2',
-      caption: 'Slide 2'
+      src: 'https://www.hastac.org/sites/default/files/styles/post_image/public/upload/images/post/1_kbflq2yypdzuzbdkwjq0g.jpeg?itok=pj0DJEiT',
+
     },
     {
-      src: 'https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-158225.jpg',
-      altText: 'Slide 3',
-      caption: 'Slide 3'
+      src: 'https://www.bloemfonteincourant.co.za/wp-content/uploads/2018/07/digital-coding-785.jpg',
+
     }
   ];
   
@@ -75,15 +72,15 @@ import {
               <div className="carousel-img" style={{backgroundImage: `url(${item.src})`}} >
                 <div className="row mx-auto container pt-5">
                   <div className="col-6 d-flex justify-content-center flex-column">
-                      <CardImg top width="100%" src="https://wallimpex.com/data/out/564/animal-images-9256481.jpg" alt="Card image cap" />
+                  <CardImg top width="100%" src="https://www.virversity.com/images/dowell/courses/createacourse/oc/courseintroimage.jpg" alt="Card image cap" />
                       <div className="d-flex justify-content-center">
                           <Button>Course online</Button>
                       </div>
                   </div>
                   <div className="col-6 d-flex justify-content-center flex-column">
-                      <CardImg top width="100%" src="https://wallimpex.com/data/out/564/animal-images-9256481.jpg" alt="Card image cap" />
+                      <CardImg top width="100%" src="https://www.virversity.com/images/dowell/courses/createacourse/oc/courseintroimage.jpg" alt="Card image cap" />
                       <div className="d-flex justify-content-center">
-                          <Button>Course online</Button>
+                          <Button>Book now</Button>
                       </div>
                   </div>
                 </div>
