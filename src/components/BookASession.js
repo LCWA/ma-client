@@ -21,7 +21,7 @@ class BookASession extends Component {
                 </div>
                 <Calendly />
             </div>
-        )
+        );
     }
 }
 
