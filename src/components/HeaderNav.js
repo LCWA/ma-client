@@ -15,7 +15,7 @@ class HeaderNav extends Component {
 							<Link className="nav-item nav-link" to="/OnlineWorkshop">Online workshop</Link>
 							<a className="nav-item nav-link" href="bookasession.html">Book a Session</a>
 							<a className="nav-item nav-link" href="offering.html">Offering</a>
-							<a className="nav-item nav-link" href="blog.html">Blog</a>
+							<Link className="nav-item nav-link" to="/Blog">Blog</Link>
 					</nav>
 					<form className="form-inline my-2 my-lg-0">
 						<input className="form-control" type="search" placeholder="Search" aria-label="Search">
