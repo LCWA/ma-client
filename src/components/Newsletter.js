@@ -8,7 +8,7 @@ const Newsletter = (props) => {
     <div>
       <div className="container mx-auto w-50 my-5">
         <div className="wrapper">
-          <p className="paragrap">Get weeklu updates about events, courses online and dicounts.</p>
+          <p className="paragrap">Get weekly updates about events, courses online and dicounts.</p>
           <h3  className="text-center my-3 text-white">Join the LCWA newsletter</h3>
           <label className="text-white mt-3"> Email</label>          
           <InputGroup>
