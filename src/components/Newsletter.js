@@ -15,7 +15,7 @@ const Newsletter = (props) => {
           <div className="d-flex justify-content-center">
             <Input />
             <InputGroupAddon addonType="append">
-            <Button className="btn btn-primary my-2 my-sm-0">Join the newletter</Button>
+            <Button className="btn btn-primary my-2 my-sm-0">Join the newsletter</Button>
             </InputGroupAddon>
             </div>
           </InputGroup>
