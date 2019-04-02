@@ -1,0 +1,11 @@
+
+.service-desc{
+    display: block;
+}
+.card {
+    background-color:transparent;
+    border: none;
+}
+.t-center{
+    text-align:center;
+}
