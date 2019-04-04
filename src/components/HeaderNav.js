@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import LogoBlue from '../LogoTransparent.png';
 import '../styles/logo.css';
 
@@ -9,10 +10,10 @@ class HeaderNav extends Component {
 				<div className="d-flex justify-content-between  align-items-center px-3">
 				<img src={LogoBlue} alt="site logo" className = "Logo"></img>
 					<nav className="navbar navbar-expand-lg" role="navigation">	
-						
-							<a className="nav-item nav-link active" href="#">Home</a>
-							<a className="nav-item nav-link" href="onlineworkshop.html" target="_top">Online Workshop</a>
-							<a className="nav-item nav-link" href="bookasession.html">Book a Session</a>
+ 							
+		 					<Link className="nav-item nav-link" to="/">Home</Link>
+							<Link className="nav-item nav-link" to="/OnlineWorkshop">Online workshop</Link>
+							<Link className="nav-item nav-link" to="/BookASession">Book a session</Link>
 							<a className="nav-item nav-link" href="offering.html">Offering</a>
 							<a className="nav-item nav-link" href="blog.html">Blog</a>
 					</nav>

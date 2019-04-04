@@ -1,8 +1,9 @@
 .wrapper{
-    border: 1px solid black;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.wrapper .input-group-text{
+.wrapper .btn{
     margin-left: 20px;
 
 }
