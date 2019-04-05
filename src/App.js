@@ -16,6 +16,7 @@ class App extends Component {
               <Route path="/OnlineWorkshop" component={OnlineWorkshop} />
               <Route path="/Offering" component={Offering} />
               <Route path="/BookASession" component={BookASession} />
+              <Route path="/Blog" component={Blog} />
             </BrowserRouter>
         );
     }
