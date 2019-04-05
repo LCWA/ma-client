@@ -13,9 +13,10 @@ class HeaderNav extends Component {
  							
 		 					<Link className="nav-item nav-link" to="/">Home</Link>
 							<Link className="nav-item nav-link" to="/OnlineWorkshop">Online workshop</Link>
-							<a className="nav-item nav-link" href="bookasession.html">Book a Session</a>
-							<a className="nav-item nav-link" href="offering.html">Offering</a>
-							<Link className="nav-item nav-link" to="/Blog">Blog</Link>
+							<Link className="nav-item nav-link" to="/BookASession">Book a session</Link>
+							<Link className="nav-item nav-link" to="/Offering">Offering</Link>
+              <Link className="nav-item nav-link" to="/Blog">Blog</Link>
+
 					</nav>
 					<form className="form-inline my-2 my-lg-0">
 						<input className="form-control" type="search" placeholder="Search" aria-label="Search">
@@ -23,8 +24,8 @@ class HeaderNav extends Component {
 					</form>
 			 	</div>
 				 
-				 <div class="d-flex justify-content-center">
-				 <p>LET'S CODE WITH ALEX</p>
+				 <div className="d-flex justify-content-center">
+				 <div>LET'S CODE WITH ALEX</div>
 				 </div>
 			</div>
 				);
