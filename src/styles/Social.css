@@ -19,19 +19,19 @@ ul {
     transition: all 0.3s ease;
 }
 .social-ul .social-li .fb:hover {
-    background: 	#3b5998;
+    background: 	#30b7e7;
 }
 .social-ul .social-li .fb:hover .fa-facebook {
     color: 	#fff;
 }
 .social-ul .social-li .instagram:hover {
-    background: #dd2a7b;
+    background: #30b7e7;
 }
 .social-ul .social-li .instagram:hover .fa-instagram {
     color: 	#fff;
 }
 .social-ul .social-li .pin:hover {
-    background: #c8232c ;
+    background: #30b7e7;
 }
 .social-ul .social-li .pin:hover .fa-pinterest {
     color: 	#fff;
