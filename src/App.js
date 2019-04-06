@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import HomePage from './page/HomePage';
 import OnlineWorkshop from './page/OnlineWorkshop';
+import Blog from './page/Blog';
 import Offering from './page/Offering';
 import BookASession from './page/BookASession';
 import './App.css';
