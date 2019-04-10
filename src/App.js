@@ -2,11 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import HomePage from './page/HomePage';
 import OnlineWorkshop from './page/OnlineWorkshop';
-<<<<<<< HEAD
 import BookASession from './page/BookASession';
-=======
 import Offering from './page/Offering';
->>>>>>> service-component
 import './App.css';
 
 
