@@ -17,12 +17,12 @@ class Social extends Component {
                 </NavLink >
             </NavItem>
             <NavItem className="social-li">
-                <NavLink className="instagram" target="_blank" href="https://www.instagram.com/letscodewithalex/">
+                <NavLink className="instagram"  target="_blank"  href="https://www.instagram.com/letscodewithalex/">
                   <FontAwesomeIcon icon={faInstagram}/>
                 </NavLink >
             </NavItem>
             <NavItem className="social-li">
-                <NavLink  className="pin"  target="_blank" href ="https://www.pinterest.com/">
+                <NavLink  className="pin"  target="_blank"  href ="https://www.pinterest.com/">
                   <FontAwesomeIcon icon={faPinterest} />
                 </NavLink >
             </NavItem>

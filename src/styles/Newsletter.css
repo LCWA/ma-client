@@ -3,10 +3,15 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .wrapper .btn{
     margin-left: 20px;
-
+    white-space: nowrap;
 }
+
 .form-control {
     width: 500px;
+}
+.paragrap{
+    text-align: center;
 }
