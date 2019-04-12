@@ -25,7 +25,7 @@ class HeaderNav extends Component {
 			 	</div>
 				 
 				 <div className="d-flex justify-content-center">
-				 <div>LET'S CODE WITH ALEX</div>
+				 <p>LET'S CODE WITH ALEX</p>
 				 </div>
 			</div>
 				);
