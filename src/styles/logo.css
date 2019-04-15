@@ -9,3 +9,54 @@
   .d-flex.justify-content-between > img {
     margin-top: -10px;
   }
+
+/*For screens with maximum width of 1440px*/
+@media screen and (max-width: 1440px) {
+  .Logo {
+    width: 170px;
+    height: 170px;
+  }
+
+  .d-flex.justify-content-between > img  {
+    margin-top: 20px;
+  }
+}
+
+/*For screens with maximum width of 1280px*/
+  @media screen and (max-width: 1280px) {
+    .Logo {
+      width: 130px;
+      height: 130px;
+    }
+  }
+
+  /*For screens with maximum width of 800px*/
+  @media screen and (max-width: 800px) {
+    .Logo {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  @media screen and (max-width: 415px) {
+    .Logo {
+      width: 80px;
+      height: 80px;
+    }
+    .d-flex.justify-content-between > img  {
+      margin-top: -40px;
+    }
+  }
+
+  /*for screens with maximum width of 360px*/
+  @media screen and (max-width: 360px) {
+    .Logo {
+      width: 70px;
+      height: 70px;
+    }
+    .d-flex.justify-content-between > img  {
+      margin-top: -60px;
+    }
+  }
+
+ 
