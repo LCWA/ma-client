@@ -4,6 +4,7 @@ import Blog from '../components/Blog';
 import Newsletter from '../components/Newsletter';
 import Social from '../components/Social';
 import Footer from '../components/Footer';
+
 class HomePage extends Component {
     render() {
         return (

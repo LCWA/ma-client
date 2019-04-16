@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Layout from '../components/Layout';
-import OnlineWorkshop from '../components/OnlineWorkshop';
+import FAQ from '../components/FAQ';
 import Newsletter from '../components/Newsletter';
 import Social from '../components/Social';
 import AboutAlex from '../components/AboutAlex';
@@ -10,7 +10,7 @@ class HomePage extends Component {
         return (
             <div >
                 <Layout/>
-                <OnlineWorkshop/>
+                <FAQ/>
                 <Newsletter/>
                 <AboutAlex />
                 <Social/>
