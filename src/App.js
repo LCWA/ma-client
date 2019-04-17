@@ -19,6 +19,7 @@ class App extends Component {
               <Route path="/BookASession" component={BookASession} />
               <Route path="/Blog" component={Blog} />
             </BrowserRouter>
+            
         );
     }
 }

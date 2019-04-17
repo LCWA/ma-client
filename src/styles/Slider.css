@@ -2,24 +2,25 @@
   background-position: center;
   background-size:cover;
   background-repeat:no-repeat; 
-  height: 70vh; 
+  min-height: 70vh; 
+  height: 100%;
   width: 100%;
   }
   .slider{
     position: relative;
   }
-.slider .carousel-item .carousel-img .col-6{
+.slider .carousel-item .carousel-img .col-lg-6{
     padding-left: 0;
     padding-right: 0;
   }
-
 .slider .carousel-item .carousel-img button {
     margin-top: 50px;
 }
 .slider .carousel-item .carousel-img .card-img-top{
   border-radius: 0;
-  width: 550px;
+  width: 95%;
 }
+
 .carousel-indicators  li{
   height: 20px;
   width: 20px;
@@ -30,4 +31,28 @@
   font-size: 26px;
   padding: 1px;
   color: #ffffff;
+}
+@media (max-width:1024px){
+  .slider .carousel-item .carousel-img .card-img-top{
+    width: 100%;
+  }
+  .slider .carousel-item .carousel-img .col-lg-6{
+    padding-bottom: 40px;
+  }
+}
+@media (max-width:670px){
+.slider .row div{
+  align-items: center;
+}
+.slider .carousel-item .carousel-img .card-img-top{
+  width: 95%;
+}
+.slider .row{
+  margin-right: 0;
+  margin-left: 0;
+}
+.slider .container{
+  padding-right: 0;
+  padding-left: 0;
+}
 }
