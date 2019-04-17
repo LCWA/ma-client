@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Layout from '../components/Layout';
 import Service from '../components/Service';
-import Newsletter from '../components/Newsletter';
 import Social from '../components/Social';
 
 class OfferingPage extends Component {
@@ -10,7 +9,6 @@ class OfferingPage extends Component {
             <div >
                 <Layout/>
                 <Service/>
-                <Newsletter/>
                 <Social/>
             </div>
         );
