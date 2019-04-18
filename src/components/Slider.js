@@ -3,8 +3,7 @@ import {
     Carousel,
     CarouselItem,
     CarouselControl,
-    CarouselIndicators,
-    CarouselCaption, CardImg,Button
+    CarouselIndicators, CardImg,Button
   } from 'reactstrap';
 
   import '../styles/Slider.css';
@@ -14,14 +13,14 @@ import {
       src: 'https://marketingweek.imgix.net/content/uploads/2017/05/12103909/Coding-body-image-.jpg?auto=compress,format,&crop=faces,entropy,edges&fit=crop&q=60&w=750&h=460',
 
     },
-    {
-      src: 'https://www.hastac.org/sites/default/files/styles/post_image/public/upload/images/post/1_kbflq2yypdzuzbdkwjq0g.jpeg?itok=pj0DJEiT',
+    // {
+    //   src: 'https://www.hastac.org/sites/default/files/styles/post_image/public/upload/images/post/1_kbflq2yypdzuzbdkwjq0g.jpeg?itok=pj0DJEiT',
 
-    },
-    {
-      src: 'https://www.bloemfonteincourant.co.za/wp-content/uploads/2018/07/digital-coding-785.jpg',
+    // },
+    // {
+    //   src: 'https://www.bloemfonteincourant.co.za/wp-content/uploads/2018/07/digital-coding-785.jpg',
 
-    }
+    // }
   ];
   
   class Slider extends Component {
@@ -70,14 +69,14 @@ import {
               key={item.src}
             >
               <div className="carousel-img" style={{backgroundImage: `url(${item.src})`}} >
-                <div className="row mx-auto container pt-5">
-                  <div className="col-6 d-flex justify-content-center flex-column">
+                <div className="row mx-auto container py-5">
+                  <div className="col-lg-6  col-12 d-flex justify-content-center flex-column">
                   <CardImg top width="100%" src="https://www.virversity.com/images/dowell/courses/createacourse/oc/courseintroimage.jpg" alt="Card image cap" />
                       <div className="d-flex justify-content-center">
                           <Button>Course online</Button>
                       </div>
                   </div>
-                  <div className="col-6 d-flex justify-content-center flex-column">
+                  <div className="col-lg-6 col-12 d-flex justify-content-center flex-column">
                       <CardImg top width="100%" src="https://www.virversity.com/images/dowell/courses/createacourse/oc/courseintroimage.jpg" alt="Card image cap" />
                       <div className="d-flex justify-content-center">
                           <Button>Book now</Button>
@@ -85,7 +84,6 @@ import {
                   </div>
                 </div>
               </div>
-              <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
             </CarouselItem>
         );
       });
