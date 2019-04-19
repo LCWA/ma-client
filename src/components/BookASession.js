@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle, Button } from 'reactstrap';
 import alex from '../Alex.jpg';
 import '../styles/BookASession.css';
-import Calendly from './Calendly';
+import LoadableCalendly from './LoadableCalendly';
 
 class BookASession extends Component {
     render() {
@@ -19,7 +19,7 @@ class BookASession extends Component {
                         
                     </Card>
                 </div>
-                <Calendly />
+                <LoadableCalendly />
             </div>
         );
     }
