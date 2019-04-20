@@ -40,3 +40,8 @@ ul {
 .social-ul .social-li a svg{
     font-size: 22px;
 }
+@media (max-width:480px) {
+    .social-ul{
+        top:400px;
+    }
+}

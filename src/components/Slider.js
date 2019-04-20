@@ -13,14 +13,14 @@ import {
       src: 'https://marketingweek.imgix.net/content/uploads/2017/05/12103909/Coding-body-image-.jpg?auto=compress,format,&crop=faces,entropy,edges&fit=crop&q=60&w=750&h=460',
 
     },
-    // {
-    //   src: 'https://www.hastac.org/sites/default/files/styles/post_image/public/upload/images/post/1_kbflq2yypdzuzbdkwjq0g.jpeg?itok=pj0DJEiT',
+    {
+      src: 'https://www.hastac.org/sites/default/files/styles/post_image/public/upload/images/post/1_kbflq2yypdzuzbdkwjq0g.jpeg?itok=pj0DJEiT',
 
-    // },
-    // {
-    //   src: 'https://www.bloemfonteincourant.co.za/wp-content/uploads/2018/07/digital-coding-785.jpg',
+    },
+    {
+      src: 'https://www.bloemfonteincourant.co.za/wp-content/uploads/2018/07/digital-coding-785.jpg',
 
-    // }
+    }
   ];
   
   class Slider extends Component {
