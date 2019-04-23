@@ -5,6 +5,7 @@ import OnlineWorkshop from './page/OnlineWorkshop';
 import Blog from './page/Blog';
 import Offering from './page/Offering';
 import BookASession from './page/BookASession';
+import FAQ from './page/FAQ';
 import './App.css';
 
 
@@ -15,9 +16,10 @@ class App extends Component {
             <BrowserRouter> 
               <Route exact path="/" component={HomePage} />
               <Route path="/OnlineWorkshop" component={OnlineWorkshop} />
-              <Route path="/Offering" component={Offering} />
               <Route path="/BookASession" component={BookASession} />
+              <Route path="/Offering" component={Offering} />
               <Route path="/Blog" component={Blog} />
+              <Route path="/FAQ" component={FAQ} />
             </BrowserRouter>
             
         );
