@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle, Button } from 'reactstrap';
 import alex from '../Alex.jpg';
 import '../styles/BookASession.css';
-import LoadableCalendly from './LoadableCalendly';
+import TestComponent from './TestComponent';
 
 class BookASession extends Component {
+   
     render() {
         return(
             <div>
@@ -16,13 +17,14 @@ class BookASession extends Component {
                             <CardText className="col-2">Book a session with me if you want to take your coding career to the next level</CardText>
                             <Button className="btn btn-primary my-2 my-sm-0">BOOK NOW</Button>
                         </CardBody>
-                        
                     </Card>
                 </div>
-                <LoadableCalendly />
+                   
+                    <TestComponent />
             </div>
         );
     }
 }
+
 
 export default BookASession;

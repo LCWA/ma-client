@@ -8,7 +8,7 @@ class Calendly extends Component {
       script.setAttribute('src',  'https://assets.calendly.com/assets/external/widget.js');
       head.appendChild(script);
     }
-  
+
     componentWillUnmount() {
       //clean widget code
     }
@@ -28,3 +28,5 @@ class Calendly extends Component {
   }
   
   export default Calendly;
+
+  
