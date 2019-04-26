@@ -2,6 +2,7 @@ import React from 'react';
 import { css } from '@emotion/core';
 import { ClipLoader } from 'react-spinners';
 
+import '../styles/LoadingSpinner.css';
  
 const override = css`
     display: block;
@@ -19,6 +20,7 @@ class AwesomeComponent extends React.Component {
   render() {
     return (
       <div className='sweet-loading'>
+        <h3>Loading...</h3>
         <ClipLoader
           css={override}
           sizeUnit={"px"}

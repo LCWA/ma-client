@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle, Button } from 'reactstrap';
 import alex from '../Alex.jpg';
 import '../styles/BookASession.css';
-import TestComponent from './TestComponent';
+import LoadableComponent from './LoadableComponent';
 
 class BookASession extends Component {
    
@@ -20,7 +20,7 @@ class BookASession extends Component {
                     </Card>
                 </div>
                    
-                    <TestComponent />
+                    <LoadableComponent />
             </div>
         );
     }
