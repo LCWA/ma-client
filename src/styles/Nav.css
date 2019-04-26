@@ -1,0 +1,126 @@
+.nav-logo{
+  height: 90px;
+}
+.burger{
+  display: none;
+}
+.burger ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.burger li a {
+  display: block;
+  padding: 20px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.burger li a:hover,
+.burger .menu-btn:hover {
+  background-color: rgba(244,244,244,0.3);
+}
+
+
+
+/* menu */
+
+.burger .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  background-color: #032537;
+  z-index: 30;
+}
+
+/* menu icon */
+
+.burger .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  user-select: none;
+}
+
+.burger .menu-icon .navicon {
+  background: #fff;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition:all .2s ease-out;
+  width: 25px;
+}
+
+.burger .menu-icon .navicon:before,
+.burger .menu-icon .navicon:after {
+  background: #fff;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.burger .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.burger .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.burger .menu-btn {
+  display: none;
+}
+
+.burger .menu-btn:checked ~ .menu {
+  max-height: 320px;
+}
+
+.burger .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.burger .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+
+.burger .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+  transform: rotate(45deg);
+}
+.burger .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before{
+  top: 0;
+  transform: rotate(-45deg);
+}
+@media (max-width:1024px){
+  .navbar{
+    display: none!important;
+  }
+  .burger{
+    display: block;
+  }
+}
+@media (max-width:480px){
+  .nav-logo{
+    height: 50px;
+  }
+  .burger .menu{
+    top: 50px;
+  }
+}

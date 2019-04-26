@@ -26,4 +26,5 @@ const Newsletter = (props) => {
   );
 };
 
+
   export default Newsletter;

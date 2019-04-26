@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/Blog.css';
 import { Card, CardImg, CardText, CardBody,
-    CardTitle, Button } from 'reactstrap';
+     Button } from 'reactstrap';
 class Blog extends Component {
     render() {
         return(
