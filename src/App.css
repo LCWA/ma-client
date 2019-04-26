@@ -8,7 +8,6 @@
 }
 header{
   background-color: #032537;
-  padding: 20px 0;
 }
 .navbar.navbar-expand-lg{
   justify-content: center;
@@ -18,7 +17,7 @@ header{
 .nav-item.nav-link {
   font-family: 'Abel', sans-serif;
   font-size: 20px;
-  padding: 0px 3rem;
+  padding: 0px 1rem;
   border-right: 1px solid #ffffff;
   color: #ffffff;
 }
