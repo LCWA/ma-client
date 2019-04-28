@@ -109,12 +109,13 @@ header{
   border-radius: 4px;
   box-shadow: 1px 0px 7px 3px #30b7e7;
 }
-
+.forminput{
+padding:8px 12px;
+}
 .d-flex.justify-content-center > p{
   color: #ffffff;
   font-family: 'Abel', sans-serif;
   font-size: 40px;
-  position: absolute;
   display: flex;
   justify-content: center;
   margin-top: 15px;
@@ -135,4 +136,24 @@ h1 {
   font-weight: bold;
   font-size: 35px;
   color: #ffffff;
+}
+@media(max-width:670px){
+  .formbox{
+    display:flex;
+    flex-direction: column;
+  }
+  .formbox div{
+    width:100%!important;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .formbox div label{
+    margin-bottom: 15px;
+  }
+  .formbox  input{
+    width:90%!important;
+  }
 }
