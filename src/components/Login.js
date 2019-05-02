@@ -4,17 +4,22 @@ import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 class Example extends Component {
     render() {
         return(
-            <Form inline className="d-flex justify-content-end my-3 px-3">
-                <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
-                    <Label for="exampleEmail" className="mr-sm-2">E-mail</Label>
-                    <Input type="email" name="email" id="exampleEmail" />
-                </FormGroup>
-                <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
-                    <Label for="examplePassword" className="mr-sm-2">Password</Label>
-                    <Input type="password" name="password" id="examplePassword" />
-                </FormGroup>
-                <Button className="btn btn-primary my-2 my-sm-0">SUBMIT</Button>
-            </Form>
+            <div>
+                <Form inline className="d-flex justify-content-end my-3 px-3 formbox">
+                    <FormGroup className="mb-2 mr-lg-2 mr-md-2 mr-0 mb-sm-0">
+                        <Label for="exampleEmail" className="mr-sm-2">E-mail</Label>
+                        <Input className="forminput" type="email" name="email" id="exampleEmail" />
+                    </FormGroup>
+                    <FormGroup className="mb-2 mr-lg-2 mr-md-2 mr-0 mb-sm-0">
+                        <Label for="examplePassword" className="mr-sm-2">Password</Label>
+                        <Input className="forminput" type="password" name="password" id="examplePassword" />
+                    </FormGroup>
+                    <Button className="btn btn-primary my-2 my-sm-0">SUBMIT</Button>
+                </Form>
+                <div className="d-flex justify-content-center">
+                    <p>LET'S CODE WITH ALEX</p>
+                </div>
+            </div>
         );
     }
 }
