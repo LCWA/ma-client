@@ -12,6 +12,7 @@
     "@types/react": "^16.8.8",
     "bootstrap": "^4.3.1",
     "create-react-app": "^2.1.8",
+    "emotion": "^10.0.9",
     "git-check": "^2.0.0",
     "i": "^0.3.6",
     "jquery": "^1.9.1",

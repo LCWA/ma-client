@@ -1,16 +1,17 @@
 #schedule_form {
-    position: absolute;
-    width: 50%;
-    top: 40%;
-    right: 10%;
+    
+    width: 550px;
 }
-
+@media (max-width:1200px) {
+    #schedule_form{
+         width: 450px;
+    }
+}
 @media (max-width:1024px) {
     #schedule_form {
-        width: 75%;
-        margin-left: 10%;
-        top: unset;
-        bottom: -7%;
+        width: 600px;
+        margin-top: 50px;
+
     }
 }
 
