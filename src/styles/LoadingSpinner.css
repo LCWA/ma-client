@@ -1,0 +1,11 @@
+.sweet-loading {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+}
+
+.sweet-loading h3 {
+    color: #30b7e7;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
