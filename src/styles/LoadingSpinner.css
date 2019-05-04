@@ -9,3 +9,10 @@
     font-family: 'Abel', sans-serif;
     font-size: 20px;
 }
+
+@media (max-width: 360px) {
+    .sweet-loading {
+        top: unset;
+        bottom: -50%;
+    }
+}

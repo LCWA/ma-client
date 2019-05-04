@@ -10,5 +10,35 @@
     margin-left: 1%;
 }
 .col-2 {
-    text-align: justify;
+    text-align: center;
+}
+.card button {
+    display: block;
+    margin-left: 12%;
+}
+
+@media (max-width: 360px) {
+    .alex-image {
+        text-align: justify;
+        width: 60px;
+        height: 60px;
+        margin-left: 43%;
+    }
+
+    .card h1 {
+        display: inline-flex;
+        font-size: 20px;
+        margin-left: 15%;
+    }
+
+    .col-4 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+    }
+
+    .card button {
+        margin-left: 28%;
+    }
 }

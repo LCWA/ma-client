@@ -4,3 +4,23 @@
     top: 40%;
     right: 10%;
 }
+
+@media (max-width:1024px) {
+    #schedule_form {
+        width: 75%;
+        margin-left: 10%;
+        top: unset;
+        bottom: -7%;
+    }
+}
+
+@media (max-width:767px) {
+    #schedule_form {
+        width: 30%;
+        left: 1%;
+        margin-left: 4%;
+        bottom: -80%;
+        top: unset;
+    }
+}
+

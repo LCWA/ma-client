@@ -14,7 +14,7 @@ class BookASession extends Component {
                         <CardImg top width="100%" src={alex} alt="Alex's picture" className="alex-image" />
                         <CardBody>
                             <h1> <CardTitle>Software Developer Coach</CardTitle> </h1>
-                            <CardText className="col-2">Book a session with me if you want to take your coding career to the next level</CardText>
+                            <CardText className="col-4">Book a session with me if you want to take your coding career to the next level</CardText>
                             <Button className="btn btn-primary my-2 my-sm-0">BOOK NOW</Button>
                         </CardBody>
                     </Card>
