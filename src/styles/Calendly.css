@@ -1,27 +1,40 @@
-#schedule_form {
-    
-    width: 550px;
+/* #schedule_form {
+    position: relative;
+} */
+#schedule_form div {   
+    width: 500px;
 }
 @media (max-width:1200px) {
-    #schedule_form{
-         width: 450px;
+    #schedule_form div {   
+        width: 400px;   
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .card-body, .card-text{
+        text-align: center;
     }
 }
-@media (max-width:1024px) {
-    #schedule_form {
+@media (max-width:990px) {
+    #schedule_form div {   
+        width: inherit;
+        position: absolute!important;
+        left: 50%;
+        transform: translateX(-50%);
         width: 600px;
-        margin-top: 50px;
-
+    }
+    .container{
+        padding-bottom: 50px;
     }
 }
 
-@media (max-width:767px) {
-    #schedule_form {
-        width: 30%;
-        left: 1%;
-        margin-left: 4%;
-        bottom: -80%;
-        top: unset;
+@media (max-width:590px) {
+    #schedule_form div {   
+        width: 337px;   
     }
 }
-
+@media (max-width:360px) {
+    #schedule_form div {   
+        width: 320px;     
+    }
+}

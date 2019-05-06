@@ -22,7 +22,7 @@ class BookASession extends Component {
                             </CardBody>
                         </Card>
                     </div>
-                    <LoadableComponent  className="col-lg-6 col-md-12 "/>
+                    <LoadableComponent  />
                 </div>
             </div>
         );

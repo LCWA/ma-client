@@ -20,7 +20,7 @@ class Calendly extends Component {
             <div 
               className="calendly-inline-widget"
               data-url="https://calendly.com/fadingbeat"
-              style={{ minWidth: '320px', height: '440px' }} />
+              style={{ height: '450px' }} />
           </div>
         </div>
       );
