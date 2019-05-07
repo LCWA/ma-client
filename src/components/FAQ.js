@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/Blog.css';
-import { Card, CardImg, CardText, CardBody,
-    CardTitle, Button } from 'reactstrap';
+import { Card, CardText, CardBody,} from 'reactstrap';
 class FAQ extends Component {
     render() {
         return(
