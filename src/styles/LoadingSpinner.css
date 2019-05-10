@@ -2,10 +2,43 @@
     position: absolute;
     top: 50%;
     right: 30%;
+    transform:translate(-50% -50%);
 }
 
 .sweet-loading h3 {
     color: #30b7e7;
     font-family: 'Abel', sans-serif;
     font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+    .sweet-loading {
+        top: 40%;
+        right: 20%;
+    }
+}
+
+@media (max-width: 990px) {
+    .sweet-loading {
+        top: 85%;
+        right: 40%;
+    }
+}
+
+@media (max-width: 669px) {
+    .sweet-loading {
+        top: 120%;
+    }
+}
+
+@media (max-width: 360px) {
+    .sweet-loading {
+        top: 130%;
+    }
+}
+
+@media (max-width: 290px) {
+    .sweet-loading {
+        top: 140%;
+    }
 }

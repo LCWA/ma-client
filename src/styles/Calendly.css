@@ -1,6 +1,40 @@
-#schedule_form {
-    position: absolute;
-    width: 50%;
-    top: 40%;
-    right: 10%;
+/* #schedule_form {
+    position: relative;
+} */
+#schedule_form div {   
+    width: 500px;
+}
+@media (max-width:1200px) {
+    #schedule_form div {   
+        width: 400px;   
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .card-body, .card-text{
+        text-align: center;
+    }
+}
+@media (max-width:990px) {
+    #schedule_form div {   
+        width: inherit;
+        position: absolute!important;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 600px;
+    }
+    .container{
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width:590px) {
+    #schedule_form div {   
+        width: 337px;   
+    }
+}
+@media (max-width:360px) {
+    #schedule_form div {   
+        width: 320px;     
+    }
 }
