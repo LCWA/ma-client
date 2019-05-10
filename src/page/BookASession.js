@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import BookASession from '../components/BookASession';
 import Social from '../components/Social';
 
-class HomePage extends Component {
+class BookasessionPage extends Component {
     render() {
         return(
             <div>
@@ -15,4 +15,4 @@ class HomePage extends Component {
     }
 }
 
-export default HomePage;
+export default BookasessionPage;
