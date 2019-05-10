@@ -4,7 +4,7 @@ import Service from '../components/Service';
 import Newsletter from '../components/Newsletter';
 import Social from '../components/Social';
 
-class HomePage extends Component {
+class OfferingPage extends Component {
     render() {
         return (
             <div >
@@ -17,4 +17,4 @@ class HomePage extends Component {
     }
 }
 
- export default HomePage;
+ export default OfferingPage;

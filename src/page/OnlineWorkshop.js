@@ -5,7 +5,7 @@ import Newsletter from '../components/Newsletter';
 import Social from '../components/Social';
 import AboutAlex from '../components/AboutAlex';
 
-class HomePage extends Component {
+class OnlineworkshopPage extends Component {
     render() {
         return (
             <div >
@@ -19,4 +19,4 @@ class HomePage extends Component {
     }
 }
 
- export default HomePage;
+ export default OnlineworkshopPage;
