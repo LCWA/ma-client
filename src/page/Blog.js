@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
-import Layout from '../components/Layout';
+import Header from '../components/Header';
 import Blog from '../components/Blog';
-import Newsletter from '../components/Newsletter';
 import Social from '../components/Social';
-import Footer from '../components/Footer';
 
 class BlogPage extends Component {
     render() {
         return (
             <div >
-                <Layout/>
+                <Header/>
                 <Blog/>
-                <Newsletter/>
                 <Social/>
-                <Footer/>
             </div>
         );
     }

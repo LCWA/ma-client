@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Layout from '../components/Layout';
+import Header from '../components/Header';
 import Service from '../components/Service';
 import Social from '../components/Social';
 
@@ -7,7 +7,7 @@ class OfferingPage extends Component {
     render() {
         return (
             <div >
-                <Layout/>
+                <Header/>
                 <Service/>
                 <Social/>
             </div>

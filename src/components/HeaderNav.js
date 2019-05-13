@@ -16,7 +16,7 @@ class HeaderNav extends Component {
 							<Link className="nav-item nav-link" to="/BookASession">Book a session</Link>
 							<Link className="nav-item nav-link" to="/Offering">Offering</Link>
               <Link className="nav-item nav-link" to="/Blog">Blog</Link>
-						   <Link className="nav-item nav-link" to="/FAQ">FAQ</Link>
+						  <Link className="nav-item nav-link" to="/FAQ">FAQ</Link>
 
 					</nav>
 					<form className="form-inline my-2 my-lg-0">
@@ -28,11 +28,12 @@ class HeaderNav extends Component {
 						<label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
 						<ul className="menu">
 								
-						    <li><Link to="/">Home</Link></li>
-							<li><Link  to="/OnlineWorkshop">Online workshop</Link></li>
-							<li><Link  to="/BookASession">Book a session</Link></li>
+						  <li><Link to="/">Home</Link></li>
+							<li><Link to="/OnlineWorkshop">Online workshop</Link></li>
+							<li><Link to="/BookASession">Book a session</Link></li>
 							<li><Link to="/Offering">Offering</Link></li>
-             				<li><Link  to="/Blog">Blog</Link></li>
+             	<li><Link to="/Blog">Blog</Link></li>
+							<li><Link to="/FAQ">FAQ</Link></li>
 						</ul>
 					</div>
 			 	</div>

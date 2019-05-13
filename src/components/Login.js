@@ -16,9 +16,6 @@ class Example extends Component {
                     </FormGroup>
                     <Button className="btn btn-primary my-2 my-sm-0">SUBMIT</Button>
                 </Form>
-                <div className="d-flex justify-content-center">
-                    <p>LET'S CODE WITH ALEX</p>
-                </div>
             </div>
         );
     }
