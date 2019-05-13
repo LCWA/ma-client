@@ -1,18 +1,14 @@
 import React, { Component } from 'react';
-import Layout from '../components/Layout';
+import Header from '../components/Header';
 import FAQ from '../components/FAQ';
-import Newsletter from '../components/Newsletter';
 import Social from '../components/Social';
-import AboutAlex from '../components/AboutAlex';
 
 class FAQPage extends Component {
     render() {
         return (
             <div >
-                <Layout/>
+                <Header/>
                 <FAQ/>
-                <Newsletter/>
-                <AboutAlex />
                 <Social/>
             </div>
         );
