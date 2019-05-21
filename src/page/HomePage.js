@@ -5,6 +5,7 @@ import Newsletter from '../components/Newsletter';
 import Social from '../components/Social';
 import AboutAlex from '../components/AboutAlex';
 import Team from '../components/Team';
+import Contact from '../components/Contact';
 
 class HomePage extends Component {
     render() {
@@ -19,6 +20,7 @@ class HomePage extends Component {
                 <AboutAlex />
                 <Social/>
                 <Team/>
+                <Contact/>
             </div>
         );
     }
