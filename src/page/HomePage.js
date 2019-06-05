@@ -4,6 +4,7 @@ import Slider from '../components/Slider';
 import Newsletter from '../components/Newsletter';
 import Social from '../components/Social';
 import AboutAlex from '../components/AboutAlex';
+import Team from '../components/Team';
 
 class HomePage extends Component {
     render() {
@@ -17,6 +18,7 @@ class HomePage extends Component {
                 <Newsletter/>
                 <AboutAlex />
                 <Social/>
+                <Team/>
             </div>
         );
     }
