@@ -1,25 +1,26 @@
 import React, { Component } from 'react';
+import Blog from '../components/Blog';
 import Header from '../components/Header';
 import Slider from '../components/Slider';
-import Newsletter from '../components/Newsletter';
-import Social from '../components/Social';
 import AboutAlex from '../components/AboutAlex';
 import Team from '../components/Team';
 import Contact from '../components/Contact';
 import NewFooter from '../components/NewFooter';
+import { configureAnchors } from 'react-scrollable-anchor';
 
+
+configureAnchors({offset: -120, scrollDuration: 1000})
 class HomePage extends Component {
     render() {
         return (
             <div >
                 <Header />
                 <div className="d-flex justify-content-center flex-column">
-                <p>LET'S CODE WITH ALEX</p>
+                <p>MISSION AUTOMATE</p>
                 </div>
                 <Slider/>
-                <Newsletter/>
-                <AboutAlex />
-                <Social/>
+                <Blog/>
+                <AboutAlex/>
                 <Team/>
                 <Contact/>
                 <NewFooter/>

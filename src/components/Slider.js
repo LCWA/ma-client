@@ -90,7 +90,7 @@ import {
   
       return (
         <div>
-              <h1 className="text-center my-3">Get ready for your first tech job now – it’s easy, quick and guaranteed</h1>
+              <h1 className="text-center my-3">Speed up your working process with automated tools we provide</h1>
           <Carousel
             className="slider"
             activeIndex={activeIndex}
