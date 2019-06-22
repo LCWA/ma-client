@@ -15,7 +15,7 @@ const Newsletter = (props) => {
           <div className="input-content">
             <Input />
             <InputGroupAddon addonType="append">
-            <Button className="btn btn-primary my-2 my-sm-0">Join newsletter</Button>
+            <Button className="btn btn-primary my-2 my-sm-0" >Join newsletter</Button>
             </InputGroupAddon>
             </div>
           </InputGroup>
