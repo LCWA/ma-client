@@ -75,25 +75,25 @@ header{
 }
 
 .btn.btn-primary.my-2.my-sm-0 {
-  font-family: 'Roboto', sans-serif;
+  font-family:  'Helvetica', 'Arial', sans-serif;
   font-size: 21px;
   font-weight: bold;
-  background-color: #032537;
-  color: #ffffff;
-  border-style: 5px solid;
-  border-color: #ffffff;
-  border-radius: 1rem;
-  box-shadow: 1px 0px 7px 3px #30b7e7;
+  background-color: #a20304;
+  color: #eae8e8;
+  border-style: 1px solid;
+  border-color: #eae8e8;
+  border-radius: 0.5rem;
+  box-shadow: 1px 0px 7px 1px #a20304;
 }
 
 .btn.btn-primary.my-2.my-sm-0:hover {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Helvetica' ,'Arial', sans-serif;
   font-size: 21px;
   font-weight: bold;
-  background-color: #ffffff;
-  color: #032537;
-  border-color: #ffffff;
-  box-shadow: 1px 0px 7px 3px #30b7e7;
+  background-color: #eae8e8;
+  color: #a20304;
+  border-color: #a20304;
+  box-shadow: 0px 0px 0px 0px #30b7e7;
 }
 
 .HeaderNav.mobile ul ul li {
