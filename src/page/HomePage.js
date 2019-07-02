@@ -6,6 +6,7 @@ import Social from '../components/Social';
 import AboutAlex from '../components/AboutAlex';
 import Team from '../components/Team';
 import Contact from '../components/Contact';
+import NewFooter from '../components/NewFooter';
 
 class HomePage extends Component {
     render() {
@@ -21,9 +22,9 @@ class HomePage extends Component {
                 <Social/>
                 <Team/>
                 <Contact/>
+                <NewFooter/>
             </div>
         );
     }
 }
-
  export default HomePage;
