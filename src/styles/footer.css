@@ -18,11 +18,16 @@
      font-size: 22px;
 }
 .footer  .fb:hover {
-    color: 	#3b5998;
+    color: 	#a20304;
 }
 .footer  .instagram:hover {
-    color: 	#dd2a7b;
+    color: 	#a20304;
 }
 .footer  .pin:hover {
-    color: 	#c8232c;
+    color: 	#a20304;
 }
+h3 {
+    font-family: 'Helvetica';
+    font-size: 21px;
+    color: #eae8e8;
+  }

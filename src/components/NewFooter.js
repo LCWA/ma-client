@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import '../styles/footer.css';
+import '../App.css';
 import { faLinkedinIn, faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Alex_Phone from '../Alex_Phone.JPG';
