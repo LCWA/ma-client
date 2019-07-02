@@ -73,13 +73,13 @@ import {
                   <div className="col-lg-6  col-12 d-flex justify-content-center flex-column">
                   <CardImg top width="100%" src="https://www.virversity.com/images/dowell/courses/createacourse/oc/courseintroimage.jpg" alt="Card image cap" />
                       <div className="d-flex justify-content-center">
-                          <Button>Course online</Button>
+                          <Button className="btn btn-primary my-2 my-sm-0">Course online</Button>
                       </div>
                   </div>
                   <div className="col-lg-6 col-12 d-flex justify-content-center flex-column">
                       <CardImg top width="100%" src="https://www.virversity.com/images/dowell/courses/createacourse/oc/courseintroimage.jpg" alt="Card image cap" />
                       <div className="d-flex justify-content-center">
-                          <Button>Book now</Button>
+                          <Button className="btn btn-primary my-2 my-sm-0">Book now</Button>
                       </div>
                   </div>
                 </div>
