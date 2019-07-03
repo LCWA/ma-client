@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import '../styles/Blog.css';
 import { Card, CardImg, CardText, CardBody,
      Button } from 'reactstrap';
+
 class Blog extends Component {
     render() {
         return(
-            <div>
+            <ScrollableAnchor id={'AboutUs'}>
+            <div >
                <div className="my-5 container blog">
-                    <h2 className="blog-title mb-5">LCWA Blog</h2>
+                    <h2 className="blog-title mb-5">Mission Automate</h2>
                     <Card className="my-5">
                     <CardImg top width="100%" src="https://www.virversity.com/images/dowell/courses/createacourse/oc/courseintroimage.jpg" alt="Card image cap" />
                     <CardBody className="w-75">
@@ -31,6 +34,7 @@ class Blog extends Component {
                     </Card>
                 </div>
           </div>
+          </ScrollableAnchor>
         );
     }
 }

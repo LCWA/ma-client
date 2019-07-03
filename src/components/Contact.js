@@ -3,6 +3,7 @@ import { Button } from 'reactstrap';
 import '../styles/Contact.css';
 import '../App.css';
 import * as emailjs from 'emailjs-com';
+import ScrollableAnchor from 'react-scrollable-anchor';
  
 class Contact extends Component {
     constructor() {
@@ -57,6 +58,7 @@ class Contact extends Component {
 
     render() {
         return (
+            <ScrollableAnchor id={'ContactUs'}>
             <div className="container">
                 <h1 className="contact-form">Contact Form</h1>
                 <div className="wrapper">
@@ -91,8 +93,8 @@ class Contact extends Component {
                         </form>
                     </div>
                 </div>
-
             </div>
+            </ScrollableAnchor>
         );
     }
 }
