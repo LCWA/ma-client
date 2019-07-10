@@ -18,6 +18,7 @@ class Contact extends Component {
         this.handleChange = this.handleChange.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
         this.clearForm = this.clearForm.bind(this)
+        
     }
 
     handleChange = e => {
@@ -54,6 +55,7 @@ class Contact extends Component {
         message: ''      
     })
     document.getElementById("contact-form").reset();
+    alert("Thank you for contacting us!")
 }
 
     render() {
