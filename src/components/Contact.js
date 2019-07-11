@@ -32,11 +32,6 @@ class Contact extends Component {
          });
       };
 
-      handleSubmit = () => {
-        const { name, email, message } = this.state;
-        alert(`Signed up with  name: ${name} email: ${email} message: ${message}`);
-      };
-
     handleChange = e => {
         this.setState({ [e.target.name]: e.target.value })
     }
