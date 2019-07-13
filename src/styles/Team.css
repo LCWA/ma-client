@@ -5,18 +5,30 @@
     margin-top: 50px;
     color: #fff;
 }
-
-.container-box {
+.team-row{
     display: flex;
     justify-content: space-between;
-    padding: 40px 25%;
-
+    padding: 0px 25%;
 }
-.team-box{
-    background-image: url(../Alex.jpg);
+.team-box-1{
+    height: 125px;
+    width: 100px;
+    text-align: center;
+}
+.img-box{
     height: 100px;
     width: 100px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: block;
+}
+.team-box-2{
+    color:#fff;
+}
+.team-box-2:hover{
+    text-decoration: none;
+}
+figure{
+    margin-bottom: 0px;
 }
