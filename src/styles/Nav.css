@@ -23,7 +23,15 @@
 .burger .menu-btn:hover {
   background-color: rgba(244,244,244,0.3);
 }
+.navbar navbar-expand-lg{
+  display: inline-block;
+    list-style-type: none;
+}
 
+.navbar nav-item{
+  display: inline-block;
+    list-style-type: none;
+}
 
 
 /* menu */
