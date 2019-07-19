@@ -72,11 +72,11 @@ padding: 1em;
 }
 
 .contact form button {
-    border: 0;
     text-transform: uppercase;
+    box-sizing: border-box;
 }
 
 .wrapper .btn{
-    margin-left: 20px;
+    margin-left: 0px;
     white-space: nowrap;
 }

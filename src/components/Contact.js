@@ -90,7 +90,7 @@ class Contact extends Component {
                                 <textarea name="message" rows="6" onChange={this.handleChange}></textarea>
                             </p>
                             <p class="full">
-                                <Button onClick={this.handleSubmit} className="btn.btn-primary.my-2.my-sm-0">Submit</Button>
+                                <Button onClick={this.handleSubmit} className="btn btn-primary my-2 my-sm-0">Submit</Button>
                             </p>
                         </form>
                     </div>
