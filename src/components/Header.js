@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import HeaderNav from './HeaderNav';
-import Login from './Login';
+
 
 //header component
 
@@ -10,7 +10,6 @@ class Header extends Component {
             <div>
                 <header>
                     <HeaderNav />
-                    <Login />
                 </header>
             </div>
         );

@@ -3,6 +3,7 @@ import { Button } from 'reactstrap';
 import '../styles/Contact.css';
 import '../App.css';
 import * as emailjs from 'emailjs-com';
+import ScrollableAnchor from 'react-scrollable-anchor';
  
 class Contact extends Component {
     constructor() {
@@ -17,6 +18,7 @@ class Contact extends Component {
         this.handleChange = this.handleChange.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
         this.clearForm = this.clearForm.bind(this)
+        
     }
     handleEmailChange = evt => {
         this.setState({ email: evt.target.value,
@@ -66,6 +68,7 @@ class Contact extends Component {
         message: ''      
     })
     document.getElementById("contact-form").reset();
+    alert("Thank you for contacting us!")
 }
 canBeSubmitted() {
     const { name ,email, message } = this.state;
@@ -86,6 +89,7 @@ canBeSubmitted() {
     render() {
         const isEnabled = this.canBeSubmitted();
         return (
+            <ScrollableAnchor id={'ContactUs'}>
             <div className="container">
                 <h1 className="contact-form">Contact Form</h1>
                 <div className="wrapper">
@@ -115,13 +119,16 @@ canBeSubmitted() {
                                 <textarea name="message" rows="6"  onChange={this.handleMessageChange}  value={this.state.message}></textarea>
                             </p>
                             <p class="full">
+
                                 <Button disabled={!isEnabled} onClick={this.handleSubmit} className="btn.btn-primary.my-2.my-sm-0">Submit</Button>
+
+
                             </p>
                         </form>
                     </div>
                 </div>
-
             </div>
+            </ScrollableAnchor>
         );
     }
 }
