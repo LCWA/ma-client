@@ -20,6 +20,19 @@ class Contact extends Component {
         this.clearForm = this.clearForm.bind(this)
         
     }
+    handleEmailChange = evt => {
+        this.setState({ email: evt.target.value,
+         });
+      };
+
+      handleNameChange = evt => {
+        this.setState({ name: evt.target.value,
+         });
+      };
+      handleMessageChange = evt => {
+        this.setState({ message: evt.target.value,
+         });
+      };
 
     handleChange = e => {
         this.setState({ [e.target.name]: e.target.value })
@@ -57,8 +70,24 @@ class Contact extends Component {
     document.getElementById("contact-form").reset();
     alert("Thank you for contacting us!")
 }
-
+canBeSubmitted() {
+    const { name ,email, message } = this.state;
+    return (
+        name.length > 0 &&
+      email.length > 0 &&
+      message.length > 0
+    );
+  }
+  handleSubmit = (evt) => {
+    if (!this.canBeSubmitted()) {
+      evt.preventDefault();
+      return;
+    }
+    // actual submit logic...
+  };
+  
     render() {
+        const isEnabled = this.canBeSubmitted();
         return (
             <ScrollableAnchor id={'ContactUs'}>
             <div className="container">
@@ -74,23 +103,26 @@ class Contact extends Component {
                     </div>
                     <div className="contact">
                         <h3>Email us</h3>
-                        <form id = "contact-form"> 
+                        <form id = "contact-form" onSubmit={this.handleSubmit}> 
                         <div className= "email-container">
                             <p>
                                 <label>Name</label>
-                                <input type="text" name="user_name" onChange={this.handleChange}></input>
+                                <input type="text" name="user_name" onChange={this.handleNameChange}  value={this.state.name}></input>
                             </p>
                             <p>
                                 <label>Email Address</label>
-                                <input type="email" name="user_email" onChange={this.handleChange}></input>
+                                <input type="email" name="user_email" onChange={this.handleEmailChange}  value={this.state.email}></input>
                             </p>
                         </div>
                             <p class="full">
                                 <label>Message</label>
-                                <textarea name="message" rows="6" onChange={this.handleChange}></textarea>
+                                <textarea name="message" rows="6"  onChange={this.handleMessageChange}  value={this.state.message}></textarea>
                             </p>
                             <p class="full">
-                                <Button onClick={this.handleSubmit} className="btn btn-primary my-2 my-sm-0">Submit</Button>
+
+                                <Button disabled={!isEnabled} onClick={this.handleSubmit} className="btn.btn-primary.my-2.my-sm-0">Submit</Button>
+
+
                             </p>
                         </form>
                     </div>
