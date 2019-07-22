@@ -8,7 +8,7 @@ import Alex_Phone from '../Alex_Phone.JPG';
 class NewFooter extends Component{
      render() { 
           return(
-          <div>
+          <div class="follow-image">
                 <br/> <hr></hr><br/>
                 <center>
                   <h3>

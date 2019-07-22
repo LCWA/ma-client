@@ -193,3 +193,10 @@ p{
     width:90%!important;
   }
 }
+/*follow us image*/
+.follow-image{
+  background-image: url("./images/Follow_us_background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
