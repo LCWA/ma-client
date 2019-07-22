@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { faLinkedinIn, faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Alex_Phone from '../Alex_Phone.JPG';
 
 class NewFooter extends Component{
      render() { 
@@ -8,26 +9,22 @@ class NewFooter extends Component{
           <div>
                 <br/> <hr></hr><br/>
                 <center>
-               <h3>
-                    <table width="45%">
+                  <h3>
+                    <table width="30%">
                          <tr>
                                <td>
                                 Built with <a href="https://reactjs.org/docs/create-a-new-react-app.html">React App</a>   
                                </td>
                                <td>
-                                Join our  <a href="https://discordapp.com">Community</a>   
-                               </td>
-                               <td>
-                                 Quick Contacts: <font size="3"><i><u> +99-123456789</u></i> </font>
+                                 Quick Contacts: <font size="3"><i><u> <img src={Alex_Phone} ></img></u></i> </font>
                                </td>
                          </tr>  </table> 
                          <br/>
-                           <div>
-                                 <a href="https://www.linkedin.com/company/letscodewithalex/about/"><FontAwesomeIcon icon={ faLinkedinIn }/></a> &nbsp; &nbsp; &nbsp;
-                                 <a href="https://www.facebook.com/LetsCodeWithAlex/"><FontAwesomeIcon icon={ faFacebook }/></a> &nbsp; &nbsp; &nbsp;
-                                 <a href="https://www.instagram.com/letscodewithalex/"><FontAwesomeIcon icon={ faInstagram }/></a> &nbsp; &nbsp; &nbsp;
-                         </div>          
-               <br/></h3>
+                            
+                                 <a href="https://www.linkedin.com/company/mission-automate/about/"><FontAwesomeIcon icon={ faLinkedinIn }/></a> &nbsp; &nbsp; &nbsp;
+                                 <a href="https://www.facebook.com/missionautomate/"><FontAwesomeIcon icon={ faFacebook }/></a> &nbsp; &nbsp; &nbsp;
+                                    
+                 <br/></h3><br/>
                <h4>All copyrights &copy; Reserved</h4><br/>
                </center>
           </div>
