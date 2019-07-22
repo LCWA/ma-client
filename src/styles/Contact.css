@@ -35,7 +35,7 @@ padding: 1em;
 }
 
 .company-info{
-    background: #30b7e7;
+    background: #000000;
 }
 
 .company-info h3, .company-info ul{
@@ -72,12 +72,16 @@ padding: 1em;
 }
 
 .contact form button {
+    border: 0;
     text-transform: uppercase;
-    box-sizing: border-box;
 }
 
 .wrapper .btn{
-
-    margin-left: 0px;
+    margin-left: 20px;
     white-space: nowrap;
 }
+h3 {
+    font-family: 'Helvetica';
+    font-size: 20px;
+    color: #eaeaea;
+  }
