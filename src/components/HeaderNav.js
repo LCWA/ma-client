@@ -6,7 +6,7 @@ import '../styles/Nav.css';
 class HeaderNav extends Component {
 	render() {
 		return (
-			<div>
+			
 				<div className="d-flex justify-content-between  align-items-center px-3">
 				<img src={MA_Logo} alt="site logo" className = "nav-logo"></img>
                     
@@ -14,12 +14,7 @@ class HeaderNav extends Component {
 						<Link className="nav-item nav-link" to="/">Home</Link>
 						<a className="nav-item nav-link" href="#AboutUs">About us</a>
 						<a className="nav-item nav-link" href="#ContactUs">Contact us</a>
-					</nav>
-
-					<form className="form-inline my-2 my-lg-0">
-						<input className="form-control" type="search" placeholder="Search" aria-label="Search">
-						</input>	
-					</form>
+					</nav>				
 
 					<div className="burger">
 						<input className="menu-btn" type="checkbox" id="menu-btn" />
