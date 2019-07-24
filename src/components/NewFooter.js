@@ -12,7 +12,7 @@ class NewFooter extends Component{
                 <br/> <hr></hr><br/>
                 <center>
                   <h3>
-                    <table width="30%">
+                    <table width="40%">
                          <tr>
                                <td>
                                 Built with <a href="https://reactjs.org/docs/create-a-new-react-app.html">React App</a>   

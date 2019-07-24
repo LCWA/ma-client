@@ -8,14 +8,19 @@ class HeaderNav extends Component {
 		return (
 			
 				<div className="d-flex justify-content-between  align-items-center px-3">
-				<img src={MA_Logo} alt="site logo" className = "nav-logo"></img>
+				
+			<table width="68%"> 
+		    <tr> 
+			<td><img src={MA_Logo} alt="site logo" className = "nav-logo"></img></td>	
                     
-					<nav className="navbar navbar-expand-lg" role="navigation">	
+			    <td align="right">	<nav className="navbar navbar-expand-lg" role="navigation">	
 						<Link className="nav-item nav-link" to="/">Home</Link>
 						<a className="nav-item nav-link" href="#AboutUs">About us</a>
 						<a className="nav-item nav-link" href="#ContactUs">Contact us</a>
-					</nav>				
-
+					    </nav>				
+                </td>
+				</tr>
+				</table>
 					<div className="burger">
 						<input className="menu-btn" type="checkbox" id="menu-btn" />
 						<label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
@@ -25,7 +30,7 @@ class HeaderNav extends Component {
 							<li><Link to="/Contact"></Link></li>
 						</ul>
 					</div>
-
+                   
 			 	</div>
 		
 				);
