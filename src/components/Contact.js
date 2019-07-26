@@ -18,16 +18,11 @@ class Contact extends Component {
 
         this.handleChange = this.handleChange.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
-        this.clearForm = this.clearForm.bind(this)
         
     }
 
     handleChange = e => {
         this.setState({ [e.target.name]: e.target.value })
-    }
-
-    clearForm = () => {
-        document.getElementById("contact-form").reset();
     }
 
     handleSubmit (event) {
@@ -43,7 +38,7 @@ class Contact extends Component {
             message: this.state.message
         }
 
-        emailjs.send(service_id, template_id, template_params, 'user_v9IwfNnzBGGkekXLyzhy1')
+        emailjs.send(service_id, template_id, template_params, 'user_GYuijxFwsi7IOwFaKUnc2')
         .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
             }, (err) => {
