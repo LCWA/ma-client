@@ -172,6 +172,7 @@ p{
   color: #eaeaea;
   font-family: 'Helvetica'; 
   font-size: 21px;
+  text-align: left;
 }
 @media(max-width:670px){
   .formbox{
