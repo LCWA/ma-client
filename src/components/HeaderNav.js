@@ -9,17 +9,17 @@ class HeaderNav extends Component {
 			 
 			<div className="d-flex justify-content-between  align-items-center px-3">
 				
-			<table width="68%"> 
-			<tr><td><br/><br/></td><td></td></tr>
+			<table width="90%"> 
 		    <tr> 
 			<td><img src={MA_Logo} alt="site logo" className = "nav-logo"></img></td>	
-                    
-			    <td align="right">	<nav className="navbar navbar-expand-lg" role="navigation">	
+              <div className="Home-bar">      
+			    <td align="right">	<nav className="navbar navbar-expand-lg" role="navigation" >	
 						<Link className="nav-item nav-link" to="/">Home</Link>
 						<a className="nav-item nav-link" href="#AboutUs">About us</a>
 						<a className="nav-item nav-link" href="#ContactUs">Contact us</a>
 					    </nav>				
                 </td>
+				</div>
 				</tr>
 				<tr>
 					<td height="500px" align="right">

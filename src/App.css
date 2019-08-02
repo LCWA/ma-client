@@ -17,7 +17,7 @@ header {
   display: flex;
 }
 .nav-item.nav-link {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Helvetica';
   font-size: 20px;
   padding: 0px 1rem;
   border-right: 1px solid #ffffff;
@@ -28,8 +28,15 @@ header {
 }
 .nav-item.nav-link:hover {
   box-shadow: #eae8e8 0.5px 1px 0px 1px;
-  color: #a20304;
-  background-color: #eae8e8;
+  font-size: "21px";
+  color: #d62027;
+  background-color: #ffffff;
+  box-decoration-break: slice;
+}
+.nav-item.nav-link {
+ font-size: "21px";
+  color: #eae8e8;
+  background-color: #d62027;
   box-decoration-break: slice;
 }
 
