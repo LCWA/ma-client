@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Blog from '../components/Blog';
 import Header from '../components/Header';
 import Slider from '../components/Slider';
-import AboutAlex from '../components/AboutAlex';
 import Team from '../components/Team';
 import Contact from '../components/Contact';
 import NewFooter from '../components/NewFooter';
@@ -20,7 +19,6 @@ class HomePage extends Component {
                 </div>
                 <Slider/>
                 <Blog/>
-                <AboutAlex/>
                 <Team/>
                 <Contact/>
                 <NewFooter/>
