@@ -22,7 +22,7 @@ class Blog extends Component {
                         Mission Automate started out from the accelerating need of companies to automate their
                         processes. We believe that automation liberates companies from redundant tasks and allows
                         them to focus on what’s important for them.</CardText>
-                        <div className="mt-3"><Button className="btn btn-primary my-2 my-sm-0">learn more</Button></div>
+                        <div className="mt-3"><Button className="btn btn-primary my-2 my-sm-0">Learn More</Button></div>
                     </CardBody>
                     </Card>
                     <Card className="my-5">
@@ -32,7 +32,7 @@ class Blog extends Component {
                         1) We get in touch with you and examine your day to day activities<br></br>
                         2) We identify the repetitive tasks that take up most of your time<br></br>
                         3) We design an automated process for you</CardText>
-                        <div className="mt-3"><Button className="btn btn-primary my-2 my-sm-0">learn more</Button></div>
+                        <div className="mt-3"><Button className="btn btn-primary my-2 my-sm-0">Learn More</Button></div>
                     </CardBody>
                     <CardImg  top width="100%" src={Secondimg} alt="Card image cap" />
                     </Card>
@@ -41,7 +41,7 @@ class Blog extends Component {
                     <CardBody className="w-75">
                         <CardText>What do you get?<br></br>
                         A software solution customized to your needs</CardText>
-                        <div className="mt-3"><Button className="btn btn-primary my-2 my-sm-0">learn more</Button></div>
+                        <div className="mt-3"><Button className="btn btn-primary my-2 my-sm-0">Learn More</Button></div>
                     </CardBody>
                     </Card>
                 </div>
