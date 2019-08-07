@@ -18,6 +18,12 @@ header{
   justify-content: center;
   display: flex;
 }
+.d-flex.justify-content-between{
+  overflow: hidden;
+  position:fixed;
+  top: 0;
+  width: 100%;
+}
 
 .nav-item.nav-link {
   font-family: 'Abel', sans-serif;
@@ -200,4 +206,16 @@ p{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.faup {
+color: #d62027;
+position: absolute;
+bottom: 8px;
+right: 16px;
+}
+.TopUp{
+  position: absolute;
+  bottom: 18px;
+  right: 40px;
 }
