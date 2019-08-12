@@ -1,0 +1,49 @@
+.contact {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-control-placeholder {
+    position: absolute;
+    top: 0;
+    padding: 23px 0 0 6px;
+    transition: all 200ms;
+    opacity: 0.5;
+  }
+
+  .form-control-placeholder.email {
+    position: absolute;
+    padding: 98px 0 0 6px;
+    transition: all 200ms;
+    opacity: 0.5;
+  }
+
+  .form-control-placeholder.textarea {
+    position: absolute;
+    padding: 175px 0 0 6px;
+    transition: all 200ms;
+    opacity: 0.5;
+  }
+  
+  .form-control:focus + .form-control-placeholder,
+  .form-control:valid + .form-control-placeholder {
+    font-size: 55%;
+    transform: translate3d(0, -80%, 0);
+    opacity: 1;
+    color: #eae8e8;
+  }
+
+
+    .form-control:focus + .form-control-placeholder.email,
+  .form-control:valid + .form-control-placeholder.email{
+    font-size: 55%;
+    transform: translate3d(0, -25%, 0);
+    opacity: 1;
+  }
+
+  .form-control:focus + .form-control-placeholder.textarea,
+  .form-control:valid + .form-control-placeholder.textarea{
+    font-size: 55%;
+    transform: translate3d(0, -16%, 0);
+    opacity: 1;
+  }
