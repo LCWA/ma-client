@@ -6,10 +6,11 @@ import '../styles/Nav.css';
 class HeaderNav extends Component {
 	render() {
 		return (
-			
-				<div className="d-flex justify-content-between  align-items-center px-3">
+			 
+			<div className="d-flex justify-content-between  align-items-center px-3">
 				
 			<table width="68%"> 
+			<tr><td><br/><br/></td><td></td></tr>
 		    <tr> 
 			<td><img src={MA_Logo} alt="site logo" className = "nav-logo"></img></td>	
                     
@@ -20,7 +21,18 @@ class HeaderNav extends Component {
 					    </nav>				
                 </td>
 				</tr>
+				<tr>
+					<td height="500px" align="right">
+					</td> 
+					<td align="right" >
+						<div align="right" className="TopUp">  
+                             <p class="back-to-top" > <a href="#top" onClick="topFunction()"><i class="fa fa-2x fa-angle-up" id="faup"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+                        </div>
+					</td> 
+					 
+				</tr>
 				</table>
+				
 					<div className="burger">
 						<input className="menu-btn" type="checkbox" id="menu-btn" />
 						<label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
@@ -30,11 +42,25 @@ class HeaderNav extends Component {
 							<li><Link to="/Contact"></Link></li>
 						</ul>
 					</div>
-                   
+					
 			 	</div>
-		
+	
 				);
 			}
 		}
+
+		window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("faup").style.display = "block";
+  } else {
+    document.getElementById("faup").style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
 export default HeaderNav;
