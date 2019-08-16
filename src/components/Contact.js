@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Button } from 'reactstrap';
-import '../styles/Contact.css';
 import '../App.css';
+import '../styles/Contact.css';
+import '../styles/FloatingLabel.scss';
 import * as emailjs from 'emailjs-com';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import Alex_Email from '../Alex_Email.jpg';
- 
+
 class Contact extends Component {
     constructor() {
         super()
@@ -69,24 +70,34 @@ class Contact extends Component {
                         </ul>
                     </div>
                     <div className="contact">
-                        <h3>Email us</h3>
+                        
                         <form id = "contact-form"> 
-                        <div className= "email-container">
-                            <p>
-                                <label>Name</label>
-                                <input type="text" name="user_name" onChange={this.handleChange}></input>
+                        <p>
+                                <input type="text" name="user_name" value={this.state.value} onChange={this.handleChange} 
+                                className="form-control" required/>
+                                <label className="form-control-placeholder" for="user_name">Your Name</label>
                             </p>
+                        <div className= "email-container">
+                            
                             <p>
-                                <label>Email Address</label>
-                                <input type="email" name="user_email" onChange={this.handleChange}></input>
+                                <input type="email" name="user_email" value={this.state.value} onChange={this.handleChange}
+                                className="form-control" required/>
+                                <label className="form-control-placeholder email" for="user_email">Your E-mail</label>
                             </p>
                         </div>
-                            <p class="full">
-                                <label>Message</label>
-                                <textarea name="message" rows="6" onChange={this.handleChange}></textarea>
+                            <p className="full">
+                                <textarea
+                                name="message" 
+                                rows="6" 
+                                value={this.state.value}
+                                onChange={this.handleChange}
+                                className="form-control" required
+                                />
+                                <label className="form-control-placeholder textarea" for="message">Your Message</label>
+                                
                             </p>
-                            <p class="full">
-                                <Button onClick={this.handleSubmit} className="btn.btn-primary.my-2.my-sm-0">Submit</Button>
+                            <p className="full">
+                                <Button onClick={this.handleSubmit} className="btn btn-primary my-2 my-sm-0">Submit</Button>
                             </p>
                         </form>
                     </div>
