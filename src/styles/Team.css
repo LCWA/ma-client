@@ -9,7 +9,7 @@
 .container-box {
     display: flex;
     justify-content: space-between;
-    padding: 40px 25%;
+    padding: 40px 12%;
 
 }
 .team-box{
@@ -22,15 +22,15 @@
 }
 
 .card {
-    width: 300px;
+    width: 250px;
     background-color:black;
-    border-color: white;
+    box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
     
 }
 
 .cardtext {
-    position: center;
+    text-emphasis-position: center;
+    text-align: center;
+    font-family: Impact;
 }
- .row {
-     padding: 10px;
- }
+
