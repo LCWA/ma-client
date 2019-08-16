@@ -20,3 +20,17 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.card {
+    width: 300px;
+    background-color:black;
+    border-color: white;
+    
+}
+
+.cardtext {
+    position: center;
+}
+ .row {
+     padding: 10px;
+ }

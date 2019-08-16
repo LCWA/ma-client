@@ -7,6 +7,7 @@ import Team from '../components/Team';
 import Contact from '../components/Contact';
 import NewFooter from '../components/NewFooter';
 import { configureAnchors } from 'react-scrollable-anchor';
+import TeamCard from '../components/TeamCard';
 
 
 configureAnchors({offset: -120, scrollDuration: 1000})
@@ -22,8 +23,9 @@ class HomePage extends Component {
                 <Blog/>
                 <AboutAlex/>
                 <Team/>
+                <TeamCard/>
                 <Contact/>
-                <NewFooter/>
+                <NewFooter/>                
             </div>
         );
     }
