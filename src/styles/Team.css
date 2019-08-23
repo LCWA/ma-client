@@ -14,14 +14,15 @@
 }
 .team-box{
     background-image: url(../Alex.jpg);
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .card {
+   
     width: 250px;
     background-color:black;
     box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
@@ -31,6 +32,5 @@
 .cardtext {
     text-emphasis-position: center;
     text-align: center;
-    font-family: Impact;
 }
 

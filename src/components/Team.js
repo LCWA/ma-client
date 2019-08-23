@@ -7,6 +7,8 @@ import Fouthimg from '../images/Nina.jpg';
 
 
 
+
+
 class Team extends Component {
     render() {
         return(
