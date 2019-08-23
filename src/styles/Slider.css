@@ -1,30 +1,49 @@
-.slider .carousel-item .carousel-img{
+.slider .carousel-item {
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   background-repeat:no-repeat; 
-  min-height: 70vh; 
-  height: 100%;
-  width: 100%;
-  }
-  .slider{
-    position: relative;
-  }
-.slider .carousel-item .carousel-img .col-lg-6{
-    padding-left: 0;
-    padding-right: 0;
-  }
-.slider .carousel-item .carousel-img button {
-    margin-top: 50px;
 }
-.slider .carousel-item .carousel-img .card-img-top{
+.carousel-item {
+  height: 500px;
+}
+.carousel-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
+.carousel-item p, .carousel-item h3 {
+  color: #d62027;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 1px 1px #000000;
+  letter-spacing: 1px;
+}
+.carousel-item h3 {
+  font-size: 18px;
+  background-clip: content-box;
+}
+.slider {
+  position: relative;
+}
+.slider .carousel-item .carousel-img .col-lg-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.slider .carousel-item .carousel-img button {
+  margin-top: 50px;
+}
+.slider .carousel-item .carousel-img .card-img-top {
   border-radius: 0;
   width: 95%;
 }
-
-.carousel-indicators  li{
+.carousel-indicators li {
   height: 20px;
   width: 20px;
   border-radius: 50%;
+  background-color: #d62027;
 }
 .text-center.my-3 {
   font-family: 'Roboto', sans-serif;
@@ -32,6 +51,7 @@
   padding: 1px;
   color: #ffffff;
 }
+
 @media (max-width:1024px){
   .slider .carousel-item .carousel-img .card-img-top{
     width: 100%;
