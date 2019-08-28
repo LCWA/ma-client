@@ -16,7 +16,7 @@ class TeamCard extends Component {
                         <Col>
                             <CardLink href ="https://www.linkedin.com/in/panait/">
                                 <Card className="team-card">
-                                    <CardImg height="227px" src= {Firstimg} alt="Team-Image-Cap" />
+                                    <CardImg src= {Firstimg} className="team-image-cap" />
                                         <CardBody>
                                             <CardText>
                                                 Alex
@@ -29,7 +29,7 @@ class TeamCard extends Component {
                         <Col>
                             <CardLink href = "https://www.linkedin.com/in/silvanagagu/">
                                 <Card className="team-card">
-                                    <CardImg src= {Secondimg} alt="Team-Image-Cap" />
+                                    <CardImg src= {Secondimg} className="team-image-cap" />
                                         <CardBody>
                                             <CardText>
                                                 Silvana
@@ -42,7 +42,7 @@ class TeamCard extends Component {
                         <Col>
                             <CardLink href=" https://www.linkedin.com/in/noka-kipiani/" >
                                 <Card className="team-card">
-                                    <CardImg  height="227px" src= {Thirdimg} alt="Team-Image-Cap" />
+                                    <CardImg src= {Thirdimg} className="team-image-cap" />
                                         <CardBody>
                                             <CardText>
                                                 Noka
@@ -55,7 +55,7 @@ class TeamCard extends Component {
                         <Col>
                             <CardLink href="https://www.linkedin.com/in/nikolina-po%C5%BEega-988216186/" >
                                 <Card className="team-card">
-                                    <CardImg Transformation height="227px" crop="scale" src= {Fouthimg} alt="Team-Image-Cap" />
+                                    <CardImg src= {Fouthimg} className="team-image-cap" />
                                         <CardBody>
                                             <CardText>
                                                 Nikolina

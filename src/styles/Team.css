@@ -6,31 +6,34 @@
     color: #fff;
 }
 
-.container-box {
+.container-box{
     display: flex;
     justify-content: space-between;
-    padding: 40px 12%;
+    padding: 20px 12%;
 
 }
 .team-box{
     background-image: url(../Alex.jpg);
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .card {
-   
+  
     width: 250px;
     background-color:black;
     box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
     
 }
 
-.cardtext {
-    text-emphasis-position: center;
-    text-align: center;
+.team-card .team-image-cap {
+    object-fit: cover;
+    height: 227px;
+    width: 250px;
+
 }
+
 
