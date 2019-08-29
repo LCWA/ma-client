@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Blog from '../components/Blog';
 import Header from '../components/Header';
 import Slider from '../components/Slider';
-import Team from '../components/Team';
+import TeamCard from '../components/TeamCard';
 import Contact from '../components/Contact';
 import NewFooter from '../components/NewFooter';
 import { configureAnchors } from 'react-scrollable-anchor';
@@ -19,7 +19,7 @@ class HomePage extends Component {
                 </div>
                 <Slider/>
                 <Blog/>
-                <Team/>
+                <TeamCard/>
                 <Contact/>
                 <NewFooter/>
             </div>

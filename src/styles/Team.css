@@ -5,30 +5,33 @@
     margin-top: 50px;
     color: #fff;
 }
-.team-row{
+
+
+.container-box{
     display: flex;
     justify-content: space-between;
-    padding: 0px 25%;
+    padding: 20px 12%;
+
 }
-.team-box-1{
-    height: 125px;
-    width: 100px;
-    text-align: center;
+
+.team-card {
+  
+    width: 250px;
+    background-color:black;
+    box-shadow: 0 0 20px 0 rgba(252, 30, 1, 0.7);
+    
 }
-.img-box{
-    height: 100px;
-    width: 100px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: block;
+
+.team-card .team-image-cap {
+    object-fit: cover;
+    height: 227px;
+    width: 250px;
+
 }
-.team-box-2{
-    color:#fff;
-}
-.team-box-2:hover{
-    text-decoration: none;
-}
-figure{
-    margin-bottom: 0px;
-}
+
+
+.team-card .team-card-text {
+    position: relative;
+    left: 70px;
+
+} 
