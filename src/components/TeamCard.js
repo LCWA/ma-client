@@ -18,7 +18,7 @@ class TeamCard extends Component {
                                 <Card className="team-card">
                                     <CardImg src= {Firstimg} className="team-image-cap" />
                                         <CardBody>
-                                            <CardText>
+                                            <CardText className="team-card-text">
                                                 Alex
                                             </CardText>                                                                      
                                         </CardBody>                                 
@@ -31,7 +31,7 @@ class TeamCard extends Component {
                                 <Card className="team-card">
                                     <CardImg src= {Secondimg} className="team-image-cap" />
                                         <CardBody>
-                                            <CardText>
+                                            <CardText className="team-card-text">
                                                 Silvana
                                             </CardText>
                                         </CardBody>                                 
@@ -44,7 +44,7 @@ class TeamCard extends Component {
                                 <Card className="team-card">
                                     <CardImg src= {Thirdimg} className="team-image-cap" />
                                         <CardBody>
-                                            <CardText>
+                                            <CardText className="team-card-text">
                                                 Noka
                                             </CardText>
                                     </CardBody>                                
@@ -57,7 +57,7 @@ class TeamCard extends Component {
                                 <Card className="team-card">
                                     <CardImg src= {Fouthimg} className="team-image-cap" />
                                         <CardBody>
-                                            <CardText>
+                                            <CardText className="team-card-text">
                                                 Nikolina
                                             </CardText>
                                         </CardBody>                            

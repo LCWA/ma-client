@@ -37,3 +37,8 @@
 }
 
 
+.team-card .team-card-text {
+    position: relative;
+    left: 70px;
+
+} 
