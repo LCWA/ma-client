@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import MA_Logo from '../MA_Logo.png';
+import MA_Logo from '../images/MA_Logo.png';
 import '../styles/Nav.css';
 
 class HeaderNav extends Component {

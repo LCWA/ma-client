@@ -5,7 +5,7 @@ import '../styles/Contact.css';
 import '../styles/FloatingLabel.scss';
 import * as emailjs from 'emailjs-com';
 import ScrollableAnchor from 'react-scrollable-anchor';
-import Alex_Email from '../Alex_Email.jpg';
+import Alex_Email from '../images/Alex_Email.jpg';
 
 class Contact extends Component {
     constructor() {
