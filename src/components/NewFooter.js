@@ -3,7 +3,7 @@ import '../styles/footer.css';
 import '../App.css';
 import { faLinkedinIn, faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Alex_Phone from '../Alex_Phone.png';
+import Alex_Phone from '../images/Alex_Phone.png';
 
 class NewFooter extends Component{
      render() { 
