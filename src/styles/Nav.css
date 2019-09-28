@@ -68,7 +68,7 @@
 
 .burger .menu-icon .navicon:before,
 .burger .menu-icon .navicon:after {
-  background: #fff;
+  background: #ffff;
   content: '';
   display: block;
   height: 100%;
@@ -115,6 +115,9 @@
 .burger .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before{
   top: 0;
   transform: rotate(-45deg);
+}
+.nav-row{
+    background-color: white;
 }
 @media (max-width:1024px){
   .navbar{
