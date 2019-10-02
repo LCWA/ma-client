@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Slider from '../components/Slider';
 import TeamCard from '../components/TeamCard';
 import Contact from '../components/Contact';
+import Spinning from '../components/Spinning';
 import NewFooter from '../components/NewFooter';
 import { configureAnchors } from 'react-scrollable-anchor';
 
@@ -16,11 +17,23 @@ class HomePage extends Component {
                 <Header />
                 <div className="d-flex justify-content-center flex-column">
                 <p>MISSION AUTOMATE</p>
+
+                <p>
+                <script src="js/three.js"></script>
+                <script src="js/OrbitControls.js"></script>
+
+               
+    
+    
+
+
+                </p>
                 </div>
                 <Slider/>
                 <Blog/>
                 <TeamCard/>
                 <Contact/>
+                <Spinning/>
                 <NewFooter/>
             </div>
         );
