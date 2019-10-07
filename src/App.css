@@ -18,7 +18,7 @@ header {
 }
 .nav-item.nav-link {
   font-family: 'Helvetica';
-  font-size: 20px;
+  font-size: 100px;
   padding: 0px 1rem;
   border-right: 1px solid #ffffff;
   color: #a20304;
@@ -133,30 +133,30 @@ hr {
   border-radius: 1px;
 }
 h1 {
-  font-family: 'Helvetica';
+  font-family: 'Georgia';
   font-weight: 26px;
-  font-size: 35px;
+  font-size: 60px;
   color: #eaeaea;
 }
 h2 {
-  font-family: 'Helvetica';
+  font-family: 'Georgia';
   font-weight: 26px;
   font-size: 26px;
   color: #eaeaea;
 }
 h3 {
-  font-family: 'Helvetica';
+  font-family: 'Georgia';
   font-size: 20px;
   color: #eaeaea;
 }
 h4 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Georgia', sans-serif;
   font-size: 12px;
   color: #ffffff;
 }
 p {
   color: #eaeaea;
-  font-family: 'Helvetica'; 
+  font-family: 'Helvetica';
   font-size: 21px;
   text-align: left;
 }
