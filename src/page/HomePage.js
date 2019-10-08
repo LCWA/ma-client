@@ -19,14 +19,7 @@ class HomePage extends Component {
                 <p>MISSION AUTOMATE</p>
 
                 <p>
-                <script src="js/three.js"></script>
-                <script src="js/OrbitControls.js"></script>
-
-               
-    
-    
-
-
+       
                 </p>
                 </div>
                 <Slider/>
