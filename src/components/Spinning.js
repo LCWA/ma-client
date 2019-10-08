@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-//import { THREE } from "three/build/three.js"
 import ReactDOM from "react-dom";
 import * as THREE from "three";
-//import {OrbitControls} from "three/examples/js/controls/OrbitControls";
 import OrbitControls from 'orbit-controls-es6';
 
 class Spinning extends Component {
