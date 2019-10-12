@@ -1,4 +1,5 @@
 /*Rules for header navigation in desktop devices*/
+
 * {
   margin: 0;
   padding: 0;
@@ -40,7 +41,6 @@ body {
   font-size: "21px";
   color: #000;
 }
-
 /*rules for labels*/
 .mr-sm-2 {
   color: #eae8e8;
@@ -52,21 +52,19 @@ body {
 }
 .form-control {
   font-size: 0.7rem;
-  background-color: #eae8e8;
+  width: 200%;
 }
 .form-control:focus-within {
   background-color: #eae8e8;
   box-shadow: none;
 }
 .form-control:hover {
-  border: 1px solid #a20304;
-  box-shadow: 1px 0px 7px 3px #a20304;
+  border: 1px solid #E59C58;
 }
 #exampleEmail,
 #examplePassword {
   height: 22px;
 }
-
 /*Button style*/
 .btn {
   padding: 6px 12px;
@@ -77,22 +75,22 @@ body {
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 21px;
   font-weight: bold;
-  background-color: #a20304;
+  background-color: #E59C58;
   color: #eae8e8;
   border-style: 1px solid;
-  border-color: #eae8e8;
+  border-color: #E59C58;
   border-radius: 0.5rem;
-  box-shadow: 1px 0px 7px 1px #a20304;
+  margin: auto;
+  display: block
 }
 .btn.btn-primary.my-2.my-sm-0:hover {
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 21px;
   font-weight: bold;
-  background-color: #eae8e8;
-  color: #a20304;
-  border-color: #a20304;
+  background-color: #E59C58;
+  color: #eae8e8;
+  border-color: #E59C58;
   border-radius: 0.5rem;
-  box-shadow: 1px 0px 7px 1px #eae8e8;
 }
 .HeaderNav.mobile ul ul li {
   border-right: none;
@@ -101,16 +99,15 @@ body {
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 21px;
   font-weight: bold;
-  background-color: #eae8e8;
-  color: #a20304;
-  border-color: #a20304;
+  background-color: #E59C58;
+  color: #E59C58;
+  border-color: #E59C58;
   border-radius: 0.5rem;
-  box-shadow: 1px 0px 7px 1px #a20304;
 }
 .forminput {
   padding: 8px 12px;
 }
-.d-flex.justify-content-center > p {
+.d-flex.justify-content-center>p {
   color: #ffffff;
   font-family: "Abel", sans-serif;
   font-size: 40px;
@@ -148,9 +145,9 @@ h2 {
   color: #eaeaea;
 }
 h3 {
-  font-family: "Helvetica";
-  font-size: 20px;
-  color: #eaeaea;
+  font-family: "arial";
+  font-size: 15px;
+  color: black;
 }
 h4 {
   font-family: "Roboto", sans-serif;
