@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.solutions-title {
+  text-align: center;
+}
+.solution h2 {
+  padding-top: 20px;
+}
+
+.card-wrapper {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.solution,
+.description {
+  text-align: center;
+  padding: 1.5rem 2rem;
+}
+.description {
+  line-height: 1.6rem;
+}

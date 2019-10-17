@@ -69,44 +69,37 @@ body {
 
 /*Button style*/
 .btn {
-  padding: 6px 12px;
+  padding: 6px 18px;
   font-size: 0.8rem;
+}
+.btn-primary {
+  border-color: unset !important;
+  box-shadow: unset !important;
 }
 .btn.btn-primary.my-2.my-sm-0,
 .text {
-  font-family: "Helvetica", "Arial", sans-serif;
-  font-size: 21px;
-  font-weight: bold;
-  background-color: #a20304;
-  color: #eae8e8;
-  border-style: 1px solid;
-  border-color: #eae8e8;
-  border-radius: 0.5rem;
-  box-shadow: 1px 0px 7px 1px #a20304;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  background-color: #ff6602;
+  color: #fff;
+  border-radius: 4px;
+  border-color: unset !important;
 }
-.btn.btn-primary.my-2.my-sm-0:hover {
-  font-family: "Helvetica", "Arial", sans-serif;
-  font-size: 21px;
-  font-weight: bold;
-  background-color: #eae8e8;
-  color: #a20304;
-  border-color: #a20304;
-  border-radius: 0.5rem;
-  box-shadow: 1px 0px 7px 1px #eae8e8;
+.btn.btn-primary.my-2.my-sm-0:hover,
+.btn.btn-primary.my-2.my-sm-0:active {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  color: #ff6602;
+  border-color: #ff6602;
+  border-radius: 4px;
+  border-color: unset !important;
+  box-shadow: unset !important;
 }
 .HeaderNav.mobile ul ul li {
   border-right: none;
 }
-.btn.btn-primary.my-2.my-sm-0:active {
-  font-family: "Helvetica", "Arial", sans-serif;
-  font-size: 21px;
-  font-weight: bold;
-  background-color: #eae8e8;
-  color: #a20304;
-  border-color: #a20304;
-  border-radius: 0.5rem;
-  box-shadow: 1px 0px 7px 1px #a20304;
-}
+
 .forminput {
   padding: 8px 12px;
 }
@@ -135,17 +128,20 @@ hr {
   box-shadow: #d62027 3px 1px 10px 2px;
   border-radius: 1px;
 }
+.body-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
 h1 {
-  font-family: "Helvetica";
-  font-weight: 26px;
-  font-size: 35px;
-  color: #eaeaea;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 60px;
+  color: #000000;
 }
 h2 {
-  font-family: "Helvetica";
-  font-weight: 26px;
-  font-size: 26px;
-  color: #eaeaea;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #000000;
 }
 h3 {
   font-family: "Helvetica";
@@ -157,12 +153,7 @@ h4 {
   font-size: 12px;
   color: #ffffff;
 }
-p {
-  color: #eaeaea;
-  font-family: "Helvetica";
-  font-size: 21px;
-  text-align: left;
-}
+
 @media (max-width: 670px) {
   .formbox {
     display: flex;
@@ -182,12 +173,4 @@ p {
   .formbox input {
     width: 90% !important;
   }
-}
-
-/*follow us image*/
-.follow-image {
-  background-image: url("./images/Follow_us_background.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
