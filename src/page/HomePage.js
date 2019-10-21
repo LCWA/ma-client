@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Blog from "../components/Blog";
 import Header from "../components/Header";
 import Slider from "../components/Slider";
 import TeamCard from "../components/TeamCard";
@@ -8,6 +7,7 @@ import Spinning from "../components/Spinning";
 import NewFooter from "../components/NewFooter";
 import { configureAnchors } from "react-scrollable-anchor";
 import VideoSection from "../components/VideoSection";
+import Solutions from "../components/Solutions";
 
 configureAnchors({ offset: -120, scrollDuration: 1000 });
 class HomePage extends Component {
@@ -16,8 +16,8 @@ class HomePage extends Component {
       <div>
         <Header />
         <VideoSection />
+        <Solutions />
         <Slider />
-        <Blog />
         <TeamCard />
         <Contact />
         <Spinning />

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../styles/VideoSection.css";
-import VideoComponent from "../videos/MissionAutomate_video.mp4";
+import VideoComponent from "../videos/LCWAORANGEEDITED.mp4";
 import VideoSubstitute from "../images/Video_substitute.PNG";
 class VideoSection extends Component {
   render() {
@@ -14,6 +14,8 @@ class VideoSection extends Component {
         <div id="videoDiv">
           <video
             autoplay="autoplay"
+            playsinline
+            muted
             src={VideoComponent}
             id="video"
             loop="loop"

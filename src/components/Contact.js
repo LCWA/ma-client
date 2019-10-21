@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import { Button } from 'reactstrap';
-import '../App.css';
-import '../styles/Contact.css';
-import '../styles/FloatingLabel.scss';
-import * as emailjs from 'emailjs-com';
-import ScrollableAnchor from 'react-scrollable-anchor';
-import Alex_Email from '../images/Alex_Email.jpg';
+import React, { Component } from "react";
+import { Button } from "reactstrap";
+import "../App.css";
+import "../styles/Contact.css";
+import "../styles/FloatingLabel.scss";
+import * as emailjs from "emailjs-com";
+import ScrollableAnchor from "react-scrollable-anchor";
 
 class Contact extends Component {
+
     constructor() {
         super()
 
@@ -21,21 +21,30 @@ class Contact extends Component {
 
     }
 
-    handleChange = e => {
-        this.setState({ [e.target.name]: e.target.value })
-    }
 
     handleSubmit (event) {
         event.preventDefault()
         var service_id = "contact_service";
         var template_id = "contact_form";
 
-        var template_params = {
-            to_email: 'alex@letscodewithalex.com',
-            user_name: this.state.user_name,
-            user_email: this.state.user_email,
-            message: this.state.message
-        }
+  handleChange = e => {
+    this.setState({ [e.target.name]: e.target.value });
+  };
+
+  handleSubmit(event) {
+    event.preventDefault();
+
+
+    var service_id = "contact_service";
+    var template_id = "contact_form";
+
+    var template_params = {
+      to_email: "alex@letscodewithalex.com",
+      user_name: this.state.user_name,
+      user_email: this.state.user_email,
+      message: this.state.message
+    };
+
 
         emailjs.send(service_id, template_id, template_params, 'user_GYuijxFwsi7IOwFaKUnc2')
           .then((response) => {
