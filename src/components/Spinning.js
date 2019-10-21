@@ -4,13 +4,16 @@ import OrbitControls from "orbit-controls-es6";
 
 class Spinning extends Component {
   componentDidMount() {
+    var interactive = document.getElementById("interactive-sphere");
+    interactive.style.position = "relative";
+    interactive.style.right = "100px";
+    interactive.style.top = "50px";
+    const fov = 75;
+    const aspect = 2; // the canvas default
+    const near = 0.1;
+    const far = 1000;
     var scene = new THREE.Scene();
-    var camera = new THREE.PerspectiveCamera(
-      75,
-      window.innerWidth / window.innerHeight,
-      0.1,
-      1000
-    );
+    var camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
 
     var renderer = new THREE.WebGLRenderer({ alpha: true });
     renderer.setSize(window.innerWidth / 2, window.innerHeight / 2);
@@ -21,18 +24,23 @@ class Spinning extends Component {
 
       renderer.setSize(width / 2, height / 2);
       camera.aspect = width / height;
+      camera.position.set(-1, -1, -1);
       camera.updateProjectionMatrix();
     });
     this.controls = new OrbitControls(camera, renderer.domElement);
-    var geometry = new THREE.SphereGeometry(1, 8, 8);
+    const boxWidth = 1;
+    const boxHeight = 8;
+    const boxDepth = 8;
+    var geometry = new THREE.SphereGeometry(boxWidth, boxHeight, boxDepth);
     var material = new THREE.MeshBasicMaterial({
       color: 0xff6602,
       wireframe: true
     });
+
     var sphere = new THREE.Mesh(geometry, material);
     scene.add(sphere);
 
-    camera.position.z = 1;
+    camera.position.z = 2;
 
     var update = function() {
       sphere.rotation.x += 0.01;
