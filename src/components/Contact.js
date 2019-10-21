@@ -21,17 +21,11 @@ class Contact extends Component {
 
     }
 
-
-    handleSubmit (event) {
-        event.preventDefault()
-        var service_id = "contact_service";
-        var template_id = "contact_form";
-
   handleChange = e => {
     this.setState({ [e.target.name]: e.target.value });
   };
 
-  handleSubmit(event) {
+  handleSubmit = event => {
     event.preventDefault();
 
 

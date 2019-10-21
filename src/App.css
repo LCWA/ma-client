@@ -96,6 +96,7 @@ body {
   border-color: #E59C58;
   border-radius: 0.5rem;
 }
+
 .btn.btn-primary.my-2.my-sm-0:hover,
 .btn.btn-primary.my-2.my-sm-0:active {
   font-family: "Arial", sans-serif;
@@ -105,6 +106,7 @@ body {
   border-color: #ff6602;
   border-radius: 4px;
 }
+
 .HeaderNav.mobile ul ul li {
   border-right: none;
 }
@@ -117,6 +119,7 @@ body {
   color: #E59C58;
   border-color: #E59C58;
   border-radius: 0.5rem;
+}
 
 .forminput {
   padding: 8px 12px;
