@@ -1,0 +1,25 @@
+.story-wrapper {
+  padding: 100px;
+  background-image: linear-gradient(#2c1b91, #3d0774);
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.story {
+  padding: 100px;
+}
+
+.story-title,
+.story-text.body-text {
+  color: #fff;
+}
+.story-text.body-text {
+  padding-top: 50px;
+}
+
+@media (max-width: 670px) {
+  .story-wrapper {
+    padding: 10px;
+  }
+}
