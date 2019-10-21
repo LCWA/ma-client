@@ -2,29 +2,20 @@
     position: relative;
     margin-bottom: 1.5rem;
   }
-  
+
   .form-control-placeholder {
-    position: absolute;
     top: 0;
-    padding: 23px 0 0 6px;
+    padding: 23px 0 6px;
     transition: all 200ms;
-    opacity: 0.5;
   }
 
-  .form-control-placeholder.email {
-    position: absolute;
-    padding: 98px 0 0 6px;
-    transition: all 200ms;
-    opacity: 0.5;
-  }
-
-  .form-control-placeholder.textarea {
+.form-control-placeholder.textarea {
     position: absolute;
     padding: 175px 0 0 6px;
     transition: all 200ms;
     opacity: 0.5;
   }
-  
+
   .form-control:focus + .form-control-placeholder,
   .form-control:valid + .form-control-placeholder {
     font-size: 55%;
