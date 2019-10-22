@@ -9,7 +9,7 @@ import { configureAnchors } from "react-scrollable-anchor";
 import VideoSection from "../components/VideoSection";
 import Solutions from "../components/Solutions";
 
-configureAnchors({ offset: -120, scrollDuration: 1000 });
+configureAnchors({ offset: 0, scrollDuration: 1000 });
 class HomePage extends Component {
   render() {
     return (

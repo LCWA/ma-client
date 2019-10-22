@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+.solutions-wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .solutions-title {
   text-align: center;
 }
@@ -18,8 +23,32 @@
 .solution,
 .description {
   text-align: center;
+  display: inline-block;
   padding: 1.5rem 2rem;
 }
 .description {
   line-height: 1.6rem;
+}
+
+#more-text-one,
+#more-text-two,
+#more-text-three {
+  display: none;
+}
+.contact-notice {
+  display: block;
+}
+.contact-notice::before {
+  content: "\A";
+  white-space: pre;
+  display: block;
+}
+#top-description {
+  display: inherit;
+}
+#mission-automate {
+  background: -webkit-linear-gradient(#ff6602, #ff5502);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
