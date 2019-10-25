@@ -102,16 +102,6 @@ body {
   border-right: none;
 }
 
-.btn.btn-primary.my-2.my-sm-0:active {
-  font-family: "Helvetica", "Arial", sans-serif;
-  font-size: 21px;
-  font-weight: bold;
-  background-color: #e59c58;
-  color: #e59c58;
-  border-color: #e59c58;
-  border-radius: 0.5rem;
-}
-
 .forminput {
   padding: 8px 12px;
 }
