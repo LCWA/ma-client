@@ -10,6 +10,8 @@
 
 .solutions-title {
   text-align: center;
+  position: relative;
+  top: -35px;
 }
 .solution h2 {
   padding-top: 20px;
@@ -51,4 +53,9 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#inner-contact {
+  color: #ff6602;
+  text-decoration: none;
 }

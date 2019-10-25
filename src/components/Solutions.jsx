@@ -9,7 +9,6 @@ import { Link, animateScroll as scroll } from "react-scroll";
 class Solutions extends Component {
   constructor() {
     super();
-
     this.readMore = this.readMore.bind(this);
   }
 
@@ -60,9 +59,6 @@ class Solutions extends Component {
       moreTextThree.style.display = "block";
     }
   }
-  scrollToTop = () => {
-    scroll.scrollToTop();
-  };
   render() {
     return (
       <ScrollableAnchor id={"Solutions"}>
@@ -75,7 +71,7 @@ class Solutions extends Component {
                 className="website-image"
                 alt="Picture of website design"
               ></img>
-              <h2 className="title-websites">Web Design and Development</h2>
+              <h2 className="title-websites">Web Development</h2>
               <p className="body-text description">
                 A website is a necessity and no longer an option in order to
                 make your business excel.
@@ -87,8 +83,11 @@ class Solutions extends Component {
                   order to craft you a unique website that is user friendly,
                   intuitive and provides a great experience to your clients.{" "}
                   <span className="contact-notice">
-                    If you are ready for such an innovation click on the Contact
-                    Us button below and book a FREE discovery call with us.
+                    If you are ready for such an innovation{" "}
+                    <a href="#ContactUs" id="inner-contact">
+                      Contact Us
+                    </a>{" "}
+                    and book a FREE discovery call with us.
                   </span>
                 </span>
               </p>
@@ -126,8 +125,11 @@ class Solutions extends Component {
                     <br></br> 3) Reduce costs and increase savings
                   </span>{" "}
                   <span className="contact-notice">
-                    If you want to get ready for the future click on the Contact
-                    Us button below and book a FREE discovery call with us.
+                    If you want to get ready for the future{" "}
+                    <a href="#ContactUs" id="inner-contact">
+                      Contact Us
+                    </a>{" "}
+                    and book a FREE discovery call with us.
                   </span>
                 </span>
               </p>
@@ -168,9 +170,11 @@ class Solutions extends Component {
                   built to address your needs and to create value in your
                   company.{" "}
                   <span className="contact-notice">
-                    If you are ready for making your company more digital click
-                    on the Contact Us button below and book your FREE discovery
-                    call with us.
+                    If you are ready for making your company more digital{" "}
+                    <a href="#ContactUs" id="inner-contact">
+                      Contact Us
+                    </a>{" "}
+                    and book your FREE discovery call with us.
                   </span>
                 </span>
               </p>
