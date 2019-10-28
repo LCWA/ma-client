@@ -1,37 +1,119 @@
-.title{
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 20px;
-    margin-top: 50px;
-    color: #fff;
+.team-wrapper {
+  padding: 120px 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-
-.container-box{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 12%;
-
+.team-img {
+  width: 200px;
+  border-radius: 100px;
+}
+.person h2 {
+  font-size: 40px;
+}
+.person {
+  text-align: center;
+}
+.member-name {
+  padding: 20px;
+}
+.member-role {
+  padding-bottom: 20px;
+}
+h3.member-role {
+  font-size: 23px;
+}
+.member-description,
+.member-role {
+  color: #000;
+}
+.member-description {
+  margin: 0 90px;
+}
+.team {
+  text-align: center;
+  width: 50%;
+  transform: translate(50%, 0);
+}
+.team h1 {
+  font-size: 60px;
+}
+.team-title {
+  text-align: center;
+}
+.team h3 {
+  font-size: 21px;
+}
+.team-description {
+  text-align: center;
+  color: #000;
+  margin-top: 70px;
+  overflow-wrap: break-word;
 }
 
-.team-card {
-  
-    width: 250px;
-    background-color:black;
-    box-shadow: 0 0 20px 0 rgba(252, 30, 1, 0.7);
-    
+/*Owl Carousel - overriden rules*/
+
+.owl-carousel .owl-item img {
+  display: inline;
 }
 
-.team-card .team-image-cap {
-    object-fit: cover;
-    height: 227px;
-    width: 250px;
-
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  background: none;
+  color: #ff6602;
+  border: none;
+  padding: 0 !important;
+  font-size: 6rem;
 }
 
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  background: 0 0;
+  color: #ff6602 !important;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  font-size: 6rem !important;
+}
 
-.team-card .team-card-text {
-    position: relative;
-    left: 70px;
+/* Reposition the navigation buttons to the sides of Carousel*/
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
-} 
+.owl-prev {
+  left: -1rem;
+}
+
+.owl-next {
+  right: -1rem;
+}
+.owl-carousel button.owl-dot {
+  display: none;
+}
+
+/*From file OwlTheme*/
+
+.owl-theme .owl-nav [class*="owl-"] {
+  color: #ff6602;
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px 7px;
+  background: #d6d6d6;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  display: none;
+}
