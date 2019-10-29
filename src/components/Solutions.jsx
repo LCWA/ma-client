@@ -71,7 +71,7 @@ class Solutions extends Component {
                 className="website-image"
                 alt="Picture of website design"
               ></img>
-              <h2 className="title-websites">Web Design &amp; Dev</h2>
+              <h2 className="title-websites">Web Development</h2>
               <p className="body-text description">
                 A website is a necessity and no longer an option in order to
                 make your business excel.
