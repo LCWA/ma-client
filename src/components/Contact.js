@@ -73,8 +73,6 @@ class Contact extends Component {
                 If you have a question or you would like to book a discovery
                 call, drop us a message below:
               </h3>
-              <h4>alex@missionautomate.com</h4>
-              <h4>Global Team | HQ in Raleigh NC, USA</h4>
             </div>
             <div className="contact">
               <form id="contact-form">
@@ -181,7 +179,7 @@ class Contact extends Component {
                         className="form-control-placeholder service"
                         htmlFor="service_needed"
                       >
-                        Services needed{" "}
+                        Services needed:{" "}
                       </label>
                       <input type="checkbox" name="Websites" value="Websites" />{" "}
                       Web Design &amp; Development
