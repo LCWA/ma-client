@@ -19,7 +19,7 @@ class HeaderNav extends Component {
           <a className="nav-item nav-link" href="#Solutions">
             Solutions
           </a>
-          {/* <a className="nav-item nav-link" href="#OurStory">
+          <a className="nav-item nav-link" href="#OurStory">
             Our Story
           </a>
           <a className="nav-item nav-link" href="#Team">
@@ -30,7 +30,7 @@ class HeaderNav extends Component {
           </a>
           <a className="nav-item nav-link" href="#Reviews">
             Reviews
-          </a> */}
+          </a>
           <a className="nav-item nav-link" href="#ContactUs">
             Contact us
           </a>
