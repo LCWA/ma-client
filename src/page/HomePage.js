@@ -17,11 +17,11 @@ class HomePage extends Component {
         <Header />
         <VideoSection />
         <Solutions />
-        <OurStory />
+        {/* <OurStory />
         <Slider />
-        <TeamCard />
+        <TeamCard /> */}
         <Contact />
-        <NewFooter />
+        {/* <NewFooter /> */}
       </div>
     );
   }
