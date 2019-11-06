@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "../components/Header";
 import Contact from "../components/Contact";
-import NewFooter from "../components/NewFooter";
+import Footer from "../components/Footer";
 import { configureAnchors } from "react-scrollable-anchor";
 import VideoSection from "../components/VideoSection";
 import Solutions from "../components/Solutions";
@@ -17,12 +17,11 @@ class HomePage extends Component {
         <VideoSection />
         <Solutions />
         <Team />
-        <Contact />
         {/* <OurStory />
         <Slider />
-        
-        
-        {/* <NewFooter /> */}
+        <TeamCard /> */}
+        <Contact />
+        <Footer />
       </div>
     );
   }
