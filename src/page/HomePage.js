@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Slider from "../components/Slider";
 import TeamCard from "../components/TeamCard";
 import Contact from "../components/Contact";
-import NewFooter from "../components/NewFooter";
+import Footer from "../components/Footer";
 import { configureAnchors } from "react-scrollable-anchor";
 import VideoSection from "../components/VideoSection";
 import Solutions from "../components/Solutions";
@@ -21,7 +21,7 @@ class HomePage extends Component {
         <Slider />
         <TeamCard /> */}
         <Contact />
-        {/* <NewFooter /> */}
+        <Footer />
       </div>
     );
   }
