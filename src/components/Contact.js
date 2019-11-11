@@ -30,7 +30,7 @@ class Contact extends Component {
     var template_id = "contact_form";
 
     var template_params = {
-      to_email: "alex@letscodewithalex.com",
+      to_email: "alex@missionautomate.com",
       user_name: this.state.user_name,
       user_email: this.state.user_email,
       message: this.state.message
