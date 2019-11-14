@@ -11,11 +11,17 @@
 
 .social-icon .ln {
   font-size: 3em;
+  color: #ff6602;
 }
 
-.e-mail,
 .headquarters {
   padding: 0 150px;
+  color: #fff;
+}
+
+a.ln.nav-link,
+a.ln.nav-link:hover {
+  color: #ff6602;
 }
 
 @media screen and (max-width: 768px) {
