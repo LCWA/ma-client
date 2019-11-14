@@ -19,8 +19,7 @@ class HomePage extends Component {
         <Team />
         <Contact />
         {/* <OurStory />
-        <Slider />
-        <TeamCard /> */}
+         */}
         <Footer />
       </div>
     );

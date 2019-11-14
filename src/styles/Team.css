@@ -42,3 +42,61 @@ h3.member-role {
   margin-top: 70px;
   overflow-wrap: break-word;
 }
+
+/*Owl Carousel - overriden rules*/
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  background: none;
+  color: #ff6602;
+  border: none;
+  padding: 0 !important;
+  font-size: 6rem;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  background: 0 0;
+  color: #ff6602 !important;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  font-size: 6rem !important;
+}
+
+/* Reposition the navigation buttons to the sides of Carousel*/
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.owl-prev {
+  left: -1rem;
+}
+
+.owl-next {
+  right: -1rem;
+}
+.owl-carousel button.owl-dot {
+  display: none;
+}
+
+/*From file OwlTheme*/
+
+.owl-theme .owl-nav [class*="owl-"] {
+  color: #ff6602;
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px 7px;
+  background: #d6d6d6;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  color: #ff6600;
+  text-decoration: none;
+}
