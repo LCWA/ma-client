@@ -97,6 +97,10 @@ h3.member-role {
   display: none;
 }
 
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: unset;
+}
+
 /*From file OwlTheme*/
 
 .owl-theme .owl-nav [class*="owl-"] {
