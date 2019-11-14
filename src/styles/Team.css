@@ -55,7 +55,8 @@ h3.member-role {
 /*Owl Carousel - overriden rules*/
 
 .owl-carousel .owl-item img {
-  display: inline;
+  display: initial;
+  width: 33%;
 }
 
 .owl-carousel .owl-nav button.owl-prev,
