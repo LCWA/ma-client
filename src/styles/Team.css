@@ -9,6 +9,9 @@
   width: 200px;
   border-radius: 100px;
 }
+.person h2 {
+  font-size: 40px;
+}
 .person {
   text-align: center;
 }
@@ -33,8 +36,14 @@ h3.member-role {
   width: 50%;
   transform: translate(50%, 0);
 }
+.team h1 {
+  font-size: 60px;
+}
 .team-title {
   text-align: center;
+}
+.team h3 {
+  font-size: 21px;
 }
 .team-description {
   text-align: center;
@@ -44,6 +53,10 @@ h3.member-role {
 }
 
 /*Owl Carousel - overriden rules*/
+
+.owl-carousel .owl-item img {
+  display: inline;
+}
 
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next {
@@ -99,4 +112,8 @@ h3.member-role {
 .owl-theme .owl-nav [class*="owl-"]:hover {
   color: #ff6600;
   text-decoration: none;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  display: none;
 }
