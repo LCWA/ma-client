@@ -10,6 +10,10 @@
   padding: 120px;
 }
 
+.story h1 {
+  font-size: 60px;
+}
+
 .story-title,
 .story-text.body-text {
   color: #fff;
