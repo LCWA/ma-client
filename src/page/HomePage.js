@@ -7,6 +7,7 @@ import VideoSection from "../components/VideoSection";
 import Solutions from "../components/Solutions";
 import OurStory from "../components/OurStory";
 import Team from "../components/Team";
+import Reviews from "../components/Reviews";
 
 configureAnchors({ offset: 0, scrollDuration: 1000 });
 class HomePage extends Component {
@@ -18,6 +19,10 @@ class HomePage extends Component {
         <Solutions />
         <OurStory />
         <Team />
+        <Reviews />
+        {/* <OurStory />
+        <Slider />
+        <TeamCard /> */}
         <Contact />
         <Footer />
       </div>

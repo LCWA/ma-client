@@ -1,0 +1,207 @@
+.reviews-wrapper {
+  background-image: linear-gradient(#2c1b91, #3d0774);
+  padding: 190px 20px 70px 20px;
+  width: 100%;
+}
+
+.review {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  column-gap: 10px;
+}
+
+.reviews-comment.body-text {
+  margin-top: -7%;
+  margin-left: 10%;
+  line-height: 2.8em;
+  justify-self: center;
+  align-self: center;
+  text-shadow: 0 0 4px #000;
+  font-style: oblique;
+  font-size: 24px;
+}
+
+.review-footer {
+  margin-top: -4em;
+  justify-self: center;
+  align-self: center;
+}
+
+.reviews-title h1,
+.reviews-comment,
+.reviewer-name h3,
+.reviewer-role h4,
+.reviewer-company h4 {
+  text-align: center !important;
+  color: #ffffff;
+}
+
+.reviewer-name h3,
+.reviewer-role h4,
+.reviewer-company h4 {
+  text-shadow: 0 0 3px #000;
+}
+
+.reviews-wrapper .reviews-title h1 {
+  margin-top: -2.2em;
+  font-size: 60px;
+}
+
+.reviewer-name h3 {
+  font-size: 40px;
+  margin-top: -20%;
+}
+
+.reviewer-role h4 {
+  font-size: 30px;
+  margin-top: 10%;
+  padding-top: 10px;
+}
+
+.reviewer-company h4 a {
+  font-size: 24px;
+  color: #fff;
+}
+.reviewer-company h4 {
+  margin-top: 20%;
+  padding-top: 20%;
+}
+
+.reviews-title {
+  padding: 30px;
+}
+
+#review-quote {
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+#review-quote::before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 9em;
+  line-height: 0.1em;
+  margin-left: 0.5em;
+  vertical-align: -0.4em;
+}
+
+#review-quote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 9em;
+  line-height: 0.1em;
+  margin-left: 5.5em;
+  vertical-align: -0.6em;
+}
+
+/*Owl Carousel - overriden rules*/
+
+.owl-carousel .owl-item img {
+  display: initial;
+  width: 33%;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  background: none;
+  color: #ff6602;
+  border: none;
+  padding: 0 !important;
+  font-size: 6rem;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  background: 0 0;
+  color: #ff6602 !important;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  font-size: 6rem !important;
+}
+
+/* Reposition the navigation buttons to the sides of Carousel*/
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.owl-prev {
+  left: -1rem;
+}
+
+.owl-next {
+  right: -1rem;
+}
+.owl-carousel button.owl-dot {
+  display: none;
+}
+
+/*From file OwlTheme*/
+
+.owl-theme .owl-nav [class*="owl-"] {
+  color: #ff6602;
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px 7px;
+  background: #d6d6d6;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: none !important;
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .reviews-wrapper {
+    padding-top: 100px;
+  }
+  .reviews-comment.body-text {
+    line-height: 1.8em;
+    font-size: 20px;
+    margin-top: -15%;
+  }
+  .reviews-wrapper .reviews-title h1 {
+    margin-top: -1.6em;
+    font-size: 60px;
+  }
+  .reviewer-name h3 {
+    font-size: 30px;
+    margin-top: 10%;
+  }
+
+  .reviewer-role h4 {
+    font-size: 20px;
+    margin-top: -5%;
+  }
+
+  .reviewer-company h4 a {
+    font-size: 20px;
+    color: #fff;
+  }
+  .reviewer-company h4 {
+    margin-top: 10px;
+    padding-top: unset;
+  }
+
+  blockquote::before {
+    margin-left: -3.2em;
+    vertical-align: -0.6em;
+  }
+
+  blockquote:after {
+    margin-left: 2.5em;
+    vertical-align: -0.6em;
+  }
+}
