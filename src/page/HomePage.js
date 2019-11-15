@@ -17,11 +17,9 @@ class HomePage extends Component {
         <Header />
         <VideoSection />
         <Solutions />
+        <OurStory />
         <Team />
         <Reviews />
-        {/* <OurStory />
-        <Slider />
-        <TeamCard /> */}
         <Contact />
         <Footer />
       </div>
