@@ -8,10 +8,17 @@
   padding-bottom: 170px;
 }
 
+.solutions-wrapper h1 {
+  font-size: 60px;
+}
+
 .solutions-title {
   text-align: center;
   position: relative;
   top: -35px;
+}
+.card-wrapper h2 {
+  font-size: 40px;
 }
 .solution h2 {
   padding-top: 20px;
