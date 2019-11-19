@@ -43,18 +43,20 @@ class Reviews extends Component {
                   happy to help and priced fairly.
                 </div>
               </blockquote>
-              <div className="reviewer-name">
-                <h2>Tactical Scorpion Gear</h2>
-              </div>
-              <div className="reviewer-role">
-                <h3>Co-founder</h3>
-              </div>
-              <div className="reviewer-company">
-                <h3>
-                  <a href="https://tacticalscorpiongear.com/">
-                    https://tacticalscorpiongear.com/
-                  </a>
-                </h3>
+              <div className="review-footer">
+                <div className="reviewer-name">
+                  <h3>Tactical Scorpion Gear</h3>
+                </div>
+                <div className="reviewer-role">
+                  <h4>Co-founder</h4>
+                </div>
+                <div className="reviewer-company">
+                  <h4>
+                    <a href="https://tacticalscorpiongear.com/">
+                      https://tacticalscorpiongear.com/
+                    </a>
+                  </h4>
+                </div>
               </div>
             </div>
           </OwlCarousel>
