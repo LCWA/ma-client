@@ -1,25 +1,31 @@
 .reviews-wrapper {
   background-image: linear-gradient(#2c1b91, #3d0774);
-  padding: 130px 20px 220px 20px;
+  padding: 130px 20px 120px 20px;
   width: 100%;
 }
 
+.review {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  column-gap: 10px;
+}
+
 .reviews-comment.body-text {
-  margin: 0 10%;
+  margin-left: 10%;
   line-height: 3em;
+  justify-self: center;
+  align-self: center;
+  text-shadow: 0 0 4px #000;
   font-style: oblique;
 }
 
-#review-first-line,
-#review-second-line,
-#review-third-line,
-#review-fourth-line {
-  font-weight: bolder;
-  font-style: italic;
-  font-size: larger;
+.review-footer {
+  margin-top: -4em;
+  justify-self: center;
+  align-self: center;
 }
 
-.review .reviews-title h1,
+.reviews-title h1,
 .reviews-comment,
 .reviewer-name h3,
 .reviewer-role h4,
@@ -27,26 +33,32 @@
   text-align: center !important;
   color: #ffffff;
 }
-.review .reviews-title h1 {
-  margin-top: -0.6em;
+
+.reviewer-name h3,
+.reviewer-role h4,
+.reviewer-company h4 {
+  text-shadow: 0 0 3px #000;
+}
+
+.reviews-wrapper .reviews-title h1 {
+  padding-bottom: 90px;
+  margin-top: -1.5em;
   font-size: 60px;
 }
 
-.reviewer-company h4 a {
-  font-size: unset;
+.reviewer-name h3 {
+  font-size: 22px;
+}
+
+.reviewer-role h4 {
+  padding-top: 10px;
+  font-size: 14px;
 }
 
 .reviewer-company h4 a {
+  font-size: 14px;
   color: #fff;
-}
-
-.reviewer-role h4,
-.reviewer-company h4 {
-  line-height: 2em;
-}
-
-.review-footer {
-  margin-top: 2em;
+  line-height: 50px;
 }
 
 .reviews-title {
@@ -73,7 +85,7 @@ blockquote:after {
   content: close-quote;
   font-size: 9em;
   line-height: 0.1em;
-  margin-left: 12em;
+  margin-left: 5.5em;
   vertical-align: -0.6em;
 }
 

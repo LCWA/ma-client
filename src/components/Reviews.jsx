@@ -11,6 +11,9 @@ class Reviews extends Component {
     return (
       <ScrollableAnchor id={"Reviews"}>
         <div className="reviews-wrapper">
+          <div className="reviews-title">
+            <h1>Reviews</h1>
+          </div>
           <OwlCarousel
             className="owl-theme"
             margin={10}
@@ -19,9 +22,6 @@ class Reviews extends Component {
             items={1}
           >
             <div className="review">
-              <div className="reviews-title">
-                <h1>Reviews</h1>
-              </div>
               <blockquote>
                 <div className="reviews-comment body-text">
                   <span id="review-first-line">
@@ -54,6 +54,34 @@ class Reviews extends Component {
                   <h4>
                     <a href="https://tacticalscorpiongear.com/">
                       https://tacticalscorpiongear.com/
+                    </a>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div className="review">
+              <blockquote>
+                <div className="reviews-comment body-text">
+                  I hired Mission Automate to create a website for my business
+                  and to do my Internet marketing afterwards, and they did an
+                  exceptional job. I am really happy with my website, it's
+                  beautiful and it's visible they spent a great deal of effort
+                  to make it. They are very professional, patient, and give
+                  their best to please their customers. I recommend them
+                  wholeheartedly.
+                </div>
+              </blockquote>
+              <div className="review-footer">
+                <div className="reviewer-name">
+                  <h3>Forest Creations</h3>
+                </div>
+                <div className="reviewer-role">
+                  <h4>Founder</h4>
+                </div>
+                <div className="reviewer-company">
+                  <h4>
+                    <a href="http://www.forest-creations.com/">
+                      http://www.forest-creations.com/
                     </a>
                   </h4>
                 </div>
