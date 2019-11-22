@@ -1,6 +1,6 @@
 .reviews-wrapper {
   background-image: linear-gradient(#2c1b91, #3d0774);
-  padding: 130px 20px 120px 20px;
+  padding: 190px 20px 70px 20px;
   width: 100%;
 }
 
@@ -11,12 +11,14 @@
 }
 
 .reviews-comment.body-text {
+  margin-top: -7%;
   margin-left: 10%;
-  line-height: 3em;
+  line-height: 2.8em;
   justify-self: center;
   align-self: center;
   text-shadow: 0 0 4px #000;
   font-style: oblique;
+  font-size: 24px;
 }
 
 .review-footer {
@@ -41,24 +43,28 @@
 }
 
 .reviews-wrapper .reviews-title h1 {
-  padding-bottom: 90px;
-  margin-top: -1.5em;
+  margin-top: -2.2em;
   font-size: 60px;
 }
 
 .reviewer-name h3 {
-  font-size: 22px;
+  font-size: 40px;
+  margin-top: -20%;
 }
 
 .reviewer-role h4 {
+  font-size: 30px;
+  margin-top: 10%;
   padding-top: 10px;
-  font-size: 14px;
 }
 
 .reviewer-company h4 a {
-  font-size: 14px;
+  font-size: 24px;
   color: #fff;
-  line-height: 50px;
+}
+.reviewer-company h4 {
+  margin-top: 20%;
+  padding-top: 20%;
 }
 
 .reviews-title {
@@ -155,4 +161,47 @@ blockquote:after {
 
 .owl-theme .owl-dots .owl-dot {
   display: none;
+}
+
+@media (max-width: 760px) {
+  .reviews-wrapper {
+    padding-top: 100px;
+  }
+  .reviews-comment.body-text {
+    line-height: 1.8em;
+    font-size: 20px;
+    margin-top: -15%;
+  }
+  .reviews-wrapper .reviews-title h1 {
+    margin-top: -1.6em;
+    font-size: 60px;
+  }
+  .reviewer-name h3 {
+    font-size: 30px;
+    margin-top: 10%;
+  }
+
+  .reviewer-role h4 {
+    font-size: 20px;
+    margin-top: -5%;
+  }
+
+  .reviewer-company h4 a {
+    font-size: 20px;
+    color: #fff;
+  }
+  .reviewer-company h4 {
+    margin-top: 10px;
+    padding-top: unset;
+  }
+
+  blockquote::before {
+    margin-left: -3.2em;
+    vertical-align: -0.6em;
+  }
+
+  blockquote:after {
+    margin-left: 2.5em;
+    vertical-align: -0.6em;
+  }
 }
