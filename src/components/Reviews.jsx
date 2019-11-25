@@ -22,7 +22,7 @@ class Reviews extends Component {
             items={1}
           >
             <div className="review">
-              <blockquote id="review-quote">
+              <blockquote className="review-quote">
                 <div className="reviews-comment body-text">
                   <span id="review-first-line">
                     We will be continuing to do business with Mission Automate
@@ -60,8 +60,8 @@ class Reviews extends Component {
               </div>
             </div>
             <div className="review">
-              <blockquote>
-                <div className="reviews-comment body-text">
+              <blockquote className="review-quote two">
+                <div className="reviews-comment two body-text">
                   I hired Mission Automate to create a website for my business
                   and to do my Internet marketing afterwards, and they did an
                   exceptional job. I am really happy with my website, it's
@@ -72,13 +72,13 @@ class Reviews extends Component {
                 </div>
               </blockquote>
               <div className="review-footer">
-                <div className="reviewer-name">
+                <div className="reviewer-name two">
                   <h3>Forest Creations</h3>
                 </div>
-                <div className="reviewer-role">
+                <div className="reviewer-role two">
                   <h4>Founder</h4>
                 </div>
-                <div className="reviewer-company">
+                <div className="reviewer-company two">
                   <h4>
                     <a href="http://www.forest-creations.com/">
                       http://www.forest-creations.com/
