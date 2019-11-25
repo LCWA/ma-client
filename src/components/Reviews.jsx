@@ -22,7 +22,7 @@ class Reviews extends Component {
             items={1}
           >
             <div className="review">
-              <blockquote>
+              <blockquote id="review-quote">
                 <div className="reviews-comment body-text">
                   <span id="review-first-line">
                     We will be continuing to do business with Mission Automate

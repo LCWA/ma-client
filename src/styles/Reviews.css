@@ -71,13 +71,13 @@
   padding: 30px;
 }
 
-blockquote {
+#review-quote {
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
 
-blockquote::before {
+#review-quote::before {
   color: #ccc;
   content: open-quote;
   font-size: 9em;
@@ -86,7 +86,7 @@ blockquote::before {
   vertical-align: -0.4em;
 }
 
-blockquote:after {
+#review-quote:after {
   color: #ccc;
   content: close-quote;
   font-size: 9em;
