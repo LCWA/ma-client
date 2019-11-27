@@ -70,7 +70,7 @@
   color: #fff;
 }
 .reviewer-company h4 {
-  margin-top: 20%;
+  margin-top: 1%;
   padding-top: 20%;
 }
 .reviewer-company.two h4 {
@@ -212,13 +212,17 @@
     padding-top: unset;
   }
 
-  blockquote::before {
-    margin-left: -3.2em;
+  .review-quote::before {
+    margin-left: 0.09em;
     vertical-align: -0.6em;
   }
 
-  blockquote:after {
-    margin-left: 2.5em;
+  .review-quote:after {
+    margin-left: 2.9em;
     vertical-align: -0.6em;
+  }
+
+  .review-quote.two::after {
+    margin-left: 2.5em;
   }
 }
