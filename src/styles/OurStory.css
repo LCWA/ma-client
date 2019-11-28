@@ -22,4 +22,30 @@
   .story-wrapper {
     padding: 10px;
   }
+  .story {
+    padding: unset;
+  }
+  .story-title {
+    font-size: 40px;
+    text-align: center;
+  }
+  .spinning-animation canvas {
+    transform: translate(100%, 0);
+  }
+  .story-wrapper p {
+    text-align: -webkit-center;
+    font-size: 16px;
+  }
+  .story-text.body-text {
+    padding-top: 20px;
+  }
+  #interactive-sphere {
+    position: relative;
+    top: 0;
+  }
+  .spinning-animation {
+    position: inherit;
+    top: -5em;
+    left: -55%;
+  }
 }

@@ -23,11 +23,13 @@ class Spinning extends Component {
       var height = window.innerHeight;
 
       renderer.setSize(width / 2, height / 2);
-      camera.aspect = width / height;
       camera.position.set(-1, -1, -1);
       camera.updateProjectionMatrix();
     });
     this.controls = new OrbitControls(camera, renderer.domElement);
+    this.controls.minDistance = 1.7;
+    this.controls.maxDistance = 3;
+
     const boxWidth = 1;
     const boxHeight = 8;
     const boxDepth = 8;
@@ -49,6 +51,9 @@ class Spinning extends Component {
 
     var render = function() {
       renderer.render(scene, camera);
+      const canvas = renderer.domElement;
+      camera.aspect = canvas.clientWidth / canvas.clientHeight;
+      camera.updateProjectionMatrix();
     };
 
     var GameLoop = function() {
