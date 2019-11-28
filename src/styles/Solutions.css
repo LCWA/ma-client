@@ -66,3 +66,25 @@
   color: #ff6602;
   text-decoration: none;
 }
+
+@media screen and (max-width: 460px) {
+  .solution-image {
+    width: 300px;
+    margin: 0 -20px;
+  }
+  .solutions-wrapper h1 {
+    font-size: 40px;
+    margin: 0 20px;
+  }
+  .solutions-wrapper {
+    padding-top: 80px;
+    padding-bottom: 10px;
+  }
+
+  .solution h2 {
+    font-size: 30px;
+  }
+  .solution p {
+    font-size: 16px;
+  }
+}
