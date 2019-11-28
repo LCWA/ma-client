@@ -1,0 +1,12 @@
+.separator {
+  left: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .separator {
+    bottom: 1em;
+  }
+}

@@ -13,13 +13,8 @@
   display: block;
   padding: 20px 20px;
   text-decoration: none;
-  color: #ff6602;
 }
 
-.burger li a:hover,
-.burger .menu-btn:hover {
-  background-color: rgba(244, 244, 244, 0.3);
-}
 .navbar navbar-expand-lg {
   display: inline-block;
   list-style-type: none;
@@ -40,7 +35,7 @@
   top: 100px;
   left: 0;
   width: 100%;
-  background-color: #032537;
+  background-color: transparent;
   z-index: 30;
 }
 
@@ -54,31 +49,32 @@
 }
 
 .burger .menu-icon .navicon {
-  background: #fff;
+  background: #000;
   display: block;
   height: 2px;
   position: relative;
   transition: all 0.2s ease-out;
-  width: 25px;
+  width: 40px;
 }
 
 .burger .menu-icon .navicon:before,
 .burger .menu-icon .navicon:after {
-  background: #fff;
+  background: #000;
   content: "";
   display: block;
   height: 100%;
   position: absolute;
   transition: all 0.2s ease-out;
   width: 100%;
+  top: 10px;
 }
 
 .burger .menu-icon .navicon:before {
-  top: 5px;
+  top: 10px;
 }
 
 .burger .menu-icon .navicon:after {
-  top: -5px;
+  top: -10px;
 }
 
 /* menu btn */
@@ -88,7 +84,20 @@
 }
 
 .burger .menu-btn:checked ~ .menu {
-  max-height: 320px;
+  min-height: 84vh;
+  min-width: max-content;
+  position: absolute;
+  background-image: linear-gradient(
+    to right,
+    rgba(44, 27, 145, 1),
+    rgba(61, 7, 116, 1)
+  );
+  top: 60px;
+  width: -moz-available; /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+  width: stretch;
+  margin-right: 80%;
+  text-align: center;
 }
 
 .burger .menu-btn:checked ~ .menu-icon .navicon {
@@ -111,19 +120,40 @@
   top: 0;
   transform: rotate(-45deg);
 }
+
+.nav-item.nav-link:hover {
+  border: unset !important;
+}
 @media (max-width: 1024px) {
   .navbar {
     display: none !important;
   }
   .burger {
-    display: block;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+  }
+  .nav-item.nav-link {
+    color: #fff !important;
+    padding: 1em 1em !important;
+  }
+  .nav-item.nav-link a {
+    color: #fff !important;
+  }
+  .nav-item.nav-link:hover,
+  .nav-item.nav-link a:hover {
+    color: #ff6602 !important;
+  }
+  .burger .menu {
+    position: absolute;
+    top: 50px;
+    left: 130%;
+    margin-left: -100vw;
   }
 }
 @media (max-width: 480px) {
   .nav-logo {
     height: 50px;
-  }
-  .burger .menu {
-    top: 50px;
   }
 }
