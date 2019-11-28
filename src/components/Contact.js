@@ -174,7 +174,7 @@ class Contact extends Component {
                     </td>
                   </tr>
                   <tr>
-                    <td>
+                    <td className="services-checkbox">
                       <label
                         className="form-control-placeholder service"
                         htmlFor="service_needed"
@@ -218,7 +218,7 @@ class Contact extends Component {
                 <p className="full">
                   <Button
                     onClick={this.handleSubmit}
-                    className="btn btn-primary my-2 my-sm-0"
+                    className="btn btn-primary my-2 my-sm-0 contact-button"
                   >
                     Send
                   </Button>

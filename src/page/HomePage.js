@@ -9,6 +9,7 @@ import OurStory from "../components/OurStory";
 import Team from "../components/Team";
 import Reviews from "../components/Reviews";
 import Portfolio from "../components/Portfolio";
+import Separator from "../components/Separator";
 
 configureAnchors({ offset: 0, scrollDuration: 1000 });
 class HomePage extends Component {
@@ -20,6 +21,7 @@ class HomePage extends Component {
         <Solutions />
         <OurStory />
         <Team />
+        <Separator />
         <Portfolio />
         <Reviews />
         <Contact />

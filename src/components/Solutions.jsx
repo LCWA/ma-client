@@ -68,7 +68,7 @@ class Solutions extends Component {
             <div className="solution websites">
               <img
                 src={websites}
-                className="website-image"
+                className="solution-image"
                 alt="Picture of website design"
               ></img>
               <h2 className="title-websites">Web Development</h2>
@@ -102,7 +102,7 @@ class Solutions extends Component {
             <div className="solution automation-tools">
               <img
                 src={automation_tools}
-                className="automation-image"
+                className="solution-image"
                 alt="Picture of automation tools"
               ></img>
               <h2 className="title-automation">Automation Software</h2>
@@ -150,7 +150,7 @@ class Solutions extends Component {
             <div className="solution customized-software">
               <img
                 src={customized_software}
-                className="customized-image"
+                className="solution-image"
                 alt="Picture of customized software"
               ></img>
               <h2 className="title-customized">Custom Solutions</h2>
