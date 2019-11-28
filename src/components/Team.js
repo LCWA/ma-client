@@ -11,6 +11,22 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import ScrollableAnchor from "react-scrollable-anchor";
 
 class Team extends Component {
+  state = {
+    responsive: {
+      0: {
+        items: 1
+      },
+      450: {
+        items: 1
+      },
+      600: {
+        items: 2
+      },
+      1000: {
+        items: 3
+      }
+    }
+  };
   render() {
     return (
       <ScrollableAnchor id={"Team"}>
@@ -26,7 +42,13 @@ class Team extends Component {
             </h3>
           </div>
           <div className="team-wrapper">
-            <OwlCarousel className="owl-theme" margin={10} nav={true}>
+            <OwlCarousel
+              className="owl-theme"
+              margin={10}
+              nav={true}
+              responsiveClass={true}
+              responsive={this.state.responsive}
+            >
               <div className="person">
                 <img
                   src={Firstimg}
