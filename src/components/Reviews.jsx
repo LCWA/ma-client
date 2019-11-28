@@ -71,6 +71,7 @@ class Reviews extends Component {
                   wholeheartedly.
                 </div>
               </blockquote>
+
               <div className="review-footer">
                 <div className="reviewer-name two">
                   <h3>Forest Creations</h3>

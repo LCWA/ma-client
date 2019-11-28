@@ -14,15 +14,9 @@
   margin-top: -7%;
   margin-left: 10%;
   line-height: 2.8em;
-  justify-self: center;
-  align-self: center;
   text-shadow: 0 0 4px #000;
   font-style: oblique;
   font-size: 24px;
-}
-
-.reviews-comment.two.body-text {
-  margin-top: -1%;
 }
 
 .review-footer {
@@ -180,7 +174,7 @@
   display: none;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 460px) {
   .reviews-wrapper {
     padding-top: 100px;
   }
@@ -213,16 +207,24 @@
   }
 
   .review-quote::before {
-    margin-left: 0.09em;
+    margin-left: 0.01em;
     vertical-align: -0.6em;
+    font-size: 6em;
   }
 
   .review-quote:after {
-    margin-left: 2.9em;
-    vertical-align: -0.6em;
+    margin-left: 2.3em;
+    vertical-align: -0.1em;
+    font-size: 6em;
   }
 
   .review-quote.two::after {
     margin-left: 2.5em;
+    font-size: 6em;
+  }
+  .review-quote.two::before {
+    font-size: 6em;
+    margin-left: -0.1em;
+    vertical-align: -0.1em;
   }
 }
