@@ -3,7 +3,6 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import ScrollableAnchor from "react-scrollable-anchor";
-
 import "../styles/Reviews.css";
 
 class Reviews extends Component {

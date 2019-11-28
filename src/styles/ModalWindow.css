@@ -1,0 +1,103 @@
+.client-name h2,
+.client-paragraph,
+.client-website-btn {
+  text-align: center;
+}
+
+.client-name h2,
+.client-paragraph {
+  color: #fff;
+}
+
+.client-name {
+  padding: 1em;
+}
+.client-paragraph {
+  margin: 0 1em;
+}
+.client-website-btn {
+  padding: 2em;
+}
+
+.client-info {
+  background-image: linear-gradient(#2c1b91, #3d0774);
+}
+
+.owl-carousel .owl-item > .project-carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  margin-left: 15px;
+}
+.owl-carousel .owl-nav button.owl-next {
+  margin-right: 15px;
+}
+
+.project-carousel-image,
+.client-info {
+  border: 1px solid black;
+}
+
+.styles_modal__gNwvD {
+  background-color: transparent;
+  box-shadow: unset;
+}
+
+.modal-list-bullets {
+  list-style-type: square;
+  list-style-position: inside;
+  padding: 50px;
+  text-align: left;
+}
+
+.styles_closeButton__20ID4 {
+  background-color: white;
+  z-index: 1;
+}
+
+.client-paragraph.body-text.automation {
+  padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .styles_modal__gNwvD {
+    max-width: 400px;
+  }
+  .project-carousel-image {
+    min-width: 100%;
+    object-fit: cover;
+  }
+  .styles_overlay__CLSq- {
+    display: inherit;
+  }
+  .client-name h2 {
+    font-size: 30px;
+  }
+  .client-paragraph {
+    font-size: 15px;
+  }
+  .react-tabs__tab.react-tabs__tab--selected {
+    margin-right: 10px;
+  }
+  .development,
+  .customized,
+  .automation {
+    white-space: nowrap;
+  }
+  .portfolio-btn {
+    top: 1em;
+  }
+  .portfolio-btn-2 {
+    min-width: -webkit-fill-available;
+    left: 0;
+    margin: 100px;
+    top: -10em;
+  }
+
+  .client-paragraph.body-text.automation {
+    white-space: pre-wrap;
+  }
+}

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../styles/Team.css";
+import "../styles/reusable/OwlCarousel.css";
 import Firstimg from "../images/team/Alex.jpg";
 import Secondimg from "../images/team/Silvana.jpg";
 import Thirdimg from "../images/team/Monica.jpg";
