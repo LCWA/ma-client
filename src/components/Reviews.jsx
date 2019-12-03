@@ -22,27 +22,20 @@ class Reviews extends Component {
             items={1}
           >
             <div className="review">
-              <blockquote className="review-quote">
-                <div className="reviews-comment body-text">
-                  <span id="review-first-line">
-                    We will be continuing to do business with Mission Automate
-                  </span>{" "}
-                  as our manufacturing operations run smoothly for labeling our
+              <div className="reviews-comment body-text">
+                <blockquote className="review-quote">
+                  We will be continuing to do business with Mission Automate as
+                  our manufacturing operations run smoothly for labeling our
                   American made products and have been for years because of
-                  them. The peace of mind that comes with their{" "}
-                  <span id="review-second-line">quality of work</span>, knowing
-                  what you pay for will run exactly as you wish, allows us to
-                  focus on other fronts of our business more adamantly. We have
-                  worked with Mission Automate{" "}
-                  <span id="review-third-line">for more than 4 years</span> and
-                  <span id="review-fourth-line">
-                    {" "}
-                    we recommend them to anyone
-                  </span>{" "}
-                  who is in need of their services. Always quick to respond,
-                  happy to help and priced fairly.
-                </div>
-              </blockquote>
+                  them. The peace of mind that comes with their quality of work,
+                  knowing what you pay for will run exactly as you wish, allows
+                  us to focus on other fronts of our business more adamantly. We
+                  have worked with Mission Automate for more than 4 years and we
+                  recommend them to anyone who is in need of their services.
+                  Always quick to respond, happy to help and priced fairly.
+                </blockquote>
+              </div>
+
               <div className="review-footer">
                 <div className="reviewer-name">
                   <h3>Tactical Scorpion Gear</h3>
@@ -60,8 +53,8 @@ class Reviews extends Component {
               </div>
             </div>
             <div className="review">
-              <blockquote className="review-quote two">
-                <div className="reviews-comment two body-text">
+              <div className="reviews-comment two body-text">
+                <blockquote className="review-quote two">
                   I hired Mission Automate to create a website for my business
                   and to do my Internet marketing afterwards, and they did an
                   exceptional job. I am really happy with my website, it's
@@ -69,8 +62,8 @@ class Reviews extends Component {
                   to make it. They are very professional, patient, and give
                   their best to please their customers. I recommend them
                   wholeheartedly.
-                </div>
-              </blockquote>
+                </blockquote>
+              </div>
 
               <div className="review-footer">
                 <div className="reviewer-name two">
