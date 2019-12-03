@@ -148,11 +148,16 @@ h4 {
 }
 
 @media screen and (max-width: 460px) {
+  .container {
+    height: 100%;
+    margin-top: 9em;
+    padding: 20px;
+  }
   .container h1 {
     font-size: 40px;
   }
   .company-info h3 {
-    margin: 0 -30px;
+    margin: 0 -10px;
     font-size: 16px;
   }
   .textarea.form-control,
@@ -164,6 +169,7 @@ h4 {
   .contact form input {
     width: -webkit-fill-available;
     border-left-width: thick;
+    margin: 0;
   }
   .services-checkbox {
     font-size: 15px;
@@ -174,10 +180,11 @@ h4 {
     border-left-width: thick;
   }
   .btn.btn-primary.my-2.my-sm-0.contact-button {
-    margin: 10px 70px;
+    margin: 10px 35%;
   }
   .full .form-control {
     font-size: 15px;
+    width: -webkit-fill-available;
   }
   .headquarters {
     padding: 0 !important;
