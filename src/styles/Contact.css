@@ -45,7 +45,7 @@ h1.contact-form {
 
 .company-info h3,
 .company-info ul {
-  text-align: left;
+  text-align: center;
   margin: 0 1rem 0;
   color: black;
   font-family: Arial;
@@ -66,11 +66,14 @@ h1.contact-form {
   font-size: 10px;
   border-color: #e59c58;
 }
+
 textarea.form-control:focus {
   border-color: #ff6602;
+  border-left-width: thick;
 }
 textarea.form-control:hover {
   background-color: white;
+  border-left-width: thick;
 }
 textarea.form-control,
 td {
@@ -78,6 +81,10 @@ td {
   color: black;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+}
+textarea.form-control {
+  border-left-width: thick;
+  width: 200%;
 }
 .contact form p {
   margin: 0;
@@ -95,6 +102,14 @@ label.form-control-placeholder.service {
   -webkit-border-radius: 5px;
   margin-right: 5px;
   outline: none;
+  width: -webkit-fill-available;
+
+  padding-right: 40px;
+  border-left-width: thick;
+}
+
+.full {
+  text-align: center;
 }
 
 .contact form input:active {
