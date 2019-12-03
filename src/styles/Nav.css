@@ -40,7 +40,7 @@
   top: 100px;
   left: 0;
   width: 100%;
-  background-color: #032537;
+  background-color: transparent;
   z-index: 30;
 }
 
@@ -54,31 +54,32 @@
 }
 
 .burger .menu-icon .navicon {
-  background: #fff;
+  background: #000;
   display: block;
   height: 2px;
   position: relative;
   transition: all 0.2s ease-out;
-  width: 25px;
+  width: 40px;
 }
 
 .burger .menu-icon .navicon:before,
 .burger .menu-icon .navicon:after {
-  background: #fff;
+  background: #000;
   content: "";
   display: block;
   height: 100%;
   position: absolute;
   transition: all 0.2s ease-out;
   width: 100%;
+  top: 10px;
 }
 
 .burger .menu-icon .navicon:before {
-  top: 5px;
+  top: 10px;
 }
 
 .burger .menu-icon .navicon:after {
-  top: -5px;
+  top: -10px;
 }
 
 /* menu btn */
@@ -88,7 +89,11 @@
 }
 
 .burger .menu-btn:checked ~ .menu {
-  max-height: 320px;
+  max-height: 550px;
+  min-width: max-content;
+  position: absolute;
+  background: transparent;
+  left: -19em;
 }
 
 .burger .menu-btn:checked ~ .menu-icon .navicon {
@@ -117,6 +122,9 @@
   }
   .burger {
     display: block;
+    position: absolute;
+    right: 20px;
+    top: 40px;
   }
 }
 @media (max-width: 480px) {
@@ -125,5 +133,9 @@
   }
   .burger .menu {
     top: 50px;
+  }
+  .nav-item.nav-link {
+    color: #ff6602 !important;
+    padding: 1em 1em !important;
   }
 }
