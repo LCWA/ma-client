@@ -187,25 +187,25 @@
   }
   .reviews-comment.body-text {
     line-height: 1.8em;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: -15%;
   }
   .reviews-wrapper .reviews-title h1 {
     margin-top: -1.6em;
-    font-size: 60px;
+    font-size: 40px;
   }
   .reviewer-name h3 {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 10%;
   }
 
   .reviewer-role h4 {
-    font-size: 20px;
+    font-size: 15px;
     margin-top: -5%;
   }
 
   .reviewer-company h4 a {
-    font-size: 20px;
+    font-size: 16px;
     color: #fff;
   }
   .reviewer-company h4 {
@@ -215,23 +215,23 @@
 
   .review-quote::before {
     margin-left: 0.01em;
-    vertical-align: -0.6em;
-    font-size: 6em;
+    vertical-align: -0.5em;
+    font-size: 4em;
   }
 
   .review-quote:after {
-    margin-left: 2.3em;
-    vertical-align: -0.1em;
-    font-size: 6em;
+    margin-left: 0.1em;
+    vertical-align: -0.6em;
+    font-size: 4em;
   }
 
   .review-quote.two::after {
-    margin-left: 2.5em;
-    font-size: 6em;
+    margin-left: 0.1em;
+    font-size: 4em;
   }
   .review-quote.two::before {
-    font-size: 6em;
+    font-size: 4em;
     margin-left: -0.1em;
-    vertical-align: -0.1em;
+    vertical-align: -0.5em;
   }
 }

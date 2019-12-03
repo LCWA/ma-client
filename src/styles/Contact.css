@@ -69,9 +69,11 @@ h1.contact-form {
 
 textarea.form-control:focus {
   border-color: #ff6602;
+  border-left-width: thick;
 }
 textarea.form-control:hover {
   background-color: white;
+  border-left-width: thick;
 }
 textarea.form-control,
 td {
@@ -82,6 +84,7 @@ td {
 }
 textarea.form-control {
   border-left-width: thick;
+  width: 200%;
 }
 .contact form p {
   margin: 0;
