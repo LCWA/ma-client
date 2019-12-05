@@ -59,20 +59,20 @@ class Portfolio extends Component {
           <Tabs forceRenderTabPanel={true} defaultFocus={true}>
             <TabList>
               <Tab>
-                <div className="tabs">
+                <button className="btn btn-primary my-2 my-sm-0">
                   <div className="tab development">Web Development</div>
-                </div>
+                </button>
               </Tab>
               <Tab>
-                <div className="tabs">
+                <button className="btn btn-primary my-2 my-sm-0">
                   <div className="tab automation">Automation Tools</div>
-                </div>
+                </button>
               </Tab>
 
               <Tab>
-                <div className="tabs">
+                <button className="btn btn-primary my-2 my-sm-0">
                   <div className="tab customized">Customized Software</div>
-                </div>
+                </button>
               </Tab>
             </TabList>
 
@@ -110,22 +110,23 @@ class Portfolio extends Component {
                     <img src={automation2} className="project-image" />
                   </div>
                 </div>
+
+                <button
+                  class="btn btn-primary my-2 my-sm-0 portfolio-btn"
+                  onClick={() =>
+                    this.setState({ openModal2: true, openModal1: false })
+                  }
+                >
+                  AutoABC
+                </button>
+                <Modal
+                  open={this.state.openModal2}
+                  onClose={this.onCloseSecondModal}
+                  center
+                >
+                  <ModalAutoABC />
+                </Modal>
               </div>
-              <button
-                class="btn btn-primary my-2 my-sm-0 portfolio-btn-2"
-                onClick={() =>
-                  this.setState({ openModal2: true, openModal1: false })
-                }
-              >
-                AutoABC
-              </button>
-              <Modal
-                open={this.state.openModal2}
-                onClose={this.onCloseSecondModal}
-                center
-              >
-                <ModalAutoABC />
-              </Modal>
             </TabPanel>
             <TabPanel>
               <div className="project-wrapper">

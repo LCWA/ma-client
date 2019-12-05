@@ -20,8 +20,8 @@ class HomePage extends Component {
         <Solutions />
         <OurStory />
         <Team />
-        <Reviews />
         <Portfolio />
+        <Reviews />
         <Contact />
         <Footer />
       </div>

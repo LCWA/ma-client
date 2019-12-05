@@ -45,20 +45,21 @@
   left: 47%;
 }
 
-.tabs {
-  display: grid;
-  grid-template-columns: repeat(3, 200px);
+.react-tabs__tab-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 25%;
 }
+.react-tabs__tab--selected {
+  background: unset !important;
+  color: unset !important;
+  border-radius: unset !important;
+  box-shadow: unset !important;
+}
+
 .tab {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-}
-
-.development,
-.automation,
-.customized {
-  grid-column-start: 2;
-  grid-column-end: 3;
 }
 
 /*remove border color on tabs*/
@@ -133,10 +134,16 @@
     text-align: center;
     margin: 0 auto;
   }
-  .tab {
-    font-size: 16px;
+  .react-tabs__tab-list {
+    display: table-cell;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin: 0 25%;
+    text-align: center;
   }
-  .portfolio-title h1 {
-    font-size: 40px;
+  .development,
+  .customized,
+  .automation {
+    font-size: inherit;
   }
 }

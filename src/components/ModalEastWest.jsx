@@ -17,10 +17,10 @@ class ModalEastWest extends Component {
             so that they can better track the products they sell. The main
             benefits for them were the following ones:
             <ul className="modal-list-bullets">
-              <li>Achieve efficiency and productivity in operations. </li>
-              <li>Minimize inventory costs and maximize sales and profits.</li>
-              <li>Automation of manual tasks.</li>
-              <li>Maintain customer happiness.</li>
+              <li>Achieve efficiency and productivity in operations </li>
+              <li>Minimize inventory costs and maximize sales and profits</li>
+              <li>Automate manual tasks</li>
+              <li>Maintain customer happiness</li>
             </ul>
           </div>
         </div>

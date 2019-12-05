@@ -49,7 +49,8 @@
 .modal-list-bullets {
   list-style-type: square;
   list-style-position: inside;
-  padding: 30px;
+  padding: 50px;
+  text-align: left;
 }
 
 .styles_closeButton__20ID4 {
