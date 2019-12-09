@@ -1,0 +1,8 @@
+.separator {
+  bottom: -4px;
+  left: 0;
+  overflow: hidden;
+  position: relative;
+
+  width: 100%;
+}
