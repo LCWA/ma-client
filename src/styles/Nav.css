@@ -18,7 +18,7 @@
 
 .burger li a:hover,
 .burger .menu-btn:hover {
-  background-color: rgba(244, 244, 244, 0.3);
+  background-color: rgba(61, 7, 116, 0.6);
 }
 .navbar navbar-expand-lg {
   display: inline-block;
@@ -89,11 +89,15 @@
 }
 
 .burger .menu-btn:checked ~ .menu {
-  max-height: 550px;
+  min-height: 84vh;
   min-width: max-content;
   position: absolute;
-  background: transparent;
-  left: -19em;
+  background: rgba(0, 0, 0, 0.6);
+  top: 60px;
+  width: -moz-available; /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+  width: fill-available;
+  margin-right: 80%;
 }
 
 .burger .menu-btn:checked ~ .menu-icon .navicon {
@@ -121,21 +125,24 @@
     display: none !important;
   }
   .burger {
-    display: block;
+    display: inline-block;
     position: absolute;
     right: 20px;
     top: 40px;
+  }
+  .nav-item.nav-link {
+    color: #ff6602 !important;
+    padding: 1em 1em !important;
+  }
+  .burger .menu {
+    position: absolute;
+    top: 50px;
+    left: 160%;
+    margin-left: -100vw;
   }
 }
 @media (max-width: 480px) {
   .nav-logo {
     height: 50px;
-  }
-  .burger .menu {
-    top: 50px;
-  }
-  .nav-item.nav-link {
-    color: #ff6602 !important;
-    padding: 1em 1em !important;
   }
 }

@@ -10,8 +10,10 @@ import Team from "../components/Team";
 import Reviews from "../components/Reviews";
 import Portfolio from "../components/Portfolio";
 import Separator from "../components/Separator";
+import SeparatorTwo from "../components/SeparatorTwo";
+import SeparatorThree from "../components/SeparatorThree";
 
-configureAnchors({ offset: 0, scrollDuration: 1000 });
+configureAnchors({ offset: 0, scrollDuration: 800 });
 class HomePage extends Component {
   render() {
     return (
@@ -19,11 +21,15 @@ class HomePage extends Component {
         <Header />
         <VideoSection />
         <Solutions />
+        <SeparatorThree />
         <OurStory />
+        <SeparatorTwo />
         <Team />
         <Separator />
         <Portfolio />
+        <SeparatorThree />
         <Reviews />
+        <SeparatorTwo />
         <Contact />
         <Footer />
       </div>
