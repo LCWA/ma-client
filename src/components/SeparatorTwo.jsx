@@ -8,7 +8,7 @@ class SeparatorTwo extends Component {
         <svg
           class="separator__svg"
           width="100%"
-          height="100"
+          height="170"
           viewBox="0 0 100 100"
           preserveAspectRatio="none"
           fill="url(#my-cool-gradient-one)"

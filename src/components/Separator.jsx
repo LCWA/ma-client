@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import "../styles/Separator.css";
+import "../styles/SeparatorTeam.css";
 
 class Separator extends Component {
   render() {
     return (
-      <div className="separator">
+      <div className="separator-team">
         <svg
           class="separator__svg"
           width="100%"
-          height="100"
+          height="170"
           viewBox="0 0 100 100"
           preserveAspectRatio="none"
           fill="url(#my-cool-gradient)"
