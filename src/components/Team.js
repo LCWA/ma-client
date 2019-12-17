@@ -30,7 +30,7 @@ class Team extends Component {
   render() {
     return (
       <ScrollableAnchor id={"Team"}>
-        <div>
+        <div className="team-container">
           <div className="team">
             <h1 className="team-title">Our Team</h1>
             <h3 className="team-description">

@@ -5,7 +5,7 @@ import automation_tools from "../images/solutions/automation_tools.PNG";
 import customized_software from "../images/solutions/customized_software.PNG";
 import "../styles/Solutions.css";
 import ScrollableAnchor from "react-scrollable-anchor";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 class Solutions extends Component {
   constructor() {
     super();
