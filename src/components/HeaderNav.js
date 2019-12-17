@@ -53,7 +53,7 @@ class HeaderNav extends Component {
             </li>
             <li>
               <a className="nav-item nav-link" href="#OurStory">
-                OurStory
+                Our Story
               </a>
             </li>
             <li>
@@ -73,7 +73,7 @@ class HeaderNav extends Component {
             </li>
             <li>
               <a className="nav-item nav-link" href="#ContactUs">
-                ContactUs
+                Contact Us
               </a>
             </li>
           </ul>
