@@ -1,5 +1,6 @@
 .team-wrapper {
-  padding: 120px 20px;
+  padding: 70px 20px;
+  margin-bottom: -30px;
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -51,4 +52,32 @@ h3.member-role {
   color: #000;
   margin-top: 60px;
   overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 460px) {
+  .team h1 {
+    font-size: 40px;
+    white-space: nowrap;
+  }
+  .team-description {
+    margin: 20px -60px;
+  }
+  .team h3 {
+    font-size: 16px;
+  }
+  .team-wrapper {
+    padding: 9px 20px;
+  }
+  .member-description {
+    margin: unset;
+  }
+  .person h2 {
+    font-size: 30px;
+  }
+  .person h3 {
+    font-size: 18px;
+  }
+  .person p {
+    font-size: 16px;
+  }
 }

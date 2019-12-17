@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import MA_Logo from "../images/LogoBlack_cut.png";
 import "../styles/Nav.css";
 
@@ -13,9 +12,9 @@ class HeaderNav extends Component {
           className="nav-logo align-items-center"
         ></img>
         <nav className="navbar navbar-expand-lg" role="navigation">
-          <Link className="nav-item nav-link" to="/">
+          <a className="nav-item nav-link" href="/">
             Home
-          </Link>
+          </a>
           <a className="nav-item nav-link" href="#Solutions">
             Solutions
           </a>
@@ -43,13 +42,39 @@ class HeaderNav extends Component {
           </label>
           <ul className="menu">
             <li>
-              <Link to="/">Home</Link>
+              <a className="nav-item nav-link" href="/">
+                Home
+              </a>
             </li>
             <li>
-              <Link to="/Blog">Blog</Link>
+              <a className="nav-item nav-link" href="#Solutions">
+                Solutions
+              </a>
             </li>
             <li>
-              <Link to="/Contact"></Link>
+              <a className="nav-item nav-link" href="#OurStory">
+                Our Story
+              </a>
+            </li>
+            <li>
+              <a className="nav-item nav-link" href="#Team">
+                Team
+              </a>
+            </li>
+            <li>
+              <a className="nav-item nav-link" href="#Portfolio">
+                Portfolio
+              </a>
+            </li>
+            <li>
+              <a className="nav-item nav-link" href="#Reviews">
+                Reviews
+              </a>
+            </li>
+            <li>
+              <a className="nav-item nav-link" href="#ContactUs">
+                Contact Us
+              </a>
             </li>
           </ul>
         </div>
