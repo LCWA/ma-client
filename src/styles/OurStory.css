@@ -4,6 +4,7 @@
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  height: 85vh;
 }
 
 .story {
@@ -25,6 +26,7 @@
 @media (max-width: 670px) {
   .story-wrapper {
     padding: 10px;
+    height: unset;
   }
   .story {
     padding: unset;
