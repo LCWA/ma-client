@@ -61,7 +61,6 @@
 
 .tab {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
 }
 
 /*remove border color on tabs*/
@@ -120,6 +119,15 @@
 }
 
 @media (max-width: 700px) {
+  .portfolio-wrapper .portfolio-title {
+    margin-bottom: unset;
+  }
+  .portfolio-title h1 {
+    font-size: 40px;
+  }
+  .project-wrapper {
+    height: 90vh;
+  }
   .portfolio-rows {
     display: grid;
     grid-template-columns: 1fr;

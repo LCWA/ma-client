@@ -1,3 +1,6 @@
+.team-container {
+  height: 95vh;
+}
 .team-wrapper {
   padding: 70px 20px;
   margin-bottom: -30px;
@@ -38,7 +41,6 @@ h3.member-role {
   transform: translate(50%, 0);
 }
 .team h1 {
-  margin-top: 60px;
   font-size: 60px;
 }
 .team-title {
