@@ -105,25 +105,18 @@ class Solutions extends Component {
                 className="solution-image"
                 alt="Picture of automation tools"
               ></img>
-              <h2 className="title-automation">Automation Software</h2>
+              <h2 className="title-automation">
+                SEO &amp; Social Media Management
+              </h2>
               <p className="body-text description">
-                Do you spend time working on repetitive tasks? Are there several
-                things that you would like to improve{" "}
+                Reach new customers! Improve your website search rank and expand
+                with Google/Facebook/Instagram ads.
                 <span id="dots-two">...</span>
                 <span id="more-text-two">
-                  but you don’t know where to start?
                   <br></br>
-                  <br></br>
-                  At <span id="mission-automate">Mission Automate</span> we are
-                  passionate about process improvement. We give back your time
-                  while unlocking the potential of your business.<br></br>
-                  <br></br> By automating your processes, you get the following
-                  benefits:<br></br>{" "}
-                  <span id="automation-list">
-                    1) Save time while the software is doing the work for you
-                    <br></br> 2) Eliminate human errors and rely on automation
-                    <br></br> 3) Reduce costs and increase savings
-                  </span>{" "}
+                  You will get assistance with creating and managing ad
+                  campaigns as well as an understanding of your important
+                  keywords and SEO strategies.
                   <span className="contact-notice">
                     If you want to get ready for the future{" "}
                     <a href="#ContactUs" id="inner-contact">
