@@ -87,7 +87,7 @@ class Solutions extends Component {
                     <a href="#ContactUs" id="inner-contact">
                       Contact Us
                     </a>{" "}
-                    and book a FREE discovery call with us.
+                    and book a free discovery call with us.
                   </span>
                 </span>
               </p>
@@ -122,7 +122,7 @@ class Solutions extends Component {
                     <a href="#ContactUs" id="inner-contact">
                       Contact Us
                     </a>{" "}
-                    and book a FREE discovery call with us.
+                    and book a free discovery call with us.
                   </span>
                 </span>
               </p>
@@ -167,7 +167,7 @@ class Solutions extends Component {
                     <a href="#ContactUs" id="inner-contact">
                       Contact Us
                     </a>{" "}
-                    and book your FREE discovery call with us.
+                    and book your free discovery call with us.
                   </span>
                 </span>
               </p>
