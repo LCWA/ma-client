@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../styles/VideoSection.css";
-import VideoComponent from "../videos/LCWAORANGEEDITED.mp4";
+import VideoComponent from "../videos/MAVIDEOFINAL.mp4";
 import VideoSubstitute from "../images/Video_substitute.PNG";
 class VideoSection extends Component {
   render() {
