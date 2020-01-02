@@ -130,7 +130,7 @@ class Contact extends Component {
                         className="form-control-placeholder number"
                         htmlFor="user_number"
                       >
-                        Phone number<span className="required">*</span>
+                        Phone number
                       </label>
                       <input
                         type="text"
@@ -147,7 +147,8 @@ class Contact extends Component {
                         className="form-control-placeholder cname"
                         htmlFor="company_name"
                       >
-                        Company
+                        Company name &amp; Website URL
+                        <span className="required">*</span>
                       </label>
                       <input
                         type="text"
@@ -162,7 +163,7 @@ class Contact extends Component {
                         className="form-control-placeholder ctype"
                         htmlFor="company_type"
                       >
-                        What is your budget?<span className="required">*</span>
+                        What is your budget?
                       </label>
                       <input
                         type="text"
@@ -197,6 +198,13 @@ class Contact extends Component {
                         value="CustomizedSoftware"
                       />{" "}
                       Custom Solutions
+                      <br />
+                      <input
+                        type="checkbox"
+                        name="FreeSiteAudit"
+                        value="FreeSiteAudit"
+                      />{" "}
+                      Free Site Audit
                       <br />
                     </td>
                   </tr>
