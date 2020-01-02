@@ -34,7 +34,7 @@ class HeaderNav extends Component {
             Contact us
           </a>
           <a className="nav-item nav-link" href="#ContactUs">
-            Get A Free Site Audit
+            Get a Free Site Audit
           </a>
         </nav>
 
@@ -81,7 +81,7 @@ class HeaderNav extends Component {
             </li>
             <li>
               <a className="nav-item nav-link" href="#ContactUs">
-                Get A Free Site Audit
+                Get a Free Site Audit
               </a>
             </li>
           </ul>

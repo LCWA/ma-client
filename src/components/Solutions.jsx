@@ -118,11 +118,11 @@ class Solutions extends Component {
                   campaigns as well as an understanding of your important
                   keywords and SEO strategies.
                   <span className="contact-notice">
-                    If you want to get ready for the future{" "}
-                    <a href="#ContactUs" id="inner-contact">
-                      Contact Us
+                    If you want to get a{" "}
+                    <a href="#ContactUs">
+                      <span id="site-audit">Free Site Audit</span>
                     </a>{" "}
-                    and book a free discovery call with us.
+                    contact us and book a free discovery call with us.
                   </span>
                 </span>
               </p>
