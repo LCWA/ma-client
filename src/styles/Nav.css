@@ -25,6 +25,10 @@
   list-style-type: none;
 }
 
+.navbar {
+  left: -25em !important;
+}
+
 /* menu */
 
 .burger .menu {

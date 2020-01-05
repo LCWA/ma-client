@@ -33,6 +33,9 @@ class HeaderNav extends Component {
           <a className="nav-item nav-link" href="#ContactUs">
             Contact us
           </a>
+          <a className="nav-item nav-link" href="#ContactUs">
+            Get A Free Site Audit
+          </a>
         </nav>
 
         <div className="burger">
@@ -74,6 +77,11 @@ class HeaderNav extends Component {
             <li>
               <a className="nav-item nav-link" href="#ContactUs">
                 Contact Us
+              </a>
+            </li>
+            <li>
+              <a className="nav-item nav-link" href="#ContactUs">
+                Get A Free Site Audit
               </a>
             </li>
           </ul>
