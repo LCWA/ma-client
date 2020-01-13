@@ -119,11 +119,10 @@ class Solutions extends Component {
                   keywords and SEO strategies.
                   <span className="contact-notice">
                     If you want to get a{" "}
-                    <span id="site-audit">free site audit</span>{" "}
-                    <a href="#ContactUs" id="inner-contact">
-                      Contact Us
+                    <a href="#ContactUs">
+                      <span id="site-audit">Free Site Audit</span>
                     </a>{" "}
-                    and book a free discovery call with us.
+                    contact us and book a free discovery call with us.
                   </span>
                 </span>
               </p>
