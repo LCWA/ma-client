@@ -79,6 +79,7 @@
 #btn-two:active,
 #btn-three:active {
   background-color: #ff6602;
+  color: white;
 }
 
 @media screen and (max-width: 460px) {
