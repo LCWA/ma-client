@@ -204,6 +204,10 @@
   .reviews-wrapper .reviews-title h1 {
     font-size: 40px;
   }
+  .reviews-title {
+    padding-top: 60px;
+    top: -5em;
+  }
   .reviews-wrapper {
     height: unset;
   }
