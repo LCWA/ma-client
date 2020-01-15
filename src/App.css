@@ -102,7 +102,7 @@ body {
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show > .btn-primary.dropdown-toggle {
-  background-color: #ff6602;
+  background-color: #ff6602 !important;
 }
 
 .HeaderNav.mobile ul ul li {

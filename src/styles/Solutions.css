@@ -62,7 +62,8 @@
   -webkit-text-fill-color: transparent;
 }
 
-#site-audit {
+#site-audit,
+#site-audit:hover {
   color: #ff6602;
   text-decoration: none;
   font-size: 20px;
@@ -72,6 +73,12 @@
 #inner-contact,
 #inner-contact:hover {
   color: #ff6602;
+}
+
+#btn-one:active,
+#btn-two:active,
+#btn-three:active {
+  background-color: #ff6602;
 }
 
 @media screen and (max-width: 460px) {
