@@ -90,7 +90,7 @@ body {
 .btn.btn-primary.my-2.my-sm-0:active {
   font-family: "Arial", sans-serif;
   font-size: 16px;
-  background-color: #fff;
+  background-color: #fff !important;
   color: #ff6602;
   border-color: #ff6602;
   border-radius: 4px;
