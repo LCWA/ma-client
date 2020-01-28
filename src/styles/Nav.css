@@ -26,7 +26,8 @@
 }
 
 .navbar {
-  left: -25em !important;
+  left: -30em !important;
+  max-width: 90%;
 }
 
 /* menu */
@@ -159,5 +160,16 @@
 @media (max-width: 480px) {
   .nav-logo {
     height: 50px;
+  }
+}
+@media (max-width: 1490px) {
+  a.nav-item.nav-link {
+    font-size: 16px;
+    display: inline-block;
+    word-wrap: normal;
+    padding: 0 1.5rem;
+  }
+  .navbar {
+    left: -17em !important;
   }
 }

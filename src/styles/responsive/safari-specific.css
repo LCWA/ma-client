@@ -1,0 +1,54 @@
+/* Safari 7.1+ */
+
+/*CONTACT FORM 
+@media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
+  @media {
+    table {
+      width: 100%;
+    }
+    .contact form input[type="text"] {
+      width: 104%;
+    }
+    .contact form input {
+      margin-right: 5px;
+    }
+  }
+}*/
+
+/*This browser hack for Safari version 10.1 works*/
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) and (not (stroke-color: transparent)) {
+    table {
+      width: 100%;
+    }
+    .contact form input[type="text"] {
+      width: 104%;
+    }
+    .contact form input {
+      margin-right: 5px;
+    }
+    .container {
+      max-width: 50%;
+      max-height: 50%;
+    }
+  }
+}
+
+/*Safari 11+*/
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+    table {
+      width: 100%;
+    }
+    .contact form input[type="text"] {
+      width: 104%;
+    }
+    .contact form input {
+      margin-right: 5px;
+    }
+    .container {
+      max-width: 50%;
+      max-height: 50%;
+    }
+  }
+}

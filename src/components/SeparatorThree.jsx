@@ -18,8 +18,13 @@ class Separator extends Component {
           <linearGradient id="my-cool-gradient-three" x2="1" y2="1">
             <stop offset="0%" stop-color="#2c1b91" />
           </linearGradient>
-          <path d="M 120 100 V 10 L -130 100" />
-          <path d="M -60 79 L 100 28 V 10 Z" fill="#ff6602" stroke-width="0" />
+          <path d="M 120 100 V 10 L -130 110" shape-rendering="crispEdges" />
+          <path
+            d="M -60 79 L 100 28 V 10 Z"
+            fill="#ff6602"
+            stroke-width="0"
+            shape-rendering="crispEdges"
+          />
         </svg>
       </div>
     );

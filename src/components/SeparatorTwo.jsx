@@ -21,13 +21,15 @@ class SeparatorTwo extends Component {
           </linearGradient>
           <path
             transform="scale(1, -1) translate(0, -100)"
-            d="M 120 100 V 10 L -130 100"
+            d="M 120 100 V 10 L -130 110"
+            shape-rendering="crispEdges"
           />
           <path
             transform="scale(1, -1) translate(0, -100)"
             d="M -60 79 L 100 28 V 10 Z"
             fill="#ff6602"
             stroke-width="0"
+            shape-rendering="crispEdges"
           />
         </svg>
       </div>
