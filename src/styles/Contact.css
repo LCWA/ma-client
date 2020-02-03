@@ -9,11 +9,9 @@ body {
 }
 
 .container {
-  max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
   padding: 3em;
-  height: 100vh;
 }
 
 ul {
@@ -106,8 +104,23 @@ label.form-control-placeholder.service {
   margin-right: 5px;
   outline: none;
   width: -webkit-fill-available;
+  width: -moz-available;
+  width: stretch;
   padding-right: 40px;
   border-left-width: thick;
+}
+
+/*MICROSOFT EDGE SPECIFIC CSS*/
+@supports (-ms-ime-align: auto) {
+  table {
+    width: 100%;
+  }
+  .contact form input[type="text"] {
+    width: 104%;
+  }
+  .contact form input {
+    margin-right: 5px;
+  }
 }
 
 .full {

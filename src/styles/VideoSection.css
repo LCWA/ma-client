@@ -36,6 +36,11 @@ body {
   left: 0;
   z-index: 1;
 }
+@supports (object-fit: cover) and (-ms-ime-align: auto) {
+  #video {
+    height: unset !important;
+  }
+}
 
 @media (min-aspect-ratio: 16/9) {
   #video {
