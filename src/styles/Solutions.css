@@ -88,7 +88,7 @@
     margin: 0 -20px;
   }
   .solutions-wrapper h1 {
-    font-size: 40px;
+    font-size: 35px;
     margin: 0 20px;
   }
   .solutions-wrapper {
@@ -96,6 +96,24 @@
     padding-bottom: 10px;
   }
 
+  .solution h2 {
+    font-size: 25px;
+  }
+  .solution p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 461px) and (max-width: 1366px) {
+  .solutions-wrapper {
+    margin: 0 auto;
+    gap: 30px;
+  }
+  .solution-image {
+    width: 240px;
+  }
+  .solutions-wrapper h1 {
+    font-size: 40px;
+  }
   .solution h2 {
     font-size: 30px;
   }

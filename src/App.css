@@ -170,4 +170,8 @@ h4 {
   .formbox input {
     width: 90% !important;
   }
+  /*button*/
+  .btn.btn-primary.my-2.my-sm-0 {
+    font-size: 14px;
+  }
 }
