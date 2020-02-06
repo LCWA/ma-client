@@ -8,7 +8,7 @@
 }
 
 .story {
-  padding: 120px;
+  padding: 15%;
 }
 
 .story h1 {
@@ -23,35 +23,55 @@
   padding-top: 50px;
 }
 
-@media (max-width: 670px) {
+@media screen and (min-width: 1920px) {
+  #interactive-sphere {
+    position: sticky;
+    transform: translate(-40%, 20%);
+  }
+}
+
+@media (max-width: 460px) {
   .story-wrapper {
     padding: 10px;
     height: unset;
   }
   .story {
-    padding: unset;
+    padding: 10px;
   }
   .story h1 {
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
-  }
-  .spinning-animation canvas {
-    transform: translate(100%, 0);
   }
   .story-wrapper p {
     text-align: -webkit-center;
-    font-size: 16px;
+    font-size: 14px;
   }
   .story-text.body-text {
     padding-top: 20px;
   }
   #interactive-sphere {
+    transform: unset;
     position: relative;
     top: 0;
   }
   .spinning-animation {
-    position: inherit;
-    top: -5em;
-    left: -55%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 461px) and (max-width: 1366px) {
+  .story-text.body-text {
+    padding-top: 10px;
+  }
+  .story h1 {
+    font-size: 42px;
+  }
+  .story {
+    padding: 5%;
+  }
+  .story-wrapper p {
+    font-size: 18px;
   }
 }

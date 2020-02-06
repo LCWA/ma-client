@@ -5,8 +5,8 @@ import OrbitControls from "orbit-controls-es6";
 class Spinning extends Component {
   componentDidMount() {
     var interactive = document.getElementById("interactive-sphere");
-    interactive.style.position = "relative";
-    interactive.style.right = "100px";
+    interactive.style.position = "sticky";
+    interactive.style.right = "10%";
     interactive.style.top = "50px";
     const fov = 75;
     const aspect = 2; // the canvas default
