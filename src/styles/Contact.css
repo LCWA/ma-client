@@ -110,18 +110,7 @@ label.form-control-placeholder.service {
   border-left-width: thick;
 }
 
-/*MICROSOFT EDGE SPECIFIC CSS*/
-@supports (-ms-ime-align: auto) {
-  table {
-    width: 100%;
-  }
-  .contact form input[type="text"] {
-    width: 104%;
-  }
-  .contact form input {
-    margin-right: 5px;
-  }
-}
+
 
 .full {
   text-align: center;
