@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import MA_Logo from "../images/LogoBlack_cut.png";
 import "../styles/Nav.css";
+import { Link } from "react-scroll";
 
 class HeaderNav extends Component {
   render() {
@@ -15,27 +16,77 @@ class HeaderNav extends Component {
           <a className="nav-item nav-link" href="/">
             Home
           </a>
-          <a className="nav-item nav-link" href="#Solutions">
-            Solutions
-          </a>
-          <a className="nav-item nav-link" href="#OurStory">
+          <Link
+            className="nav-item nav-link"
+            to="solutions-title"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+          >
+            Solutions{" "}
+          </Link>
+          <Link
+            className="nav-item nav-link"
+            to="story-title"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+          >
             Our Story
-          </a>
-          <a className="nav-item nav-link" href="#Team">
+          </Link>
+          <Link
+            className="nav-item nav-link"
+            to="team-title"
+            spy={true}
+            smooth={true}
+            offset={-60}
+            duration={500}
+          >
             Team
-          </a>
-          <a className="nav-item nav-link" href="#Portfolio">
+          </Link>
+          <Link
+            className="nav-item nav-link"
+            to="portfolio-title"
+            spy={true}
+            smooth={true}
+            offset={-60}
+            duration={500}
+          >
             Portfolio
-          </a>
-          <a className="nav-item nav-link" href="#Reviews">
+          </Link>
+          <Link
+            className="nav-item nav-link"
+            to="reviews-title"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+          >
             Reviews
-          </a>
-          <a className="nav-item nav-link" href="#ContactUs">
+          </Link>
+
+          <Link
+            className="nav-item nav-link"
+            to="contact-form"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+          >
             Contact us
-          </a>
-          <a className="nav-item nav-link" href="#ContactUs">
+          </Link>
+          <Link
+            className="nav-item nav-link"
+            to="contact-form"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+          >
             Get a Free Site Audit
-          </a>
+          </Link>
         </nav>
 
         <div className="burger">

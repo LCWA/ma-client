@@ -29,6 +29,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   padding: 0 3rem;
+  cursor: pointer;
 }
 .nav-item.nav-link:last-of-type {
   border-right: none;
@@ -41,6 +42,15 @@ body {
 .nav-item.nav-link {
   font-size: "21px";
   color: #000;
+}
+a:not([href]):not([tabindex]) {
+  color: #000;
+  text-decoration: none;
+}
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
+  color: #ff6602;
+  text-decoration: none;
 }
 /*rules for labels*/
 .mr-sm-2 {
