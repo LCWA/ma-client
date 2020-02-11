@@ -4,8 +4,6 @@ import "../App.css";
 import "../styles/Contact.css";
 import "../styles/FloatingLabel.scss";
 import * as emailjs from "emailjs-com";
-import ScrollableAnchor from "react-scrollable-anchor";
-
 class Contact extends Component {
   constructor() {
     super();
@@ -63,179 +61,177 @@ class Contact extends Component {
 
   render() {
     return (
-      <ScrollableAnchor id={"ContactUs"}>
-        <div className="container">
-          <h1 className="contact-form">Contact Us</h1>
-          <div>
-            <div className="company-info">
-              <br />
-              <h3>
-                If you have a question or you would like to book a discovery
-                call, drop us a message below:
-              </h3>
-            </div>
-            <div className="contact">
-              <form id="contact-form">
-                <table>
-                  <tr>
-                    <td>
-                      <label
-                        className="form-control-placeholder first"
-                        htmlFor="last_name"
-                      >
-                        Last name<span className="required">*</span>
-                      </label>
-                      <input
-                        type="text"
-                        name="last_name"
-                        value={this.state.value}
-                        onChange={this.handleChange}
-                        required
-                      />
-                    </td>
-                    <td>
-                      <label
-                        className="form-control-placeholder last"
-                        htmlFor="first_name"
-                      >
-                        First name<span className="required">*</span>
-                      </label>
-                      <input
-                        type="text"
-                        name="first_name"
-                        value={this.state.value}
-                        onChange={this.handleChange}
-                        required
-                      />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <label
-                        className="form-control-placeholder email"
-                        htmlFor="user_email"
-                      >
-                        E-Mail<span className="required">*</span>
-                      </label>
-                      <input
-                        type="text"
-                        name="user_email"
-                        value={this.state.value}
-                        onChange={this.handleChange}
-                        required
-                      />
-                    </td>
-                    <td>
-                      <label
-                        className="form-control-placeholder number"
-                        htmlFor="user_number"
-                      >
-                        Phone number
-                      </label>
-                      <input
-                        type="text"
-                        name="user_number"
-                        value={this.state.value}
-                        onChange={this.handleChange}
-                        required
-                      />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <label
-                        className="form-control-placeholder cname"
-                        htmlFor="company_name"
-                      >
-                        Company name &amp; Website URL
-                        <span className="required">*</span>
-                      </label>
-                      <input
-                        type="text"
-                        name="company_name"
-                        value={this.state.value}
-                        onChange={this.handleChange}
-                        required
-                      />
-                    </td>
-                    <td>
-                      <label
-                        className="form-control-placeholder ctype"
-                        htmlFor="company_type"
-                      >
-                        What is your budget?
-                      </label>
-                      <input
-                        type="text"
-                        name="company_type"
-                        value={this.state.value}
-                        onChange={this.handleChange}
-                        required
-                      />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="services-checkbox">
-                      <label
-                        className="form-control-placeholder service"
-                        htmlFor="service_needed"
-                      >
-                        Services needed:{" "}
-                      </label>
-                      <input type="checkbox" name="Websites" value="Websites" />{" "}
-                      Web Design &amp; Development
-                      <br />
-                      <input
-                        type="checkbox"
-                        name="AutomationTools"
-                        value="AutomationTools"
-                      />{" "}
-                      Automation Software
-                      <br />
-                      <input
-                        type="checkbox"
-                        name="CustomizedSoftware"
-                        value="CustomizedSoftware"
-                      />{" "}
-                      Custom Solutions
-                      <br />
-                      <input
-                        type="checkbox"
-                        name="FreeSiteAudit"
-                        value="FreeSiteAudit"
-                      />{" "}
-                      Free Site Audit
-                      <br />
-                    </td>
-                  </tr>
-                  <br />
-                  <tr>
-                    <p className="full">
-                      <textarea
-                        name="message"
-                        placeholder="Tell us about your needs ..."
-                        rows="6"
-                        value={this.state.value}
-                        onChange={this.handleChange}
-                        className="form-control"
-                        required
-                      />
-                    </p>
-                  </tr>
-                </table>
-                <p className="full">
-                  <Button
-                    onClick={this.handleSubmit}
-                    className="btn btn-primary my-2 my-sm-0 contact-button"
-                  >
-                    Send
-                  </Button>
-                </p>
-              </form>
-            </div>
+      <div className="container">
+        <h1 className="contact-form">Contact Us</h1>
+        <div>
+          <div className="company-info">
+            <br />
+            <h3>
+              If you have a question or you would like to book a discovery call,
+              drop us a message below:
+            </h3>
+          </div>
+          <div className="contact">
+            <form id="contact-form">
+              <table>
+                <tr>
+                  <td>
+                    <label
+                      className="form-control-placeholder first"
+                      htmlFor="last_name"
+                    >
+                      Last name<span className="required">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      name="last_name"
+                      value={this.state.value}
+                      onChange={this.handleChange}
+                      required
+                    />
+                  </td>
+                  <td>
+                    <label
+                      className="form-control-placeholder last"
+                      htmlFor="first_name"
+                    >
+                      First name<span className="required">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      name="first_name"
+                      value={this.state.value}
+                      onChange={this.handleChange}
+                      required
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label
+                      className="form-control-placeholder email"
+                      htmlFor="user_email"
+                    >
+                      E-Mail<span className="required">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      name="user_email"
+                      value={this.state.value}
+                      onChange={this.handleChange}
+                      required
+                    />
+                  </td>
+                  <td>
+                    <label
+                      className="form-control-placeholder number"
+                      htmlFor="user_number"
+                    >
+                      Phone number
+                    </label>
+                    <input
+                      type="text"
+                      name="user_number"
+                      value={this.state.value}
+                      onChange={this.handleChange}
+                      required
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label
+                      className="form-control-placeholder cname"
+                      htmlFor="company_name"
+                    >
+                      Company name &amp; Website URL
+                      <span className="required">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      name="company_name"
+                      value={this.state.value}
+                      onChange={this.handleChange}
+                      required
+                    />
+                  </td>
+                  <td>
+                    <label
+                      className="form-control-placeholder ctype"
+                      htmlFor="company_type"
+                    >
+                      What is your budget?
+                    </label>
+                    <input
+                      type="text"
+                      name="company_type"
+                      value={this.state.value}
+                      onChange={this.handleChange}
+                      required
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td className="services-checkbox">
+                    <label
+                      className="form-control-placeholder service"
+                      htmlFor="service_needed"
+                    >
+                      Services needed:{" "}
+                    </label>
+                    <input type="checkbox" name="Websites" value="Websites" />{" "}
+                    Web Design &amp; Development
+                    <br />
+                    <input
+                      type="checkbox"
+                      name="AutomationTools"
+                      value="AutomationTools"
+                    />{" "}
+                    Automation Software
+                    <br />
+                    <input
+                      type="checkbox"
+                      name="CustomizedSoftware"
+                      value="CustomizedSoftware"
+                    />{" "}
+                    Custom Solutions
+                    <br />
+                    <input
+                      type="checkbox"
+                      name="FreeSiteAudit"
+                      value="FreeSiteAudit"
+                    />{" "}
+                    Free Site Audit
+                    <br />
+                  </td>
+                </tr>
+                <br />
+                <tr>
+                  <p className="full">
+                    <textarea
+                      name="message"
+                      placeholder="Tell us about your needs ..."
+                      rows="6"
+                      value={this.state.value}
+                      onChange={this.handleChange}
+                      className="form-control"
+                      required
+                    />
+                  </p>
+                </tr>
+              </table>
+              <p className="full">
+                <Button
+                  onClick={this.handleSubmit}
+                  className="btn btn-primary my-2 my-sm-0 contact-button"
+                >
+                  Send
+                </Button>
+              </p>
+            </form>
           </div>
         </div>
-      </ScrollableAnchor>
+      </div>
     );
   }
 }
