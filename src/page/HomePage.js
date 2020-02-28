@@ -20,7 +20,7 @@ $(document).ready(function() {
     verticalCentered: true,
     sectionsColor: [],
     anchors: [],
-    scrollingSpeed: 700,
+    scrollingSpeed: 400,
     easing: "swing",
     loopBottom: false,
     loopTop: false,
