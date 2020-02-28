@@ -11,64 +11,50 @@ import Portfolio from "../components/Portfolio";
 import Separator from "../components/Separator";
 import SeparatorTwo from "../components/SeparatorTwo";
 import SeparatorThree from "../components/SeparatorThree";
-import $ from "jquery";
-
-$(document).ready(function() {
-  $("#pagepiling").pagepiling({
-    menu: null,
-    direction: "vertical",
-    verticalCentered: true,
-    sectionsColor: [],
-    anchors: [],
-    scrollingSpeed: 400,
-    easing: "swing",
-    loopBottom: false,
-    loopTop: false,
-    css3: true,
-    navigation: {
-      textColor: "#000",
-      bulletsColor: "#000",
-      position: "right",
-      tooltips: ["section1", "section2", "section3", "section4"]
-    },
-    normalScrollElements: null,
-    normalScrollElementTouchThreshold: 5,
-    touchSensitivity: 5,
-    keyboardScrolling: true,
-    sectionSelector: ".section",
-    animateAnchor: false,
-
-    //events
-    onLeave: function(index, nextIndex, direction) {},
-    afterLoad: function(anchorLink, index) {},
-    afterRender: function() {}
-  });
-});
+import ReactFullpage from "@fullpage/react-fullpage";
 
 class HomePage extends Component {
   render() {
     return (
       <div>
-        <Header />
-        <div id="pagepiling">
-          <div className="section">
-            <VideoSection />
-          </div>
-          <div className="section">
-            <Solutions />
-          </div>
-          <SeparatorThree />
-          <OurStory />
-          <SeparatorTwo />
-          <Team />
-          <Separator />
-          <Portfolio />
-          <SeparatorThree />
-          <Reviews />
-          <SeparatorTwo />
-          <Contact />
-          <Footer />
-        </div>
+        <ReactFullpage
+          scrollingSpeed={1000}
+          navigation={true}
+          render={({ state, fullpageApi }) => {
+            return (
+              <ReactFullpage.Wrapper>
+                <div className="section">
+                  <Header />
+                  <VideoSection />
+                </div>
+                <div className="section">
+                  <Solutions />
+                  <SeparatorThree />
+                </div>
+                <div className="section">
+                  <OurStory />
+                  <SeparatorTwo />
+                </div>
+                <div className="section">
+                  <Team />
+                  <Separator />
+                </div>
+                <div className="section">
+                  <Portfolio />
+                  <SeparatorThree />
+                </div>
+                <div className="section">
+                  <Reviews />
+                  <SeparatorTwo />
+                </div>
+                <div className="section">
+                  <Contact />
+                  <Footer />
+                </div>
+              </ReactFullpage.Wrapper>
+            );
+          }}
+        ></ReactFullpage>
       </div>
     );
   }
