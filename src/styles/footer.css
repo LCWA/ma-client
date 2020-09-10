@@ -3,12 +3,15 @@
 }
 
 .footer-wrapper {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-direction: row;
   align-items: center;
   padding: 30px 0;
 }
-
+.social-icon {
+  place-self: center;
+}
 .social-icon .ln {
   font-size: 3em;
   color: #ff6602;
@@ -24,12 +27,65 @@ a.ln.nav-link:hover {
   color: #ff6602;
 }
 
+.footer-line.right-column {
+  place-self: center;
+  display: flex;
+}
+
+.footer-line.right-column .break {
+  width: 150px;
+}
+
+#chamber_logo {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: -1em;
+  place-self: center;
+}
+
 @media screen and (max-width: 768px) {
   .footer-wrapper {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-areas:
+      "linkedin chamber members"
+      "headquarters";
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .social-icon .ln {
+    margin: auto;
     text-align: center;
+  }
+  .social-icon {
+    grid-area: linkedin;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: small;
+    margin-left: 1.3rem;
+  }
+  .footer-line.right-column {
+    margin-left: -5%;
+  }
+  .footer-line.right-column .break {
+    width: 100px;
+  }
+  .headquarters {
+    grid-area: headquarters;
+    grid-column-start: 1;
+    font-size: small;
+  }
+  #chamber_logo {
+    margin: auto;
+    grid-area: chamber;
+    width: 40px;
+    height: 40px;
+    left: -0.5em;
+  }
+  .break {
+    grid-area: members;
+    font-size: small;
+    margin-top: 1em;
+    margin-right: 5em;
   }
 }

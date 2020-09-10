@@ -31,10 +31,6 @@ ul {
   margin-top: -35px;
 }
 
-.wrapper {
-  box-shadow: 0 0 20px 0 #a20304;
-}
-
 .wrapper > * {
   padding: 1em;
 }
@@ -73,8 +69,12 @@ textarea.form-control:focus {
 }
 textarea.form-control:hover {
   background-color: white;
-  border-left-width: thick;
+  border-left-width: thick !important;
 }
+.form-control:hover {
+  border: 1px solid #e59c58 !important;
+}
+
 textarea.form-control,
 td {
   border-color: #ff6602;
@@ -109,9 +109,10 @@ label.form-control-placeholder.service {
   padding-right: 40px;
   border-left-width: thick;
 }
-
-
-
+.contact form input:hover {
+  border: 1px solid #e59c58 !important;
+  border-left-width: thick !important;
+}
 .full {
   text-align: center;
 }
