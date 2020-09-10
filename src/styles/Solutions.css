@@ -28,6 +28,8 @@
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 0 7%;
+  width: fit-content;
 }
 .solution,
 .description {
@@ -95,11 +97,23 @@
     padding-top: 80px;
     padding-bottom: 10px;
   }
+  .solutions-title {
+    top: unset;
+  }
 
   .solution h2 {
     font-size: 25px;
   }
   .solution p {
+    font-size: 14px;
+  }
+  .card-wrapper {
+    margin: unset;
+  }
+  #inner-contact {
+    font-size: unset;
+  }
+  #site-audit {
     font-size: 14px;
   }
 }

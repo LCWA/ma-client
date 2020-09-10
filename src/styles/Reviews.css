@@ -1,6 +1,6 @@
 .reviews-wrapper {
   background-image: linear-gradient(#2c1b91, #3d0774);
-  padding: 190px 20px 70px 20px;
+  padding: 190px 20px 0px 20px;
   width: 100%;
   min-height: 80%;
   margin: 0 auto;
@@ -9,27 +9,27 @@
 
 .review {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: 65% auto;
   column-gap: 10px;
+  margin: 0 12%;
 }
 
 .reviews-comment.body-text {
   margin-top: -4%;
-  margin-left: 1%;
-  line-height: 2.8em;
+  line-height: 2em;
   text-shadow: 0 0 4px #000;
   font-style: oblique;
-  font-size: 24px;
-}
-
-.reviews-comment.two.body-text {
-  margin-top: 4%;
+  font-size: 20px;
 }
 
 .review-footer {
-  margin-top: -4em;
+  margin-top: 7.4em;
   justify-self: center;
   align-self: center;
+  font-style: initial;
+}
+.review-footer.column-two {
+  margin-top: 38%;
 }
 
 .reviews-title h1,
@@ -56,13 +56,9 @@
   font-size: 40px;
   margin-top: -20%;
 }
-.reviewer-name.two h3 {
-  margin-top: 10%;
-}
 
 .reviewer-role h4 {
   font-size: 30px;
-  margin-top: 10%;
   padding-top: 10px;
 }
 
@@ -72,10 +68,12 @@
 }
 .reviewer-company h4 {
   margin-top: 1%;
-  padding-top: 20%;
 }
 .reviewer-company.two h4 {
   margin-top: 1%;
+}
+.reviewer-company h4 a:hover {
+  color: #ff6602;
 }
 
 .reviews-title {
@@ -196,6 +194,9 @@
 }
 
 @media (max-width: 460px) {
+  .review {
+    margin: unset;
+  }
   .reviews-wrapper {
     padding-top: 100px;
   }
@@ -253,5 +254,9 @@
     font-size: 4em;
     margin-left: -0.1em;
     vertical-align: -0.5em;
+  }
+  .review-footer,
+  .review-footer.column-two {
+    margin-top: -2rem;
   }
 }

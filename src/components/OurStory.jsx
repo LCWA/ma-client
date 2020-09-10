@@ -5,23 +5,29 @@ import "../styles/OurStory.css";
 class OurStory extends Component {
   render() {
     return (
-      <div className="story-wrapper">
+      <div className="story-wrapper" id="OurStory">
         <div className="story story-container">
           <h1 className="story-title">Our Story</h1>
+          <h2 className="ma-slogan">
+            Your Software Artisan Team For An Efficient Business
+          </h2>
           <p className="story-text body-text">
-            We handcraft software that helps you and your company reach your
-            objectives and discover new limits.
+            Mission Automate is your artificial intelligence team. We help SMB
+            companies become more profitable through custom software. We work
+            closely with you at every phase of the development process to ensure
+            that our solutions map closely to your needs. Our solutions are easy
+            to use, affordable and designed by team of subject matter experts.
           </p>
-          <p className="story-text body-text">
-            Our perspective is that the manufacture of software is an art that
-            involves developers spending hours and hours working towards
-            producing a high-quality result.
+          <p className="story-text body-text">Our expertise includes:</p>
+          <p className="story-text body-text story-expertise">
+            Machine Learning | Deep Learning | Natural Language Processing with
+            Tensorflow, PyTorch, Amazon SageMaker
           </p>
-          <p className="story-text body-text">
-            Our digital solutions are uniquely handmade as we pay attention to
-            any detail that would provide significant value to you. At the same
-            time, we believe in being agile, always innovating and adapting to
-            your needs.
+          <p className="story-text body-text story-expertise">
+            Full stack development using JavaScript, Python, PHP, Ruby, C#
+          </p>
+          <p className="story-text body-text story-expertise">
+            Kubernetes | AWS, GCP, Heroku and other Cloud Hosting Platforms
           </p>
         </div>
         <div className="story animation-container">
