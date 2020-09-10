@@ -4,6 +4,7 @@ import "../App.css";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NavLink } from "reactstrap";
+import RCC_LOGO from "../images/RCC_LOGO.jpg";
 
 class Footer extends Component {
   render() {
@@ -20,6 +21,10 @@ class Footer extends Component {
         </div>
         <div className="headquarters">
           <p>Global Team | HQ in Raleigh NC, USA</p>
+        </div>
+        <div className="footer-line right-column">
+          <img id="chamber_logo" alt="chamber logo" src={RCC_LOGO}></img>
+          <p className="break">Proud members of the Chamber</p>
         </div>
       </div>
     );
