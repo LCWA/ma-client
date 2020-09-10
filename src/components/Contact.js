@@ -11,17 +11,17 @@ class Contact extends Component {
     this.state = {
       name: "",
       email: "",
-      message: ""
+      message: "",
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleChange = e => {
+  handleChange = (e) => {
     this.setState({ [e.target.name]: e.target.value });
   };
 
-  handleSubmit = event => {
+  handleSubmit = (event) => {
     event.preventDefault();
 
     var service_id = "contact_service";
@@ -31,7 +31,7 @@ class Contact extends Component {
       to_email: "alex@missionautomate.com",
       user_name: this.state.user_name,
       user_email: this.state.user_email,
-      message: this.state.message
+      message: this.state.message,
     };
 
     emailjs
@@ -42,10 +42,10 @@ class Contact extends Component {
         "user_GYuijxFwsi7IOwFaKUnc2"
       )
       .then(
-        response => {
+        (response) => {
           console.log("SUCCESS!", response.status, response.text);
         },
-        err => {
+        (err) => {
           console.log("FAILED...", err);
         }
       );
@@ -53,7 +53,7 @@ class Contact extends Component {
     this.setState({
       name: "",
       email: "",
-      message: ""
+      message: "",
     });
     document.getElementById("contact-form").reset();
     alert("Thank you for contacting us!");
@@ -61,7 +61,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container" id="ContactUs">
         <h1 className="contact-form">Contact Us</h1>
         <div>
           <div className="company-info">
@@ -179,15 +179,12 @@ class Contact extends Component {
                     >
                       Services needed:{" "}
                     </label>
-                    <input type="checkbox" name="Websites" value="Websites" />{" "}
-                    Web Design &amp; Development
-                    <br />
                     <input
                       type="checkbox"
-                      name="AutomationTools"
-                      value="AutomationTools"
+                      name="ArtificialIntelligence"
+                      value="ArtificialIntelligence"
                     />{" "}
-                    Automation Software
+                    AI/ML Development
                     <br />
                     <input
                       type="checkbox"
@@ -198,10 +195,17 @@ class Contact extends Component {
                     <br />
                     <input
                       type="checkbox"
-                      name="FreeSiteAudit"
-                      value="FreeSiteAudit"
+                      name="AutomationTools"
+                      value="AutomationTools"
                     />{" "}
-                    Free Site Audit
+                    Automation Software
+                    <br />
+                    <input
+                      type="checkbox"
+                      name="Websites"
+                      value="Websites"
+                    />{" "}
+                    Web Design &amp; Development
                     <br />
                   </td>
                 </tr>

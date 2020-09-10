@@ -1,18 +1,22 @@
-
 .team-wrapper {
   padding: 70px 20px;
   margin-bottom: -30px;
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: auto 10% auto 10%;
 }
 
 .team-img {
   width: 200px;
-  border-radius: 100px;
+  border-radius: 9rem;
 }
-.person h2 {
+.person h2 a {
   font-size: 40px;
+  color: #000;
+}
+.person h2 a:hover {
+  color: #ff6602;
 }
 .person {
   text-align: center;
@@ -53,6 +57,16 @@ h3.member-role {
   margin-top: 60px;
   overflow-wrap: break-word;
 }
+.owl-carousel .owl-item img {
+  width: 53% !important;
+}
+.owl-nav span:focus {
+  outline: unset !important;
+}
+.owl-next:focus,
+.owl-prev:focus {
+  outline: none;
+}
 
 @media screen and (max-width: 460px) {
   .team h1 {
@@ -67,11 +81,13 @@ h3.member-role {
   }
   .team-wrapper {
     padding: 9px 20px;
+    margin: 0 auto;
+    width: min-content;
   }
   .member-description {
     margin: unset;
   }
-  .person h2 {
+  .person h2 a {
     font-size: 30px;
   }
   .person h3 {
@@ -79,5 +95,9 @@ h3.member-role {
   }
   .person p {
     font-size: 16px;
+  }
+  .owl-carousel .owl-nav button.owl-prev,
+  .owl-carousel .owl-nav button.owl-next {
+    margin-top: 1.3rem !important;
   }
 }

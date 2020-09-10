@@ -10,47 +10,60 @@ import automation1 from "../images/projects/autoabc/automation1.jpg";
 import automation2 from "../images/projects/autoabc/automation2.jpg";
 import customized1 from "../images/projects/eastwestconsolidated/customized1.jpg";
 import customized2 from "../images/projects/eastwestconsolidated/customized2.png";
+import ObjectionCo_1 from "../images/projects/objectionco/ObjectionCo_1.PNG";
+import ObjectionCo_22 from "../images/projects/objectionco/ObjectionCo_22.PNG";
 
 import Modal from "react-responsive-modal";
 
 import "../styles/Portfolio.css";
 import ModalWindow from "./ModalWindow";
 import ModalAutoABC from "./ModalAutoABC";
+import ModalAI from "./ModalAI";
 import ModalEastWest from "./ModalEastWest";
 
 class Portfolio extends Component {
   state = {
-    openModal1: false,
-    openModal2: false
+    open: false,
   };
 
   onOpenModal = () => {
-    this.setState({ openModal1: true });
+    this.setState({ open: true });
   };
 
   onCloseModal = () => {
-    this.setState({ openModal1: false });
+    this.setState({ open: false });
   };
 
   onOpenSecondModal = () => {
-    this.setState({ openModal2: true });
+    this.setState({ open1: true });
   };
 
   onCloseSecondModal = () => {
-    this.setState({ openModal2: false });
+    this.setState({ open1: false });
   };
 
   onOpenThirdModal = () => {
-    this.setState({ openModal3: true });
+    this.setState({ open2: true });
   };
 
   onCloseThirdModal = () => {
-    this.setState({ openModal3: false });
+    this.setState({ open2: false });
+  };
+  onOpenFourthModal = () => {
+    this.setState({ open3: true });
+  };
+
+  onCloseFourthModal = () => {
+    this.setState({ open3: false });
   };
 
   render() {
+    const { open } = this.state;
+    const { open1 } = this.state;
+    const { open2 } = this.state;
+    const { open3 } = this.state;
     return (
-      <div className="portfolio-wrapper">
+      <div className="portfolio-wrapper" id="Portfolio">
         <div className="portfolio-title">
           <h1>Portfolio</h1>
         </div>
@@ -58,18 +71,23 @@ class Portfolio extends Component {
           <TabList>
             <Tab>
               <button className="btn btn-primary my-2 my-sm-0">
-                <div className="tab development">Web Development</div>
+                <div className="tab artificiall">Artificial Intelligence </div>
               </button>
             </Tab>
             <Tab>
               <button className="btn btn-primary my-2 my-sm-0">
-                <div className="tab automation">Automation Tools</div>
+                <div className="tab customized">Customized Software</div>
               </button>
             </Tab>
 
             <Tab>
               <button className="btn btn-primary my-2 my-sm-0">
-                <div className="tab customized">Customized Software</div>
+                <div className="tab automation">Automation Tools</div>
+              </button>
+            </Tab>
+            <Tab>
+              <button className="btn btn-primary my-2 my-sm-0">
+                <div className="tab development">Web Development</div>
               </button>
             </Tab>
           </TabList>
@@ -78,51 +96,18 @@ class Portfolio extends Component {
             <div className="project-wrapper">
               <div className="portfolio-rows">
                 <div className="portfolio-column">
-                  <img src={one} className="project-image" />
-                  <img src={two} className="project-image" />
-                  <img src={three} className="project-image" />
+                  <img src={ObjectionCo_1} className="project-image" />
+                  <img src={ObjectionCo_22} className="project-image" />
                 </div>
               </div>
               <button
                 class="btn btn-primary my-2 my-sm-0 portfolio-btn"
-                onClick={() =>
-                  this.setState({ openModal1: true, openModal2: false })
-                }
+                onClick={this.onOpenSecondModal}
               >
-                Forest Creations
+                Read more about project
               </button>
-              <Modal
-                open={this.state.openModal1}
-                onClose={this.onCloseModal}
-                center
-              >
-                <ModalWindow />
-              </Modal>
-            </div>
-          </TabPanel>
-          <TabPanel>
-            <div className="project-wrapper">
-              <div className="portfolio-rows">
-                <div className="portfolio-column">
-                  <img src={automation1} className="project-image" />
-                  <img src={automation2} className="project-image" />
-                </div>
-              </div>
-
-              <button
-                class="btn btn-primary my-2 my-sm-0 portfolio-btn"
-                onClick={() =>
-                  this.setState({ openModal2: true, openModal1: false })
-                }
-              >
-                AutoABC
-              </button>
-              <Modal
-                open={this.state.openModal2}
-                onClose={this.onCloseSecondModal}
-                center
-              >
-                <ModalAutoABC />
+              <Modal open={open1} onClose={this.onCloseSecondModal} center>
+                <ModalAI />
               </Modal>
             </div>
           </TabPanel>
@@ -134,24 +119,57 @@ class Portfolio extends Component {
                   <img src={customized2} className="project-image" />
                 </div>
               </div>
+
               <button
                 class="btn btn-primary my-2 my-sm-0 portfolio-btn"
-                onClick={() =>
-                  this.setState({
-                    openModal3: true,
-                    openModal1: false,
-                    openModal2: false
-                  })
-                }
+                onClick={this.onOpenModal}
               >
-                East West Consolidated
+                Read more about project
               </button>
-              <Modal
-                open={this.state.openModal3}
-                onClose={this.onCloseThirdModal}
-                center
-              >
+              <Modal open={open} onClose={this.onCloseModal} center>
                 <ModalEastWest />
+              </Modal>
+            </div>
+          </TabPanel>
+
+          <TabPanel>
+            <div className="project-wrapper">
+              <div className="portfolio-rows">
+                <div className="portfolio-column">
+                  <img src={automation1} className="project-image" />
+                  <img src={automation2} className="project-image" />
+                </div>
+              </div>
+
+              <button
+                class="btn btn-primary my-2 my-sm-0 portfolio-btn"
+                onClick={this.onOpenThirdModal}
+              >
+                Read more about project
+              </button>
+              <Modal open={open2} onClose={this.onCloseThirdModal} center>
+                <ModalAutoABC />
+              </Modal>
+            </div>
+          </TabPanel>
+          <TabPanel>
+            <div className="project-wrapper">
+              <div className="portfolio-rows">
+                <div className="portfolio-column">
+                  <img src={one} className="project-image" />
+                  <img src={two} className="project-image" />
+                  <img src={three} className="project-image" />
+                </div>
+              </div>
+
+              <button
+                class="btn btn-primary my-2 my-sm-0 portfolio-btn"
+                onClick={this.onOpenFourthModal}
+              >
+                Read more about project
+              </button>
+              <Modal open={open3} onClose={this.onCloseFourthModal} center>
+                <ModalWindow />
               </Modal>
             </div>
           </TabPanel>
