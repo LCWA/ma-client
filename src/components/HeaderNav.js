@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import MA_Logo from "../images/LogoBlack_cut.png";
+import MA_Logo from "../images/MA_UltimateLogo.jpg";
 import "../styles/Nav.css";
 import { Link } from "react-scroll";
 
@@ -48,6 +48,16 @@ class HeaderNav extends Component {
           </Link>
           <Link
             className="nav-item nav-link"
+            to="whyus-title"
+            spy={true}
+            smooth={true}
+            offset={-40}
+            duration={500}
+          >
+            Why Us
+          </Link>
+          <Link
+            className="nav-item nav-link"
             to="portfolio-title"
             spy={true}
             smooth={true}
@@ -76,16 +86,6 @@ class HeaderNav extends Component {
             duration={500}
           >
             Contact us
-          </Link>
-          <Link
-            className="nav-item nav-link"
-            to="contact-form"
-            spy={true}
-            smooth={true}
-            offset={-150}
-            duration={500}
-          >
-            Get a Free Site Audit
           </Link>
         </nav>
 
@@ -116,6 +116,11 @@ class HeaderNav extends Component {
               </a>
             </li>
             <li>
+              <a className="nav-item nav-link" href="#WhyUs">
+                Why Us
+              </a>
+            </li>
+            <li>
               <a className="nav-item nav-link" href="#Portfolio">
                 Portfolio
               </a>
@@ -128,11 +133,6 @@ class HeaderNav extends Component {
             <li>
               <a className="nav-item nav-link" href="#ContactUs">
                 Contact Us
-              </a>
-            </li>
-            <li>
-              <a className="nav-item nav-link" href="#ContactUs">
-                Get a Free Site Audit
               </a>
             </li>
           </ul>

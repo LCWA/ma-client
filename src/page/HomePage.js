@@ -8,7 +8,7 @@ import OurStory from "../components/OurStory";
 import Team from "../components/Team";
 import Reviews from "../components/Reviews";
 import Portfolio from "../components/Portfolio";
-import Separator from "../components/Separator";
+import WhyUs from "../components/WhyUs";
 import SeparatorTwo from "../components/SeparatorTwo";
 import SeparatorThree from "../components/SeparatorThree";
 
@@ -23,7 +23,9 @@ class HomePage extends Component {
         <OurStory />
         <SeparatorTwo />
         <Team />
-        <Separator />
+        <SeparatorThree />
+        <WhyUs />
+        <SeparatorTwo />
         <Portfolio />
         <SeparatorThree />
         <Reviews />
