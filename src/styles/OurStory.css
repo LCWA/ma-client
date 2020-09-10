@@ -3,16 +3,17 @@
   background-image: linear-gradient(#2c1b91, #3d0774);
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr 1fr;
   margin-top: -1%;
 }
 
 .story {
-  padding: 120px;
+  padding: 250px 120px;
 }
 
 .story h1 {
   font-size: 60px;
+  text-align: unset;
 }
 
 .story-title,
@@ -21,12 +22,46 @@
 }
 .story-text.body-text {
   padding-top: 50px;
+  padding-right: initial;
 }
-
+.story.story-container,
+.story-text.body-text.story-expertise {
+  width: fit-content;
+}
+.story.animation-container {
+  width: fit-content;
+  margin: 0 auto 0 auto;
+}
+.story-text.body-text.story-expertise {
+  padding-top: unset;
+  display: list-item;
+  position: relative;
+  left: 1.25rem;
+  white-space: nowrap;
+}
+.expertise p {
+  margin-left: 8em;
+}
+.spinning-animation {
+  margin-left: -25em;
+}
+.ma-slogan {
+  text-align: left;
+  font-size: 20px;
+  position: relative;
+  color: white;
+}
 @media (max-width: 670px) {
   .story-wrapper {
     padding: 10px;
     height: unset;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .story.story-container,
+  .story-text.body-text.story-expertise {
+    margin: 0 7%;
+    margin-top: 1rem;
+    left: unset;
   }
   .story {
     padding: unset;
@@ -35,9 +70,6 @@
     font-size: 40px;
     text-align: center;
   }
-  .spinning-animation canvas {
-    transform: translate(100%, 0);
-  }
   .story-wrapper p {
     text-align: -webkit-center;
     font-size: 16px;
@@ -45,13 +77,29 @@
   .story-text.body-text {
     padding-top: 20px;
   }
-  #interactive-sphere {
-    position: relative;
-    top: 0;
-  }
+
   .spinning-animation {
-    position: inherit;
-    top: -5em;
-    left: -55%;
+    position: relative;
+    margin-left: unset;
+  }
+  .expertise {
+    margin-left: unset;
+    margin-top: -10em;
+    padding-bottom: 1em;
+    white-space: unset;
+  }
+  .expertise p {
+    margin-left: unset;
+  }
+  .story-text.body-text.story-expertise {
+    padding: inherit;
+    white-space: unset;
+  }
+}
+
+@media (max-width: 700px) {
+  .ma-slogan {
+    font-size: inherit;
+    text-align: center;
   }
 }
