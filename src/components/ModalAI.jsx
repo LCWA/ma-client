@@ -4,21 +4,23 @@ import React, { Component } from "react";
 
 import "../styles/ModalWindow.css";
 
-class ModalAutoABC extends Component {
+class ModalAI extends Component {
   render() {
     return (
       <div className="modal-wrapper">
         <div className="client-info">
           <div className="client-name">
-            <h2>Foundation</h2>
+            <h2>ObjectionCo</h2>
           </div>
           <div className="client-paragraph body-text automation">
-            We worked together with a bar to help them automatize their ordering
-            process while saving time and money. Our solution helped them being
-            more efficient since the first day it was implemented.
+            Continuously developing a product that uses machine learning to
+            automatically detect and dispute fake reviews. We used a variety of
+            technologies related to content parsing and natural language
+            processing.
           </div>
           <div className="client-paragraph body-text automation">
-            Technologies used: Selenium, Python, SQL Lite
+            Technologies used: Python, Selenium, Scrapy, Puppeteer, MySQL, PHP,
+            Amazon SageMaker, Huggingface Transformers.
           </div>
         </div>
       </div>
@@ -26,4 +28,4 @@ class ModalAutoABC extends Component {
   }
 }
 
-export default ModalAutoABC;
+export default ModalAI;

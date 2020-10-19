@@ -23,6 +23,10 @@ class ModalEastWest extends Component {
               <li>Maintain customer happiness</li>
             </ul>
           </div>
+          <div className="client-paragraph body-text">
+            Technologies used: Python, Django, Sqlite, C sharp, WPF, Microsoft
+            Office Interop
+          </div>
         </div>
       </div>
     );

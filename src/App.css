@@ -12,7 +12,6 @@ header {
 body {
   background-color: #fff;
   font-family: Arial, Helvetica, sans-serif !important;
-  /* background-image: url('Background.jpg') */
 }
 .navbar {
   transform: translate(50%, -50%);
@@ -21,9 +20,7 @@ body {
   top: 3em;
 }
 .nav-logo {
-  position: absolute;
-  top: 1em;
-  height: 60px;
+  height: 100px;
 }
 .nav-item.nav-link {
   font-family: Arial, Helvetica, sans-serif;
@@ -70,7 +67,7 @@ a:not([href]):not([tabindex]):hover {
   box-shadow: none;
 }
 .form-control:hover {
-  border: 1px solid #e59c58;
+  border: 1px solid #e59c58 !important;
 }
 #exampleEmail,
 #examplePassword {
@@ -144,11 +141,13 @@ h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 60px;
   color: #000000;
+  text-align: center;
 }
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
   color: #000000;
+  text-align: center;
 }
 h3 {
   font-family: Arial, Helvetica, sans-serif;
@@ -159,6 +158,12 @@ h4 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: unset !important;
 }
 
 @media (max-width: 670px) {
