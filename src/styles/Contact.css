@@ -46,6 +46,7 @@ ul {
   color: black;
   font-family: Arial;
   font-size: 20px;
+  font-weight: unset !important;
 }
 /*FORM STYLES*/
 .contact form {

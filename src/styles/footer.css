@@ -31,6 +31,9 @@ a.ln.nav-link:hover {
   place-self: center;
   display: flex;
 }
+.footer-line.right-column p {
+  color: #fff !important;
+}
 
 .footer-line.right-column .break {
   width: 150px;
