@@ -159,6 +159,12 @@ h4 {
   font-size: 12px;
   color: #ffffff;
 }
+h1,
+h2,
+h3,
+h4 {
+  font-weight: unset !important;
+}
 
 @media (max-width: 670px) {
   .formbox {
