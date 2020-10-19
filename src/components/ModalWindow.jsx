@@ -53,6 +53,9 @@ class ModalWindow extends Component {
             Webshop for jewelry with a unique and elegant design meant to
             inspire the connection between Mother Nature and Jewelry.
           </div>
+          <div className="client-paragraph body-text">
+            Technologies used: WordPress, React, Heroku, Python, Django
+          </div>
           <div className="client-website-btn">
             <a href="https://www.forest-creations.com/" target="_blank">
               <button className="btn btn-primary my-2 my-sm-0">Website</button>

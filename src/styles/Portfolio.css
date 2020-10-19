@@ -30,10 +30,17 @@
 .portfolio-column {
   justify-content: center;
 }
+.portfolio-column img {
+  width: 400px;
+}
 
 .project-image {
   margin-top: 5.5em;
   padding: 10px;
+}
+
+.btn.btn-primary.my-2.my-sm-0.portfolio-btn {
+  font-size: larger;
 }
 
 .portfolio-btn {
@@ -50,7 +57,7 @@
 .react-tabs__tab-list {
   display: flex;
   justify-content: space-between;
-  margin: 0 25%;
+  margin: 0 23%;
 }
 .react-tabs__tab--selected {
   background: unset !important;
@@ -61,6 +68,7 @@
 
 .tab {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
 }
 
 /*remove border color on tabs*/
@@ -88,15 +96,15 @@
   color: black;
 }
 
+.react-tabs__tab .btn.btn-primary.my-2.my-sm-0 {
+  width: fill-available;
+}
+
 .react-tabs__tab--selected {
   background: #ff6602;
   color: black;
   border-radius: 5px;
   box-shadow: 0 0 10px grey;
-}
-
-.react-tabs__tab.react-tabs__tab--selected {
-  margin-left: 10px;
 }
 
 .react-tabs__tab--disabled {
@@ -118,15 +126,22 @@
   display: block;
 }
 
+.tech_used p {
+  color: black;
+}
+@media screen and (max-width: 800px) {
+  .react-tabs__tab.react-tabs__tab--selected {
+    margin-right: unset !important;
+  }
+}
+
 @media (max-width: 700px) {
-  .portfolio-wrapper .portfolio-title {
+  .portfolio-wrapper .portfolio-title,
+  .portfolio-wrapper {
     margin-bottom: unset;
   }
   .portfolio-title h1 {
     font-size: 40px;
-  }
-  .project-wrapper {
-    height: 90vh;
   }
   .portfolio-rows {
     display: grid;
@@ -144,16 +159,22 @@
     text-align: center;
     margin: 0 auto;
   }
+  .tab {
+    font-size: unset;
+  }
   .react-tabs__tab-list {
-    display: table-cell;
+    display: grid;
+    grid-template-columns: 1fr;
     -webkit-justify-content: space-between;
     justify-content: space-between;
-    margin: 0 25%;
     text-align: center;
   }
   .development,
   .customized,
   .automation {
     font-size: inherit;
+  }
+  .portfolio-column img {
+    width: 300px;
   }
 }

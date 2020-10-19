@@ -4,10 +4,6 @@ import OrbitControls from "orbit-controls-es6";
 
 class Spinning extends Component {
   componentDidMount() {
-    var interactive = document.getElementById("interactive-sphere");
-    interactive.style.position = "sticky";
-    interactive.style.right = "10%";
-    interactive.style.top = "50px";
     const fov = 75;
     const aspect = 2; // the canvas default
     const near = 0.1;
@@ -18,7 +14,7 @@ class Spinning extends Component {
     var renderer = new THREE.WebGLRenderer({ alpha: true });
     renderer.setSize(window.innerWidth / 2, window.innerHeight / 2);
     this.mount.appendChild(renderer.domElement);
-    window.addEventListener("resize", function() {
+    window.addEventListener("resize", function () {
       var width = window.innerHeight;
       var height = window.innerHeight;
 
@@ -36,7 +32,7 @@ class Spinning extends Component {
     var geometry = new THREE.SphereGeometry(boxWidth, boxHeight, boxDepth);
     var material = new THREE.MeshBasicMaterial({
       color: 0xff6602,
-      wireframe: true
+      wireframe: true,
     });
 
     var sphere = new THREE.Mesh(geometry, material);
@@ -44,19 +40,19 @@ class Spinning extends Component {
 
     camera.position.z = 2;
 
-    var update = function() {
+    var update = function () {
       sphere.rotation.x += 0.01;
       sphere.rotation.y += 0.0005;
     };
 
-    var render = function() {
+    var render = function () {
       renderer.render(scene, camera);
       const canvas = renderer.domElement;
       camera.aspect = canvas.clientWidth / canvas.clientHeight;
       camera.updateProjectionMatrix();
     };
 
-    var GameLoop = function() {
+    var GameLoop = function () {
       requestAnimationFrame(GameLoop);
 
       update();
@@ -67,7 +63,7 @@ class Spinning extends Component {
   }
   render() {
     return (
-      <div className="spinning-animation" ref={ref => (this.mount = ref)} />
+      <div className="spinning-animation" ref={(ref) => (this.mount = ref)} />
     );
   }
 }
