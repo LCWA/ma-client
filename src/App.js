@@ -1,6 +1,7 @@
-import HttpsRedirect from 'react-https-redirect'
+import HttpsRedirect from "react-https-redirect";
 import React, { Component } from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import GA from "./utils/GoogleAnalytics";
 import HomePage from "./page/HomePage";
 
 import "./App.css";
@@ -12,7 +13,10 @@ class App extends Component {
     return (
       <HttpsRedirect>
         <BrowserRouter>
-          <Route exact path="/" component={HomePage} />
+          {GA.init() && <GA.RouteTracker />}
+          <Switch>
+            <Route exact path="/" component={HomePage} />
+          </Switch>
         </BrowserRouter>
       </HttpsRedirect>
     );
