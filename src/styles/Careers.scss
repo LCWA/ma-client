@@ -1,0 +1,73 @@
+.careers-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: linear-gradient(#2c1b91, #3d0774);
+  &__image {
+    object-fit: contain;
+    width: 26%;
+    height: auto;
+    display: block;
+    float: right;
+    position: absolute;
+    padding: 5px;
+    right: 25rem;
+  }
+  &__text {
+    color: #fff !important;
+  }
+  &__text p a {
+    font-size: 16px;
+  }
+  &__text h2 {
+    padding: 1rem;
+    text-align: center;
+    color: #fff !important;
+  }
+  &__text p ul {
+    list-style-type: circle;
+    list-style-position: inside;
+  }
+  &__text p ul li {
+    text-indent: 2rem;
+  }
+  &__text a {
+    color: #ff6602 !important;
+  }
+}
+.content {
+  margin: 0 17%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.careers-title {
+  color: #fff;
+  padding: 1rem;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .careers-container {
+    height: 100%;
+  }
+  .careers-container__text {
+    padding-top: 8rem;
+    text-align: center;
+  }
+  .content {
+    margin: 0 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .careers-container__text h2 {
+    font-size: 25px;
+  }
+  .careers-container__image {
+    right: unset;
+    width: 40%;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+}
