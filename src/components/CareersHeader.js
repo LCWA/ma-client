@@ -4,7 +4,7 @@ import "../styles/Nav.css";
 import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 
-class HeaderNav extends Component {
+class CareersHeader extends Component {
   render() {
     return (
       <div className="d-flex justify-content-between  align-items-center px-3">
@@ -19,7 +19,7 @@ class HeaderNav extends Component {
           </a>
           <HashLink
             className="nav-item nav-link"
-            to="#Solutions"
+            to="/#Solutions"
             spy={true}
             smooth={true}
             duration={500}
@@ -29,7 +29,7 @@ class HeaderNav extends Component {
 
           <HashLink
             className="nav-item nav-link"
-            to="#OurStory"
+            to="/#story-title"
             spy={true}
             smooth={true}
             duration={500}
@@ -38,7 +38,7 @@ class HeaderNav extends Component {
           </HashLink>
           <HashLink
             className="nav-item nav-link"
-            to="#Team"
+            to="/#Team"
             spy={true}
             smooth={true}
             duration={500}
@@ -47,7 +47,7 @@ class HeaderNav extends Component {
           </HashLink>
           <HashLink
             className="nav-item nav-link"
-            to="#WhyUs"
+            to="/#WhyUs"
             spy={true}
             smooth={true}
             duration={500}
@@ -56,7 +56,7 @@ class HeaderNav extends Component {
           </HashLink>
           <HashLink
             className="nav-item nav-link"
-            to="#Portfolio"
+            to="/#Portfolio"
             spy={true}
             smooth={true}
             duration={500}
@@ -65,7 +65,7 @@ class HeaderNav extends Component {
           </HashLink>
           <HashLink
             className="nav-item nav-link"
-            to="#Reviews"
+            to="/#Reviews"
             spy={true}
             smooth={true}
             duration={500}
@@ -84,7 +84,7 @@ class HeaderNav extends Component {
           </Link>
           <HashLink
             className="nav-item nav-link"
-            to="#ContactUs"
+            to="/#ContactUs"
             spy={true}
             smooth={true}
             duration={500}
@@ -105,33 +105,33 @@ class HeaderNav extends Component {
               </a>
             </li>
             <li>
-              <a className="nav-item nav-link" href="#Solutions">
+              <a className="nav-item nav-link" href="/#Solutions">
                 Solutions
               </a>
             </li>
 
             <li>
-              <a className="nav-item nav-link" href="#OurStory">
+              <a className="nav-item nav-link" href="/#OurStory">
                 Our Story
               </a>
             </li>
             <li>
-              <a className="nav-item nav-link" href="#Team">
+              <a className="nav-item nav-link" href="/#Team">
                 Team
               </a>
             </li>
             <li>
-              <a className="nav-item nav-link" href="#WhyUs">
+              <a className="nav-item nav-link" href="/#WhyUs">
                 Why Us
               </a>
             </li>
             <li>
-              <a className="nav-item nav-link" href="#Portfolio">
+              <a className="nav-item nav-link" href="/#Portfolio">
                 Portfolio
               </a>
             </li>
             <li>
-              <a className="nav-item nav-link" href="#Reviews">
+              <a className="nav-item nav-link" href="/#Reviews">
                 Reviews
               </a>
             </li>
@@ -141,7 +141,7 @@ class HeaderNav extends Component {
               </a>
             </li>
             <li>
-              <a className="nav-item nav-link" href="#ContactUs">
+              <a className="nav-item nav-link" href="/#ContactUs">
                 Contact Us
               </a>
             </li>
@@ -152,4 +152,4 @@ class HeaderNav extends Component {
   }
 }
 
-export default HeaderNav;
+export default CareersHeader;

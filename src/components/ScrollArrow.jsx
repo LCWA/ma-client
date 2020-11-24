@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaArrowCircleUp } from "react-icons/fa";
+import { FaArrowAltCircleUp } from "react-icons/fa";
 import "../styles/ScrollArrow.css";
 
 const ScrollArrow = () => {
@@ -20,7 +20,7 @@ const ScrollArrow = () => {
   window.addEventListener("scroll", checkScrollTop);
 
   return (
-    <FaArrowCircleUp
+    <FaArrowAltCircleUp
       className="scrollTop"
       onClick={scrollTop}
       style={{
