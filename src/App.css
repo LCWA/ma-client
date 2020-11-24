@@ -121,7 +121,7 @@ a:not([href]):not([tabindex]):hover {
   justify-content: center;
 }
 a {
-  color: #ff6602;
+  color: #ff6602 !important;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }

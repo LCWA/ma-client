@@ -7,6 +7,8 @@ import HomePage from "./page/HomePage";
 import "./App.css";
 import "../src/styles/responsive/safari-specific.css";
 import "../src/styles/responsive/edge-specific.css";
+import Careers from "./components/Careers";
+import Solutions from "./components/Solutions";
 
 class App extends Component {
   render() {
@@ -16,6 +18,7 @@ class App extends Component {
           {GA.init() && <GA.RouteTracker />}
           <Switch>
             <Route exact path="/" component={HomePage} />
+            <Route exact path="/careers" component={Careers} />
           </Switch>
         </BrowserRouter>
       </HttpsRedirect>

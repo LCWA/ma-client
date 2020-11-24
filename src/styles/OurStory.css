@@ -51,6 +51,15 @@
   position: relative;
   color: white;
 }
+.story-text.body-text.certi {
+  padding-top: unset;
+}
+.aws-logo {
+  width: 50%;
+  position: relative;
+  right: 3rem;
+  top: 5rem;
+}
 @media (max-width: 670px) {
   .story-wrapper {
     padding: 10px;
@@ -101,5 +110,9 @@
   .ma-slogan {
     font-size: inherit;
     text-align: center;
+  }
+  .aws-logo {
+    position: unset;
+    transform: translate(50%);
   }
 }
