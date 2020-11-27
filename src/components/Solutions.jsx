@@ -5,6 +5,7 @@ import automation_tools from "../images/solutions/AI_ML.jpg";
 import customized_software from "../images/solutions/customized_software.PNG";
 import "../styles/Solutions.css";
 import { Link } from "react-scroll";
+import ScrollArrow from "../components/ScrollArrow";
 class Solutions extends Component {
   constructor() {
     super();
@@ -185,6 +186,7 @@ class Solutions extends Component {
             </button>
           </div>
         </div>
+        <ScrollArrow />
       </div>
     );
   }
