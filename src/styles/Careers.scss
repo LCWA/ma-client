@@ -13,6 +13,9 @@
     padding: 5px;
     right: 25rem;
   }
+  &__text {
+    color: #fff !important;
+  }
   &__text p a {
     font-size: 16px;
   }
@@ -27,6 +30,9 @@
   }
   &__text p ul li {
     text-indent: 2rem;
+  }
+  &__text a {
+    color: #ff6602 !important;
   }
 }
 .content {
