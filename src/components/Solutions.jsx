@@ -70,7 +70,7 @@ class Solutions extends Component {
               className="solution-image"
               alt="Picture of customized software"
             ></img>
-            <h2 className="title-customized">Custom Solutions</h2>
+            <h2 className="title-customized">Managed Services</h2>
             <p className="body-text description">
               You have a specific idea of a digital solution that your company
               needs? You know that there are software tools that could help your

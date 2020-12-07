@@ -1,13 +1,16 @@
 import React, { Component } from "react";
 import Spinning from "../components/Spinning";
 import "../styles/OurStory.css";
+import apnlogo from "../images/projects/apnlogo.jpg";
 
 class OurStory extends Component {
   render() {
     return (
       <div className="story-wrapper" id="OurStory">
         <div className="story story-container">
-          <h1 className="story-title">Our Story</h1>
+          <h1 className="story-title" id="story-title">
+            Our Story
+          </h1>
           <h2 className="ma-slogan">
             Your Software Artisan Team For An Efficient Business
           </h2>
@@ -29,11 +32,18 @@ class OurStory extends Component {
           <p className="story-text body-text story-expertise">
             Kubernetes | AWS, GCP, Heroku and other Cloud Hosting Platforms
           </p>
+          <p className="story-text body-text">Certificates:</p>
+          <p className="story-text body-text certi">
+            As part of the Amazon Partner Network, we are happy to build
+            solutions and services for small and medium businesses by leveraging
+            Amazon Web Services.
+          </p>
         </div>
         <div className="story animation-container">
           <div id="interactive-sphere">
             <Spinning />
           </div>
+          <img src={apnlogo} alt="aws logo" className="aws-logo" />
         </div>
       </div>
     );
