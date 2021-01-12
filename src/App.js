@@ -7,8 +7,9 @@ import HomePage from "./page/HomePage";
 import "./App.css";
 import "../src/styles/responsive/safari-specific.css";
 import "../src/styles/responsive/edge-specific.css";
+import BlogPostDetails from "./components/BlogPostDetails";
 import Careers from "./components/Careers";
-import Solutions from "./components/Solutions";
+import News from "./components/News";
 
 class App extends Component {
   render() {
@@ -19,6 +20,8 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route exact path="/careers" component={Careers} />
+            <Route exact path="/news" component={News} />
+            <Route exact path="/news/:id" component={BlogPostDetails} />
           </Switch>
         </BrowserRouter>
       </HttpsRedirect>

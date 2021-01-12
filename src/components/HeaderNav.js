@@ -82,6 +82,15 @@ class HeaderNav extends Component {
           >
             Careers{" "}
           </Link>
+          <Link
+            className="nav-item nav-link"
+            to="/news"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            News{" "}
+          </Link>
           <HashLink
             className="nav-item nav-link"
             to="#ContactUs"
@@ -138,6 +147,11 @@ class HeaderNav extends Component {
             <li>
               <a className="nav-item nav-link" href="/careers">
                 Careers
+              </a>
+            </li>
+            <li>
+              <a className="nav-item nav-link" href="/news">
+                News
               </a>
             </li>
             <li>
