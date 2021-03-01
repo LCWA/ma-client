@@ -45,7 +45,7 @@
     "reactstrap": "^7.1.0",
     "sass": "^1.22.10",
     "serve": "^11.1.0",
-    "three": "^0.108.0"
+    "three": "^0.125.0"
   },
   "scripts": {
     "dev": "react-scripts start",
